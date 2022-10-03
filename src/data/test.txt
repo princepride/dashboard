@@ -1,0 +1,7 @@
+1 model: label{ recycle, non-recycle(non-recycle, dirty but recycle darbege)}
+2 model: label{paper, plastic ....}
+
+1model: label{recycle,non-recycle}
+2model: label{clear,dirty}
+=>
+non-recycle+ dirty = non-recycle

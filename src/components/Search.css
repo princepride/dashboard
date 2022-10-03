@@ -1,0 +1,3 @@
+.e-ddl.e-Input-group input.e-Input::placeholder {
+    color: red;
+}
