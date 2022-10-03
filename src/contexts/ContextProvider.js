@@ -29,7 +29,7 @@ export const ContextProvider = ({ children }) => {
         setLoading(false);
         if(user) navigate('/Home');
     })
-},[user, history]);
+},[user]);
 
   const setMode = (e) => {
     setCurrentMode(e.target.value);
