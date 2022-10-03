@@ -11,7 +11,7 @@ function App() {
             <BrowserRouter>
                 <ContextProvider>
                     <Routes>
-                        <Route path="/Home//*" element={(<Home />)} >
+                        <Route path="/Home//*" element={(<Dashboard />)} >
                             <Route path="Home" element={(<Home />)} />
                             <Route path="News" element={(<News />)} />
                             <Route path="Todo" element={<Todo />} />
