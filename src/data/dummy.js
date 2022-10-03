@@ -7,6 +7,7 @@ import avatar from './avatar.jpg';
 import avatar2 from './avatar2.jpg';
 import avatar3 from './avatar3.png';
 import avatar4 from './avatar4.jpg';
+import company from './company.png';
 
 
 export const gridOrderImage = (props) => (
@@ -28,6 +29,13 @@ export const gridOrderStatus = (props) => (
     {props.Status}
   </button>
 );
+
+export const companyInfo = [
+  {
+    name: 'Company Name',
+    logo: company,
+  }
+]
 
 export const kanbanGrid = [
   { headerText: 'To Do',

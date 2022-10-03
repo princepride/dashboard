@@ -7,7 +7,8 @@ import company from './company.png';
 
 export const userProfileData = [
     {
-        
+        firstname: 'Zhipeng',
+        lastname: 'Wang',
     }
 ]
 
