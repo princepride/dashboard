@@ -1,9 +1,12 @@
 import React from 'react'
 import {userProfileData } from '../data/userData';
 
-const New = () => {
+const New = (props) => {
+    const [datePublished, description, image, title, url] = props
     return (
-        <div></div>
+        <div>
+            {description}
+        </div>
     )
 }
 

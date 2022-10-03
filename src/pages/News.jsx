@@ -3,6 +3,7 @@ const axios = require("axios");
 import { useStateContext } from '../contexts/ContextProvider';
 import { userProfileData } from '../data/userData';
 import { companyInfo } from '../data/dummy';
+import { New } from '../components';
 
 const options = {
   method: 'GET',
@@ -15,11 +16,13 @@ const options = {
   }
 };
 
+const news = [];
+
 axios.request(options).then(function (response) {
-  const values = response.data.value;
-  for (let i = 0; i < values.length; i++) {
-    console.log(values[i]);
-  }
+  const news = response.data.value;
+  //for (let i = 0; i < values.length; i++) {
+  //  console.log(values[i]);
+  //}
   //console.log(response.data);
 }).catch(function (error) {
   console.error(error);
@@ -41,6 +44,17 @@ const News = () => {
           Financial News
         </div>
       </div>
+      {news.map((item) => (
+        <div key={item.title} className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 rounded-2xl ">
+          <New
+            datePublished = {item.datePublished}
+            description = {item.description}
+            image = {item.image}
+            title = {item.name}
+            url = {item.url}
+          ></New>
+        </div>
+      ))}
     </div>
   )
 }
