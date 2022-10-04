@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Calendar,Todo, Home, News, Community } from './pages';
+import { Calendar,Todo, Home, News, Community, CustomPortfolio } from './pages';
 import './Dashboard.css';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -66,6 +66,7 @@ const Dashboard = () => {
                 <Route path="/" element={(<Home />)} />
                 <Route path="/home" element={(<Home />)} />
                 <Route path="/news" element={(<News />)} />
+                <Route path="/customportfolio" element={(<CustomPortfolio />)} />
                 <Route path="/todo" element={<Todo />} />
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/community" element={<Community />} />

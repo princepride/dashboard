@@ -13,6 +13,7 @@ export { default as Stacked } from './Charts/Stacked';
 export { default as Todo } from './Todo';
 export { default as Home } from './Home';
 export { default as News } from './News';
+export { default as CustomPortfolio } from './CustomPortfolio';
 export { default as Community } from './Community';
 export { default as Login } from './Login';
 
