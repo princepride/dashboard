@@ -1,35 +1,37 @@
-import React from 'react'
+import React, {useState} from 'react'
 const axios = require("axios");
 import { useStateContext } from '../contexts/ContextProvider';
 import { userProfileData } from '../data/userData';
 import { companyInfo } from '../data/dummy';
 import { New } from '../components';
 
-const options = {
-  method: 'GET',
-  url: 'https://bing-news-search1.p.rapidapi.com/news',
-  params: { category: 'business', mkt: 'en-US', safeSearch: 'Off', textFormat: 'Raw' },
-  headers: {
-    'X-BingApis-SDK': 'true',
-    'X-RapidAPI-Key': '6be3939a73msh413d424fc2d04c4p15ba7bjsnd28f29cebde3',
-    'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
-  }
-};
-
-const news = [];
-
-axios.request(options).then(function (response) {
-  const news = response.data.value;
-  //for (let i = 0; i < values.length; i++) {
-  //  console.log(values[i]);
-  //}
-  //console.log(response.data);
-}).catch(function (error) {
-  console.error(error);
-});
-
 const News = () => {
   const { currentColor, currentMode } = useStateContext();
+  const [news, setNews] = useState([]);
+  const options = {
+    method: 'GET',
+    url: 'https://bing-news-search1.p.rapidapi.com/news',
+    params: { category: 'business', mkt: 'en-US', safeSearch: 'Off', textFormat: 'Raw' },
+    headers: {
+      'X-BingApis-SDK': 'true',
+      'X-RapidAPI-Key': '6be3939a73msh413d424fc2d04c4p15ba7bjsnd28f29cebde3',
+      'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
+    }
+  };
+  
+  axios.request(options).then(function (response) {
+    //setNews(response.data.value);
+    //console.log(response.data.value);
+    const values = response.data.value;
+    for (let i = 0; i < values.length; i++) {
+      console.log(values[i]);
+    }
+    setNews(response.data.value);
+    //console.log(response.data);
+  }).catch(function (error) {
+    console.error(error);
+  });
+
   return (
     <div>
       <div className="flex items-center leading-8 gap-3 border-b-1 border-color p-3">
@@ -45,14 +47,15 @@ const News = () => {
         </div>
       </div>
       {news.map((item) => (
-        <div key={item.title} className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 rounded-2xl ">
-          <New
+        <div key={item.name} className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 rounded-2xl ">
+          {/*<New
             datePublished = {item.datePublished}
             description = {item.description}
             image = {item.image}
             title = {item.name}
             url = {item.url}
-          ></New>
+          ></New>*/}
+          {item.name}
         </div>
       ))}
     </div>

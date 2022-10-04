@@ -8,10 +8,8 @@ const axios = require('axios')
 
 const Community = () => {
   const navigate = useNavigate();
-  const { user } = useStateContext();
+  const { user, currentColor, currentMode } = useStateContext();
   const [loading, setLoading] = useState(true);
-
-  //console.log(user);
 
   const handleLogout = async () => {
     await auth.signOut();
@@ -61,6 +59,9 @@ const Community = () => {
   }, [user, history]);
 
   if (!user || loading) return "Loading..."
+  //(<div className={`text-3xl ${currentMode === 'Dark' ? 'text-white' : 'text-black'}`}>
+  //  Loading...
+  //</div>)
 
   return (
     <div className='chats-page'>
@@ -68,7 +69,7 @@ const Community = () => {
         <div className='logo-tab'>
           community
         </div>
-        <div onClick={handleLogout} className='logout-tab'>
+        <div onClick={handleLogout} className={`logout-tab ${currentMode === 'Dark' ? 'text-white' : 'text-black'}`}>
           Logout
         </div>
       </div>
