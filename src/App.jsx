@@ -3,7 +3,7 @@ import { ContextProvider } from './contexts/ContextProvider';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Dashboard from "./Dashboard"
 import { Login } from "./pages"
-import { Calendar, Todo, Home, News, Community } from './pages';
+import { Calendar, Todo, Home, News, Community,Recommendations } from './pages';
 
 function App() {
     return (
@@ -12,7 +12,7 @@ function App() {
                 <ContextProvider>
                     <Routes>
                         <Route path="/Home//*" element={(<Dashboard />)} >
-                            <Route path="Home" element={(<Home />)} />
+                            <Route path="Recommendations" element={(<Recommendations />)} />
                             <Route path="News" element={(<News />)} />
                             <Route path="Todo" element={<Todo />} />
                             <Route path="Calendar" element={<Calendar />} />

@@ -36,7 +36,7 @@ const News = () => {
   }, []);
   //const [news, setNews] = useState([]);
   return (
-    <div>
+    <div className='m-2 md:m-4 mt-12 p-2 md:p-4'>
       <div className="flex items-center leading-8 gap-3 border-b-1 border-color p-3">
         <img className="rounded-full h-10 w-10" src={companyInfo[0].logo} alt={companyInfo[0].name} />
         <div>
@@ -53,8 +53,8 @@ const News = () => {
       <div className="flex gap-5 border-b-1 border-color p-16 pt-20 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl">
           {news.map((item) => (
-            <div>
-              <div key={item.name} className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg p-4 rounded-2xl flex w-full">
+            <div key={item.name}>
+              <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg p-4 rounded-2xl flex w-full">
                 {/*{item.name}*/}
                 <New
                   datePublished={item.datePublished}
@@ -66,8 +66,8 @@ const News = () => {
 
                 </New>
               </div>
-              <div class="relative flex py-5 items-center">
-                <div class="flex-grow border-t border-gray-400"></div>
+              <div className="relative flex py-5 items-center">
+                <div className="flex-grow border-t border-gray-400"></div>
               </div>
             </div>
           ))}
