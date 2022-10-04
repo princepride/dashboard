@@ -22,19 +22,15 @@ const News = () => {
     };
 
     axios.request(options).then(function (response) {
-      //setNews(response.data.value);
-      //console.log(response.data.value);
       const values = response.data.value;
       for (let i = 0; i < values.length; i++) {
         console.log(values[i]);
       }
       setNews(response.data.value);
-      //console.log(response.data);
     }).catch(function (error) {
       console.error(error);
     });
   }, []);
-  //const [news, setNews] = useState([]);
   return (
     <div className='m-2 md:m-4 mt-12 p-2 md:p-4'>
       <div className="flex items-center leading-8 gap-3 border-b-1 border-color p-3">
