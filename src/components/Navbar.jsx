@@ -7,6 +7,7 @@ import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import avatar from '../data/avatar.png';
 import { Chat, Notification, UserProfile, Search } from '.';
 import { useStateContext } from '../contexts/ContextProvider';
+import {userProfileData } from '../data/userData';
 
 const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
   <TooltipComponent content={title} position="BottomCenter">
@@ -69,7 +70,7 @@ const Navbar = () => {
             <p className='flex'>
               <span className="text-gray-400 text-14">Hi,</span>{' '}
               <span className="text-gray-400 font-bold ml-1 text-14">
-                Zhipeng
+                {userProfileData[0].firstname}
               </span>
             </p>
             <MdKeyboardArrowDown className="text-gray-400 text-14" />
