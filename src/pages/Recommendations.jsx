@@ -8,7 +8,7 @@ const Recommendations = () => {
   const { currentColor, currentMode, handleClick, isClicked } = useStateContext();
   return (
     <div className="m-4 md:m-4 mt-12 p-4 md:p-4">
-      <TooltipComponent content="Want personal advice ? Let's try !" position="BottomCenter">
+      <TooltipComponent content="Want personal advice ? Let's try !" position='bottomStart' >
         <button
           type="button"
           onClick={() => handleClick('selectingStock')}
