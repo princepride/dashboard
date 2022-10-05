@@ -53,18 +53,17 @@ const day = {
 const New = (props) => {
     const { datePublished, description, image, name, url } = props
     const date = new Date(datePublished)
-    date.getMonth()
     return (
         <button onClick={() => {window.location=url}}>
         <div className="flex justify-between gap-40">
         <div>
-            <div className={`flex justify-start text-2xl italic gap-3`}>
+            <div className={`flex justify-start text-2xl italic gap-3 font-semibold`}>
                 {name}
             </div>
             <div className={`flex text-left`}>
             {description}
             </div>
-            <div className={`flex items-end justify-end`}>{`${month[date.getMonth()]} ${day[date.getDay()]}`}</div>
+            <div className={`flex items-end justify-end italic`}>{`${month[date.getMonth()]} ${day[date.getDay()]}`}</div>
         </div>
         <img
           className="max-w-full h-auto justify-end items-end rounded-2xl right-0"
