@@ -1,11 +1,9 @@
 import React from 'react';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
-import { TooltipComponent } from '@syncfusion/ej2-react-popups';
-import { SparkLine, StockChart, Search, SelectingStock } from '../components';
+import { SparkLine, StockChart } from '../components';
 import { dropdownData, SparklineAreaData, recommendStock } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 import { trackedStockData } from '../data/userData'
-import { FiSearch } from "react-icons/fi";
 
 const DropDown = ({ currentMode }) => (
     <div className="w-28 border-1 border-color px-2 py-1 rounded-md">
@@ -29,8 +27,7 @@ const Home = () => {
     }
     return (
         <div className="mt-12">
-            <div className="justify-center right-0 flex ml-96 mr-96 flex-wrap">
-                {/*<Search />*/}
+            {/*<div className="justify-center right-0 flex ml-96 mr-96 flex-wrap">
                 <TooltipComponent content="Want personal advice ? Let's try !" position="BottomCenter">
                     <button
                         type="button"
@@ -49,8 +46,7 @@ const Home = () => {
                         </div>
                     </button>
                 </TooltipComponent>
-            </div>
-            <div className="justify-center">{isClicked.selectingStock && <SelectingStock />}</div>
+            </div>*/}
             <div className="flex flex-wrap lg:flex-nowrap justify-center ">
                 <div className="flex m-3 flex-wrap justify-center gap-2 items-center">
                     {recommendStock.map((item) => (

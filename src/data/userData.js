@@ -21,7 +21,7 @@ export const trackedStockData = [
       desc: 'facebook.com',
       iconColor: 'rgb(255, 244, 229)',
       iconBg: 'rgb(255, 244, 229)',
-      pcColor: 'green-600',
+      pcColor: 'green-400',
     },
     {
         icon: "https://logo.clearbit.com/apple.com",
@@ -30,7 +30,7 @@ export const trackedStockData = [
         desc: 'apple.com',
         iconColor: '#03C9D7',
         iconBg: '#E5FAFB',
-        pcColor: 'green-600',
+        pcColor: 'green-400',
       },
       {
         icon: 'https://logo.clearbit.com/amazon.com',
@@ -50,7 +50,7 @@ export const trackedStockData = [
   
       iconColor: 'rgb(228, 106, 118)',
       iconBg: 'rgb(255, 244, 229)',
-      pcColor: 'green-600',
+      pcColor: 'green-400',
     },
     {
         icon: 'https://logo.clearbit.com/abc.xyz',

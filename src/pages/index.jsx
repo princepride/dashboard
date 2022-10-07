@@ -1,5 +1,4 @@
 export { default as Kanban } from './Kanban';
-export { default as Editor } from './Editor';
 export { default as ColorPicker } from './ColorPicker';
 export { default as Calendar } from './Calendar';
 export { default as Area } from './Charts/Area';
@@ -16,4 +15,4 @@ export { default as News } from './News';
 export { default as CustomPortfolio } from './CustomPortfolio';
 export { default as Community } from './Community';
 export { default as Login } from './Login';
-
+export { default as Recommendations } from './Recommendations';
