@@ -4,9 +4,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Dashboard from "./Dashboard"
 import { Login } from "./pages"
 import { Calendar, Todo, Home, News, Community, Recommendations } from './pages';
-import io from 'socket.io-client';
-const mysocket = io('http://localhost:5000');
-
 
 function App() {
     return (
@@ -14,7 +11,7 @@ function App() {
             <BrowserRouter>
                 <ContextProvider>
                     <Routes>
-                        <Route path='/Home//*' element={(<Dashboard socket={mysocket} />)} >
+                        <Route path='/Home//*' element={(<Dashboard />)} >
                             {/* Use the router at Dashboard instead? */}
                             <Route path="Home" element={(<Home />)} />
                             <Route path="Recommendations" element={(<Recommendations />)} />

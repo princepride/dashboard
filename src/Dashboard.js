@@ -9,7 +9,7 @@ import './Dashboard.css';
 
 import { useStateContext } from './contexts/ContextProvider';
 
-const Dashboard = ({socket}) => {
+const Dashboard = () => {
   const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings, setStock } = useStateContext();
 
   useEffect(() => {
@@ -66,7 +66,7 @@ const Dashboard = ({socket}) => {
                 <Route path="/" element={(<Home />)} />
                 <Route path="/recommendations" element={(<Recommendations />)} />
                 <Route path="/news" element={(<News />)} />
-                <Route path="/customportfolio" element={(<CustomPortfolio socket={socket} />)} />
+                <Route path="/customportfolio" element={(<CustomPortfolio />)} />
                 <Route path="/todo" element={<Todo />} />
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/community" element={<Community />} />

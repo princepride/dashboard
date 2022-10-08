@@ -1,19 +1,25 @@
 import React, {useState, useEffect} from "react";
 import Multiselect from "../components/Multiselect";
+import io from 'socket.io-client';
+const socket = io('http://localhost:5000');
 
 const stocktickers = ["AAPL", "MSFT", "AMZN", "TSLA", "GOOGL", "GOOG", "BRK.B", "UNH", "JNJ", "XOM", "PG", "META", "JPM", "NVDA", "V", "HD", "CVX", "ABBV", "MA", "PFE", "LLY", "PEP"];
 
-const CustomPortfolio = ({ socket }) => {
+const CustomPortfolio = () => {
   const [messages, setMessages] = useState([]);
   useEffect(() => {
     let isMounted = true;
     if (isMounted)
       socket.on("my_response", (data) => { 
         console.log(data);
-        //setMessages([...messages, data]);
+        setMessages([...messages, data]);
       })
-    return () => {isMounted=false;}
+    return () => {
+      isMounted=false;
+      socket.off('my_response')
+    }
   }, [socket, messages]);
+  
   return (
     <div>
       <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
@@ -34,10 +40,13 @@ const CustomPortfolio = ({ socket }) => {
             <p className="text-xl font-semibold">Server output</p>
           </div>
           <div className="flex gap-5 border-b-1 border-color p-4 justify-center">
-            <p className="font-mono">Iteration:1</p>
+            <ul>
             {messages.map((message) =>
-              <p>{message.text}</p>
+              <li key={message.count}>
+                {message.count}:{message.data}
+              </li>
             )}
+            </ul>
           </div>
         </div>
       </div>
