@@ -17,37 +17,37 @@ const month = {
 }
 
 const day = {
-    0 : '1st',
-    1 : '2nd',
-    2 : '3rd',
-    3 : '4th',
-    4 : '5th',
-    5 : '6th',
-    6 : '7th',
-    7 : '8th',
-    8 : '9th',
-    9 : '10th',
-    10 : '11th',
-    11 : '12th',
-    12 : '13th',
-    13 : '14th',
-    14 : '15th',
-    15 : '16th',
-    16 : '17th',
-    17 : '18th',
-    18 : '19th',
-    19 : '20th',
-    20 : '21th',
-    21 : '22th',
-    22 : '23th',
-    23 : '24th',
-    24 : '25th',
-    25 : '26th',
-    26 : '27th',
-    27 : '28th',
-    28 : '29th',
-    29 : '30th',
-    30 : '31th',
+    1 : '1st',
+    2 : '2nd',
+    3 : '3rd',
+    4 : '4th',
+    5 : '5th',
+    6 : '6th',
+    7 : '7th',
+    8 : '8th',
+    9 : '9th',
+    10 : '10th',
+    11 : '11th',
+    12 : '12th',
+    13 : '13th',
+    14 : '14th',
+    15 : '15th',
+    16 : '16th',
+    17 : '17th',
+    18 : '18th',
+    19 : '19th',
+    20 : '20th',
+    21 : '21th',
+    22 : '22th',
+    23 : '23th',
+    24 : '24th',
+    25 : '25th',
+    26 : '26th',
+    27 : '27th',
+    28 : '28th',
+    29 : '29th',
+    30 : '30th',
+    31 : '31th',
 }
 
 const New = (props) => {
@@ -63,7 +63,7 @@ const New = (props) => {
             <div className={`flex text-left`}>
             {description}
             </div>
-            <div className={`flex items-end justify-end italic`}>{`${month[date.getMonth()]} ${day[date.getDay()]}`}</div>
+            <div className={`flex items-end justify-end italic`}>{`${month[date.getMonth()]} ${day[date.getDate()]}`}</div>
         </div>
         <img
           className="max-w-full h-auto justify-end items-end rounded-2xl right-0"

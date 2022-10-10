@@ -69,25 +69,6 @@ const Recommendations = () => {
     }
   return (
     <div className="m-4 md:m-4 mt-12 p-4 md:p-4">
-      {/*<TooltipComponent content="Want personal advice ? Let's try !" position='bottomStart' >
-        <button
-          type="button"
-          onClick={() => handleClick('selectingStock')}
-          style={{ color: (currentMode === 'Dark') && 'white', backgroundColor: currentColor }}
-          className="relative text-xl rounded-full p-3 hover:bg-light-gray dark:hover:bg-[#42464D]"
-        >
-          <div className='flex'>
-            <span
-              className="absolute inline-flex rounded-full h-2 w-2 right-2 top-2"
-            />
-            <div style={{ color: (currentMode === 'Dark') && 'white' }} className="text-sm">
-              Search More
-            </div>
-            <FiSearch />
-          </div>
-        </button>
-      </TooltipComponent>*/}
-      {/*<div className="justify-center">{isClicked.selectingStock && <SelectingStock />}</div>*/}
       <div className="flex justify-between items-center">
         <div className="flex gap-3">
           <p className="font-semibold text-lg dark:text-gray-200">Select Stock !</p>
@@ -117,9 +98,6 @@ const Recommendations = () => {
       <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl"></div>
         <div className="mt-10 w-72 md:w-400">
-        {/*{selectedStock.map((item) => {
-          stockData(item);
-        })}*/}
           {selectedStock.map((item) => (
             <div key={item.symbol} className="flex justify-between mt-4">
             {console.log(item)}

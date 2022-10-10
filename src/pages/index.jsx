@@ -16,3 +16,5 @@ export { default as CustomPortfolio } from './CustomPortfolio';
 export { default as Community } from './Community';
 export { default as Login } from './Login';
 export { default as Recommendations } from './Recommendations';
+export { default as History } from './History';
+export { default as Forecast } from './Forecast';

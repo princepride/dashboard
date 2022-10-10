@@ -12,13 +12,6 @@ function App() {
                 <ContextProvider>
                     <Routes>
                         <Route path='/Home//*' element={(<Dashboard />)} >
-                            {/* Use the router at Dashboard instead? */}
-                            <Route path="Home" element={(<Home />)} />
-                            <Route path="Recommendations" element={(<Recommendations />)} />
-                            <Route path='News' element={(<News />)} />
-                            <Route path='Todo' element={<Todo />} />
-                            <Route path='Calendar' element={<Calendar />} />
-                            <Route path='Community' element={<Community />} />
                         </Route>
                         <Route path='/' element={(<Login />)} />
                     </Routes>
