@@ -10,7 +10,8 @@ const selectdb =(day) => {
   });
   
   db.serialize(() => {
-    db.each(`SELECT stocktickers,chromosome,max(sharpe) FROM garesults WHERE date='${day}'`, (err, row) => {
+    //db.each(`SELECT stocktickers,chromosome,max(sharpe) FROM garesults WHERE date='${day}'`, (err, row) => {
+      db.each(`SELECT date,stocktickers,chromosome,max(sharpe) as maxSharpe FROM garesults GROUP BY date`, (err, row) => {
       if (err) {
         console.error(err.message);
       }
@@ -27,6 +28,6 @@ const selectdb =(day) => {
   
 }
   
-export default selectdb;
-//selectdb('2022-08-03')
+//export default selectdb;
+selectdb('2022-08-03')
 

@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {auth} from '../firebase';
+import {getStockportfolio} from '../data/dummy';
 
 const StateContext = createContext();
 
@@ -9,6 +10,7 @@ const initialState = {
   userProfile: false,
   notification: false,
   selectingStock: false,
+  selectingDay: false,
 };
 
 export const ContextProvider = ({ children }) => {
@@ -22,6 +24,9 @@ export const ContextProvider = ({ children }) => {
   const [stockData, setStockData] = useState(undefined);
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
+  const [day, setDay] = useState("2022-08-22");
+  //const [stockportfolio, setStockportfolio] = useState(getStockportfolio(new Date().toLocaleDateString()));
+  const [stockportfolio, setStockportfolio] = useState(getStockportfolio(day));
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -50,7 +55,7 @@ export const ContextProvider = ({ children }) => {
     stockData, setScreenSize, handleClick, isClicked, 
     initialState, setIsClicked, setActiveMenu, setCurrentColor, 
     setCurrentMode, setMode, setColor, themeSettings, setThemeSettings,
-    setStockData, user}}>
+    setStockData, user, stockportfolio, setStockportfolio, day, setDay}}>
       {!loading&&children}
     </StateContext.Provider>
   );
