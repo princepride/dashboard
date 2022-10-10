@@ -17,3 +17,6 @@ export { default as StockChart } from './Charts/StockChart';
 export { default as Search } from './Search';
 export { default as SelectingStock } from './SelectingStock';
 export { default as New } from './New';
+export { default as ConsoleAccordion } from './ConsoleAccordion';
+export { default as GAHyperparameters } from './GAHyperparameters';
+export { default as GAEpoch } from './GAEpoch';

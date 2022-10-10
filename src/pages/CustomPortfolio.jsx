@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { MultiSelectComponent } from "@syncfusion/ej2-react-dropdowns";
 import { TextBoxComponent } from "@syncfusion/ej2-react-inputs";
+import { ConsoleAccordion } from "../components";
 import io from "socket.io-client";
 const socket = io("http://localhost:5000");
 
@@ -22,6 +23,7 @@ const CustomPortfolio = () => {
     };
   }, [socket, messages]);
 
+
   return (
     <div>
       <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
@@ -34,12 +36,12 @@ const CustomPortfolio = () => {
             <p className="text-xl font-semibold">Portfolio Optimizations Hyperparameters</p>
           </div>
           <div className="w-full justify-between items-center gap-2">
-            <form>
+            <form method="post">
               <br />
               <br />
               <label>Stocktickers:</label>
               <MultiSelectComponent
-                id="mtselement"
+                id="ticker"
                 dataSource={stocktickers}
                 placeholder="Select Stocks"
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -74,18 +76,16 @@ const CustomPortfolio = () => {
             </form>
           </div>
         </div>
-        <div id="console-output" className="overflow-y-scroll bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl">
+        <div id="console-output" className=" bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl">
           <div className="flex justify-between items-center gap-2">
             <p className="text-xl font-semibold">Server output</p>
           </div>
-          <div className="flex gap-5 border-b-1 border-color p-4 justify-center">
-            <ul>
-              {messages.map((message) => (
-                <li key={message.count}>
-                  {message.count}:{message.data}
-                </li>
-              ))}
-            </ul>
+          <div className="overflow-y-scroll overflow-x-scroll flex gap-5 border-b-1 border-color p-4 justify-center">
+            <div class="accordion" id="accordionExample5">
+              {messages.map((message) => {
+                return <ConsoleAccordion message={message} />;
+              })}
+            </div>
           </div>
         </div>
       </div>
