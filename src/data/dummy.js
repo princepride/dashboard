@@ -1365,15 +1365,19 @@ export const links = [
     title: 'Dashboard',
     links: [
       {
-        name: 'Recommendations',
+        name: 'History',
         icon: <FiShoppingBag />,
       },
       {
-        name: 'News',
+        name: 'Forecast',
         icon: <FiShoppingBag />,
       },
       {
         name: 'CustomPortfolio',
+        icon: <FiShoppingBag />,
+      },
+      {
+        name: 'News',
         icon: <FiShoppingBag />,
       },
     ],
