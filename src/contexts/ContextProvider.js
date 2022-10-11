@@ -44,7 +44,7 @@ export const ContextProvider = ({ children }) => {
   const [stockportfolio, setStockportfolio] = useState(getStockportfolio(formatDate(day)));
   const navigate = useNavigate();
 
-  useEffect(() => {setStockportfolio(getStockportfolio(formatDate(day)))},day)
+  useEffect(() => {setStockportfolio(getStockportfolio(formatDate(day)))},[day])
 
   useEffect(() => {
     auth.onAuthStateChanged((user) => {

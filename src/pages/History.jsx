@@ -29,27 +29,24 @@ const History = () => {
                         <MyDayPicker currentMode={currentMode} currentColor={currentColor} handleClick={handleClick} isClicked={isClicked} />
                     </div>
                     <div className="mt-10 w-72 md:w-400">
-                        {trackedStockData.map((item) => (
-                            <div key={item.title} className="flex justify-between mt-4">
+                        {stockportfolio.map((item) => (
+                            <div key={item.x} className="flex justify-between mt-4">
                                 <div className="flex gap-4">
                                     <button
                                         type="button"
-                                        style={{
-                                            color: item.iconColor,
-                                            backgroundColor: item.iconBg,
-                                        }}
                                         className="text-2xl rounded-lg p-1 hover:drop-shadow-xl"
                                     >
                                         <div className="flex w-10">
-                                            <img src={item.icon} />
+                                            <img src={'https://logo.clearbit.com/investor.fb.com'} />
                                         </div>
                                     </button>
                                     <div>
-                                        <p className="text-md font-semibold">{item.title}</p>
-                                        <p className="text-sm text-gray-400">{item.desc}</p>
+                                        <p className="text-md font-semibold">{item.x}</p>
+                                        <p className="text-sm text-gray-400">{item.x}</p>
                                     </div>
                                 </div>
-                                <p className={`text-${item.pcColor}`}>{item.amount}</p>
+                                {/*<p className={`text-${item.pcColor}`}>{item.amount}</p>*/}
+                                <p className={`text-red-600`}>12</p>
                             </div>
                         ))}
                     </div>
