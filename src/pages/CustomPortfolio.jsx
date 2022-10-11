@@ -15,7 +15,7 @@ const CustomPortfolio = () => {
     if (isMounted)
       socket.on("my_response", (data) => {
         console.log(data);
-        setMessages([...messages, data]);
+        setMessages([data, ...messages]);
       });
     return () => {
       isMounted = false;
@@ -30,12 +30,12 @@ const CustomPortfolio = () => {
         <p className="text-3xl font-semibold">Custom Portfolio</p>
       </div>
 
-      <div className="columns-2 gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-self-stretch">
+      <div className="gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-self-stretch">
         <div id="stock-selection" className="overflow-y-scroll bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl">
           <div className="w-full items-stretch justify-between items-center gap-2">
             <p className="text-xl font-semibold">Portfolio Optimizations Hyperparameters</p>
           </div>
-          <div className="w-full justify-between items-center gap-2">
+          <div className="columns-3  w-full justify-between items-center gap-2">
             <form method="post">
               <br />
               <br />
@@ -76,7 +76,9 @@ const CustomPortfolio = () => {
             </form>
           </div>
         </div>
-        <div id="console-output" className=" bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl">
+      </div>
+      <div className="w-full flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
+      <div id="console-output" className="w-full bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl">
           <div className="flex justify-between items-center gap-2">
             <p className="text-xl font-semibold">Server output</p>
           </div>
@@ -89,7 +91,6 @@ const CustomPortfolio = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center"></div>
     </div>
   );
 };
