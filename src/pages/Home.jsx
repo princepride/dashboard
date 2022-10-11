@@ -1,9 +1,9 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 import { SparkLine, StockChart,Pie,MyDayPicker } from '../components';
-import { dropdownData, SparklineAreaData, recommendStock,ecomPieChartData } from '../data/dummy';
+import { dropdownData, SparklineAreaData, recommendStock,getStockportfolio } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
-import { trackedStockData } from '../data/userData'
+import { trackedStockData } from '../data/userData';
 
 
 const PickDayButton = ({ currentMode,currentColor,handleClick, isClicked }) => (
@@ -15,13 +15,13 @@ const PickDayButton = ({ currentMode,currentColor,handleClick, isClicked }) => (
 
 const Home = () => {
 
-    const { currentColor, currentMode, handleClick, isClicked,stockportfolio,setStockportfolio } = useStateContext();
-    console.log(stockportfolio);
+    const { currentColor, currentMode, handleClick, isClicked} = useStateContext();
+    const [todayStockportfolio,setTodayStockportfolio ] = useState(getStockportfolio("2022-08-22"));
     const recommendDegree = (num) => {
-        if (num >= 1) {
+        if (num >= 0.2) {
             return <div className='text-md font-bold text-green-400'>{`Hightly Recommend : ${num}`}</div>;
         }
-        else if (num >= 0.5) {
+        else if (num >= 0.1) {
             return <div className='text-md font-bold text-yellow-400'>{`Recommend : ${num}`}</div>;
         }
         else {
@@ -38,27 +38,24 @@ const Home = () => {
                         {/*<MyDayPicker currentMode={currentMode} currentColor={currentColor} handleClick={handleClick} isClicked={isClicked} />*/}
                     </div>
                     <div className="mt-10 w-72 md:w-400">
-                        {trackedStockData.map((item) => (
-                            <div key={item.title} className="flex justify-between mt-4">
+                        {todayStockportfolio.map((item) => (
+                            <div key={item.x} className="flex justify-between mt-4">
                                 <div className="flex gap-4">
                                     <button
                                         type="button"
-                                        style={{
-                                            color: item.iconColor,
-                                            backgroundColor: item.iconBg,
-                                        }}
                                         className="text-2xl rounded-lg p-1 hover:drop-shadow-xl"
                                     >
                                         <div className="flex w-10">
-                                            <img src={item.icon} />
+                                            <img src={'https://logo.clearbit.com/investor.fb.com'} />
                                         </div>
                                     </button>
                                     <div>
-                                        <p className="text-md font-semibold">{item.title}</p>
-                                        <p className="text-sm text-gray-400">{item.desc}</p>
+                                        <p className="text-md font-semibold">{item.x}</p>
+                                        <p className="text-sm text-gray-400">{item.x}</p>
                                     </div>
                                 </div>
-                                <p className={`text-${item.pcColor}`}>{item.amount}</p>
+                                {/*<p className={`text-${item.pcColor}`}>{item.amount}</p>*/}
+                                <p className={`text-red-600`}>12</p>
                             </div>
                         ))}
                     </div>
@@ -68,24 +65,24 @@ const Home = () => {
                         <p className="text-xl font-semibold">Market Summary</p>
                     </div>
                     <div className="md:w-full overflow-auto">
-                    <Pie id="pie-chart" data={stockportfolio} legendVisiblity={false} height="400px" />
+                    <Pie id="pie-chart" data={todayStockportfolio} legendVisiblity={false} height="400px" />
                         {/*<StockChart />*/}
                     </div>
                 </div>
             </div>
             <div className="flex flex-wrap lg:flex-nowrap justify-center ">
                 <div className="flex m-3 flex-wrap justify-center gap-2 items-center">
-                    {recommendStock.map((item) => (
-                        <div key={item.title} className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 rounded-2xl ">
+                    {todayStockportfolio.map((item) => (
+                        <div key={item.x} className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 rounded-2xl ">
                             <div className='flex'>
-                                <div className="text-md font-semibold">{item.title}</div>
-                                <div className="text-sm text-gray-400  mt-1">{` (${item.desc})`}</div>
+                                <div className="text-md font-semibold">{item.x}</div>
+                                <div className="text-sm text-gray-400  mt-1">{` (${item.x})`}</div>
                             </div>
                             <div>
-                                {recommendDegree(item.recommendWeight)}
+                                {recommendDegree(item.y)}
                             </div>
                             <div className="pt-4">
-                                <SparkLine currentColor={currentColor} id={`sparkline-${item.title}`} type="Line" height="60px" width="160px" data={SparklineAreaData} color={currentColor} />
+                                <SparkLine currentColor={currentColor} id={`sparkline-${item.x}`} type="Line" height="60px" width="160px" data={SparklineAreaData} color={currentColor} />
                             </div>
                         </div>
 

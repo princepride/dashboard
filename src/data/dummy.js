@@ -953,34 +953,32 @@ export const getStockportfolio = (date) => {
     }
   }
   const res = []
-  let count = 0
   for (let i = 0; i < stocktickers.length; i++) {
     if (chromosome[i] != 0.) {
-      let stockInfo = {}
-      if (count < 1){
-        count += 1
-      const encodedParams = new URLSearchParams();
-      encodedParams.append("symbol", stocktickers[i]);
+      //let stockInfo = {}
+      //const encodedParams = new URLSearchParams();
+      //encodedParams.append("symbol", stocktickers[i]);
 
-      const options = {
-        method: 'POST',
-        url: 'https://yahoo-finance97.p.rapidapi.com/stock-info',
-        headers: {
-          'content-type': 'application/x-www-form-urlencoded',
-          'X-RapidAPI-Key': '6be3939a73msh413d424fc2d04c4p15ba7bjsnd28f29cebde3',
-          'X-RapidAPI-Host': 'yahoo-finance97.p.rapidapi.com'
-        },
-        data: encodedParams
-      };
-      axios.request(options).then(function (response) {
-        console.log(response.data);
-        stockInfo = response.data.data;
-      }).catch(function (error) {
-        console.error(error);
-      });
+      //const options = {
+      //  method: 'POST',
+      //  url: 'https://yahoo-finance97.p.rapidapi.com/stock-info',
+      //  headers: {
+      //    'content-type': 'application/x-www-form-urlencoded',
+      //    'X-RapidAPI-Key': '6be3939a73msh413d424fc2d04c4p15ba7bjsnd28f29cebde3',
+      //    'X-RapidAPI-Host': 'yahoo-finance97.p.rapidapi.com'
+      //  },
+      //  data: encodedParams
+      //};
+      //axios.request(options).then(function (response) {
+      //  console.log(response.data);
+      //  stockInfo = response.data.data;
+      //}).catch(function (error) {
+      //  console.error(error);
+      //});
+      res.push({ x: stocktickers[i], y: chromosome[i], text: (chromosome[i] * 100).toFixed(2) + "%" })
     }
-      res.push({ x: stocktickers[i], y: chromosome[i], text: (chromosome[i] * 100).toFixed(2) + "%" ,stockInfo: stockInfo})
-    }
+    //res.push({ x: stocktickers[i], y: chromosome[i], text: (chromosome[i] * 100).toFixed(2) + "%" ,stockInfo: stockInfo})
+
   }
   return res;
 }
