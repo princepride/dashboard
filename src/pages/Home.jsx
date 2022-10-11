@@ -35,7 +35,7 @@ const Home = () => {
                     <div className="flex justify-between items-center gap-2">
                         <p className="text-xl font-semibold">Tracked Stocks</p>
                         {/*<DropDown currentMode={currentMode} />*/}
-                        <MyDayPicker currentMode={currentMode} currentColor={currentColor} handleClick={handleClick} isClicked={isClicked} />
+                        {/*<MyDayPicker currentMode={currentMode} currentColor={currentColor} handleClick={handleClick} isClicked={isClicked} />*/}
                     </div>
                     <div className="mt-10 w-72 md:w-400">
                         {trackedStockData.map((item) => (

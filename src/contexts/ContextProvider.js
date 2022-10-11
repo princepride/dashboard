@@ -25,6 +25,7 @@ export const ContextProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
   const [day, setDay] = useState("2022-08-22");
+  const [selectedStock, setSelectedStock] = useState([]);
   //const [stockportfolio, setStockportfolio] = useState(getStockportfolio(new Date().toLocaleDateString()));
   const [stockportfolio, setStockportfolio] = useState(getStockportfolio(day));
   const navigate = useNavigate();
@@ -55,7 +56,8 @@ export const ContextProvider = ({ children }) => {
     stockData, setScreenSize, handleClick, isClicked, 
     initialState, setIsClicked, setActiveMenu, setCurrentColor, 
     setCurrentMode, setMode, setColor, themeSettings, setThemeSettings,
-    setStockData, user, stockportfolio, setStockportfolio, day, setDay}}>
+    setStockData, user, stockportfolio, setStockportfolio, day, setDay,
+    selectedStock, setSelectedStock}}>
       {!loading&&children}
     </StateContext.Provider>
   );

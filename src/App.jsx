@@ -1,8 +1,8 @@
 import React from 'react';
-import { ContextProvider } from './contexts/ContextProvider';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Dashboard from "./Dashboard"
-import { Login } from "./pages"
+import { ContextProvider } from './contexts/ContextProvider';
+import Dashboard from './Dashboard'
+import { Login } from './pages'
 import { Calendar, Todo, Home, News, Community, Recommendations } from './pages';
 
 function App() {

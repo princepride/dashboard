@@ -2,15 +2,14 @@ import React, {useState} from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import { useStateContext } from '../contexts/ContextProvider';
-import { SelectingStock, Button, Search } from '../components';
+import { SelectingStock, Button, Search,StockChart,MyDayPicker } from '../components';
 import { FiSearch } from "react-icons/fi";
 import { ecomPieChartData, searchData } from "../data/dummy";
 import { Pie } from "../components";
 const axios = require("axios");
 
 const Forecast = () => {
-    const { currentColor, currentMode, isClicked } = useStateContext();
-    const [selectedStock, setSelectedStock] = useState([]);
+    const { currentColor, currentMode, isClicked,selectedStock, setSelectedStock } = useStateContext();
   
     const getColor = (num) =>{
       if(num === 0){
@@ -70,7 +69,7 @@ const Forecast = () => {
       <div className="m-4 md:m-4 mt-12 p-4 md:p-4">
         <div className="flex justify-between items-center">
           <div className="flex gap-3">
-            <p className="font-semibold text-lg dark:text-gray-200">Select Stock !</p>
+            <p className="font-semibold text-lg dark:text-gray-200">Predict the price of a stock for the next two weeks</p>
           </div>
           <Button icon={<MdOutlineCancel />} color="rgb(153, 171, 180)" bgHoverColor="light-gray" size="2xl" borderRadius="50%" />
         </div>
@@ -120,9 +119,14 @@ const Forecast = () => {
           </div>
         </div>
   
-        <div className="w-40">
-          <Pie id="pie-chart" data={ecomPieChartData} legendVisiblity={false} height="160px" />
-        </div>
+        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
+                    <div className="flex justify-between items-center gap-2">
+                        <p className="text-xl font-semibold">Market Summary</p>
+                    </div>
+                    <div className="md:w-full overflow-auto">
+                    <StockChart />
+                    </div>
+                </div>
       </div>
     )
 }
