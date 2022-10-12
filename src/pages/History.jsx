@@ -1,12 +1,12 @@
 import React from 'react';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
-import { SparkLine, StockChart,Pie,MyDayPicker } from '../components';
-import { dropdownData, SparklineAreaData, recommendStock,ecomPieChartData } from '../data/dummy';
+import { SparkLine, StockChart, Pie, MyDayPicker } from '../components';
+import { dropdownData, SparklineAreaData, recommendStock, ecomPieChartData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 import { trackedStockData } from '../data/userData'
 
 const History = () => {
-  const { currentColor, currentMode, handleClick, isClicked,stockportfolio,setStockportfolio } = useStateContext();
+    const { currentColor, currentMode, handleClick, isClicked, stockportfolio, setStockportfolio } = useStateContext();
     console.log(stockportfolio);
     const recommendDegree = (num) => {
         if (num >= 1) {
@@ -19,8 +19,11 @@ const History = () => {
             return <div className='text-md font-bold text-red-600'>{`Not Recommend : ${num}`}</div>;
         }
     }
-  return (
-    <div className="mt-12">
+    return (
+        <div className="mt-12">
+            <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
+                <p className="text-3xl font-semibold dark:text-gray-200 dark:bg-secondary-dark-bg w-full p-4 rounded-2xl text-center">Portfolio History</p>
+            </div>
             <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
                 <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl">
                     <div className="flex justify-between items-center gap-2">
@@ -56,13 +59,13 @@ const History = () => {
                         <p className="text-xl font-semibold">Market Summary</p>
                     </div>
                     <div className="md:w-full overflow-auto">
-                    <Pie id="pie-chart" data={stockportfolio} legendVisiblity={false} height="800px" />
+                        <Pie id="pie-chart" data={stockportfolio} legendVisiblity={false} height="800px" />
                         {/*<StockChart />*/}
                     </div>
                 </div>
             </div>
         </div>
-  )
+    )
 }
 
 export default History

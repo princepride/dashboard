@@ -27,8 +27,8 @@ const CustomPortfolio = () => {
   return (
     <div>
       <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
-        <p className="text-3xl font-semibold">Custom Portfolio</p>
-      </div>
+                <p className="text-3xl font-semibold dark:text-gray-200 dark:bg-secondary-dark-bg w-full p-4 rounded-2xl text-center">Custom Portfolio</p>
+            </div>
 
       <div className="gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-self-stretch">
         <div id="stock-selection" className="overflow-y-scroll bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl">
