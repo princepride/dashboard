@@ -97,8 +97,19 @@ const Forecast = () => {
         </TooltipComponent>
       </div>
       <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl"></div>
-        <div className="mt-10 w-72 md:w-400">
+        {/*<div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl"></div>*/}
+
+      </div>
+      <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
+      <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
+        <div className="flex items-center gap-2">
+          <p className="text-xl font-semibold">Stock trends in the next two weeks</p>
+        </div>
+        <div className="md:w-full overflow-auto">
+          <StockChart />
+        </div>
+      </div>
+      <div className="mt-10 w-72 md:w-400">
           {selectedStock.map((item) => (
             <div key={item.symbol} className="flex justify-between mt-4">
               {console.log(item)}
@@ -119,15 +130,6 @@ const Forecast = () => {
               <p className={`${getColor(item.currentPrice - item.previousClose)}`}>{getNumber(item.currentPrice - item.previousClose)}</p>
             </div>
           ))}
-        </div>
-      </div>
-
-      <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
-        <div className="flex justify-between items-center gap-2">
-          <p className="text-xl font-semibold">Market Summary</p>
-        </div>
-        <div className="md:w-full overflow-auto">
-          <StockChart />
         </div>
       </div>
     </div>
