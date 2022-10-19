@@ -7,7 +7,8 @@ import io from "socket.io-client";
 const socket = io("http://localhost:5000");
 
 const stocktickers = ["AAPL", "MSFT", "AMZN", "TSLA", "GOOGL", "GOOG", "BRK.B", "UNH", "JNJ", "XOM", "PG", "META", "JPM", "NVDA", "V", "HD", "CVX", "ABBV", "MA", "PFE", "LLY", "PEP"];
-const baseURL = "http://localhost:5000/customga";
+const customga = "http://localhost:5000/customga";
+const stopcustomga = "http://localhost:5000/stopcustomga";
 
 const CustomPortfolio = () => {
   const [messages, setMessages] = useState([]);
@@ -42,7 +43,13 @@ const CustomPortfolio = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault(); //prevents url redirects after post submission
-    axios.post(baseURL, formData, {
+
+    if (formData['stocktickers'].length==0){
+      setPost("Please select stock tickers!");
+      return;
+    }
+    setPost("Setting up Custom GA run on server... ");
+    axios.post(customga, formData, {
       headers: { 'Content-Type': 'application/json' }
     })
     .then((response) => {
@@ -51,6 +58,20 @@ const CustomPortfolio = () => {
       setPost(response.data);
       setRunId(runidStr);
     });
+  }
+
+  const handleStopRun = (e) => {
+    e.preventDefault();
+    if (runid.length > 0){
+      axios.post(stopcustomga, {runid}, {
+        headers: { 'Content-Type': 'application/json' }
+      })
+      .then((response) => {
+        setPost(response.data);
+      });
+    } else {
+      setPost("No GA run at server to stop");
+    }
   }
   return (
     <div>
@@ -100,11 +121,17 @@ const CustomPortfolio = () => {
               <br />
               <br />
               </div>
-              <div className="w-full justify-between items-center gap-2">
+              <div className="columns-3 w-full justify-between items-center gap-2">
               <input
                 type="submit"
                 value="Submit"
                 onClick={handleSubmit}
+                className="px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+              ></input> <br /><br />
+              <input
+                type="submit"
+                value="Stop Run"
+                onClick={handleStopRun}
                 className="px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               ></input>
               </div>
