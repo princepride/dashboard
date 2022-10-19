@@ -21,3 +21,4 @@ export { default as ConsoleAccordion } from './ConsoleAccordion';
 export { default as GAHyperparameters } from './GAHyperparameters';
 export { default as GAEpoch } from './GAEpoch';
 export { default as MyDayPicker } from './MyDayPicker';
+export { default as MyListGroup } from './MyListGroup';

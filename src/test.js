@@ -1,9 +1,7 @@
-const axios = require('axios');
-var cheerio = require("cheerio")
-const url = "https://sg.finance.yahoo.com/"
-axios.get(url).then((resp) => {
-    var $ = cheerio.load(resp.data)
-    
-}).catch((err) => {
-
+const axios = require("axios");
+const date = "2022-08-22"
+axios.put("http://localhost:3001/stockportfolio", {date:date})
+.then((response)=>{
+    const data = response.data;
+    console.log(data);
 })

@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {auth} from '../firebase';
 import {getStockportfolio} from '../data/dummy';
+import Axios from 'axios';
 
 const StateContext = createContext();
 
@@ -41,10 +42,34 @@ export const ContextProvider = ({ children }) => {
   const [day, setDay] = useState(new Date("2022-08-22"));
   const [selectedStock, setSelectedStock] = useState([]);
   //const [stockportfolio, setStockportfolio] = useState(getStockportfolio(new Date().toLocaleDateString()));
-  const [stockportfolio, setStockportfolio] = useState(getStockportfolio(formatDate(day)));
+  const [stockportfolio, setStockportfolio] = useState([]);
+  const [stockforecast, setStockforecast] = useState([]);
   const navigate = useNavigate();
 
-  useEffect(() => {setStockportfolio(getStockportfolio(formatDate(day)))},[day])
+  //useEffect(() => {setStockportfolio(getStockportfolio(formatDate(day)))},[day])
+
+  useEffect(() => {
+    let isMounted = true;
+    Axios.put("http://localhost:3001/stockportfolio", { date: formatDate(day) }).then((respose) => {
+        if(isMounted) {
+            const data = respose.data
+            //console.log(data);
+            const stocktickers = data.stocktickers.replace('[', '').replace(']', '').replace(/\'/g, "").split(/,\s*/)
+            //console.log(stocktickers);
+            let chromosome = data.chromosome.replace('[', '').replace(']', '').replace(/\'/g, "").split(/\s+/)
+            //console.log(chromosome)
+            chromosome = chromosome.map(item => Number(item))
+            const res = []
+            for (let i = 0; i < stocktickers.length; i++) {
+                if (chromosome[i] != 0.) {
+                    res.push({ x: stocktickers[i], y: chromosome[i], text: (chromosome[i] * 100).toFixed(2) + "%" })
+                }
+            }
+            setStockportfolio(res);
+        }
+    })
+    return () => { isMounted = false }
+}, [day])
 
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
@@ -73,7 +98,7 @@ export const ContextProvider = ({ children }) => {
     initialState, setIsClicked, setActiveMenu, setCurrentColor, 
     setCurrentMode, setMode, setColor, themeSettings, setThemeSettings,
     setStockData, user, stockportfolio, setStockportfolio, day, setDay,
-    selectedStock, setSelectedStock}}>
+    selectedStock, setSelectedStock, stockforecast, setStockforecast}}>
       {!loading&&children}
     </StateContext.Provider>
   );

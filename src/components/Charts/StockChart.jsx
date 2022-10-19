@@ -1,29 +1,91 @@
-import * as React from "react";
+import React,{useEffect,useState} from "react";
 import * as ReactDOM from "react-dom";
-import { StockChartComponent,StockChartSeriesCollectionDirective, StockChartSeriesDirective, Inject, DateTime, Tooltip, RangeTooltip, Crosshair, LineSeries, SplineSeries, CandleSeries, HiloOpenCloseSeries, HiloSeries, RangeAreaSeries, Trendlines } from '@syncfusion/ej2-react-charts';
-import { EmaIndicator, RsiIndicator, BollingerBands, TmaIndicator, MomentumIndicator, SmaIndicator, AtrIndicator, AccumulationDistributionIndicator, MacdIndicator, StochasticIndicator, Export } from '@syncfusion/ej2-react-charts';
-import { chartData } from './datasource.ts';
+//import { chartData } from './datasource.ts';
 import { lineCustomSeries } from '../../data/dummy'
+import { useStateContext } from '../../contexts/ContextProvider';
+import { searchData } from "../../data/dummy"; 
+import Axios from 'axios';
+import {
+    Chart as ChartJS,
+    CategoryScale,
+    LinearScale,
+    PointElement,
+    LineElement,
+    Title,
+    Tooltip,
+    Legend,
+  } from 'chart.js';
+  import { Line } from 'react-chartjs-2';
 
 const StockChart = () => {
+
+    const {stockforecast, setStockforecast} = useStateContext();
+    const [date, setDate] = useState([])
+    const [price, setPrice] = useState([])
+    useEffect(() => {
+        let isMounted = true;
+        console.log("stockforecast "+stockforecast)
+        console.log("typeof "+typeof(stockforecast))
+        let symbol = "NONE";
+        for (let i = 0; i < searchData.length; i++) {
+          if (searchData[i].StockName === stockforecast) {
+    
+            symbol = searchData[i].symbol;
+            break;
+          }
+        }
+        console.log("symbol "+symbol)
+        Axios.put("http://localhost:3001/stockforecast", { stock: symbol }).then((respose) => {
+            if(isMounted) {
+                const data = respose.data
+                console.log(data)
+                setDate(data.date.split(','))
+                setPrice(data.price.split(','))
+            }
+        })
+        return () => { isMounted = false }
+    }, [stockforecast])
+
+    ChartJS.register(
+        CategoryScale,
+        LinearScale,
+        PointElement,
+        LineElement,
+        Title,
+        Tooltip,
+        Legend
+      );
+    
+      const options = {
+        responsive: true,
+        plugins: {
+          legend: {
+            position: 'top' ,
+          },
+          title: {
+            display: true,
+            text: stockforecast+`'s stock price for the next four weeks`,
+          },
+        },
+      };
+      
+      const labels = date
+      
+      const data = {
+        labels,
+        datasets: [
+          {
+            label: stockforecast,
+            data: price,
+            borderColor: 'rgb(255, 99, 132)',
+            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+          },
+        ],
+      };
     //console.log(chartData)
-    return (<StockChartComponent id='stockchart' primaryXAxis={{
-        valueType: 'DateTime',
-        majorGridLines: { width: 0 }, majorTickLines: { color: 'transparent' },
-        crosshairTooltip: { enable: true },
-        //style:{ color:'black'}
-    }} primaryYAxis={{
-        labelFormat: 'n0',
-        lineStyle: { width: 0 }, rangePadding: 'None',
-        majorTickLines: { width: 0 }
-    }} title='Bitcoin' crosshair={{ enable: true }} height='350'>
-        <Inject services={[DateTime, Tooltip, RangeTooltip, Crosshair, LineSeries, SplineSeries, CandleSeries, HiloOpenCloseSeries, HiloSeries, RangeAreaSeries, Trendlines,
-        EmaIndicator, RsiIndicator, BollingerBands, TmaIndicator, MomentumIndicator, SmaIndicator, AtrIndicator, Export,
-        AccumulationDistributionIndicator, MacdIndicator, StochasticIndicator]}/>
-        <StockChartSeriesCollectionDirective>
-        {chartData.map((item, index) => <StockChartSeriesDirective key={index}{...item}></StockChartSeriesDirective>)}
-        </StockChartSeriesCollectionDirective>
-    </StockChartComponent>)
+    return (
+        <Line options={options} data={data} />
+    )
 }
 
 export default StockChart

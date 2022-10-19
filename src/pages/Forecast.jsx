@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import { useStateContext } from '../contexts/ContextProvider';
@@ -9,7 +9,7 @@ import { Pie } from "../components";
 const axios = require("axios");
 
 const Forecast = () => {
-  const { currentColor, currentMode, isClicked, selectedStock, setSelectedStock } = useStateContext();
+  const { currentColor, currentMode, isClicked, selectedStock, setSelectedStock, stockforecast } = useStateContext();
 
   const getColor = (num) => {
     if (num === 0) {
@@ -78,7 +78,7 @@ const Forecast = () => {
       </div>
       <div className="justify-between flex ">
         <Search />
-        <TooltipComponent content="Add the stock" position="BottomCenter">
+        {/*<TooltipComponent content="Add the stock" position="BottomCenter">
           <button
             type="button"
             onClick={() => handleClick()}
@@ -94,22 +94,22 @@ const Forecast = () => {
               </div>
             </div>
           </button>
-        </TooltipComponent>
+        </TooltipComponent>*/}
       </div>
       <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
         {/*<div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl"></div>*/}
 
       </div>
       <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
-      <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
-        <div className="flex items-center gap-2">
+      <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-full md:w-840">
+        {/*<div className="flex items-center gap-2">
           <p className="text-xl font-semibold">Stock trends in the next two weeks</p>
-        </div>
-        <div className="md:w-full overflow-auto">
+        </div>*/}
+        <div className="md:w-full overflow-auto w-full">
           <StockChart />
         </div>
       </div>
-      <div className="mt-10 w-72 md:w-400">
+      {/*<div className="mt-10 w-72 md:w-400">
           {selectedStock.map((item) => (
             <div key={item.symbol} className="flex justify-between mt-4">
               {console.log(item)}
@@ -130,7 +130,7 @@ const Forecast = () => {
               <p className={`${getColor(item.currentPrice - item.previousClose)}`}>{getNumber(item.currentPrice - item.previousClose)}</p>
             </div>
           ))}
-        </div>
+        </div>*/}
       </div>
     </div>
   )
