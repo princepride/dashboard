@@ -25,13 +25,13 @@ const GAHyperparameters = ({ message }) => {
       <table className="shadow-lg bg-white">
         <thead>
           <tr>
-            <th className="bg-blue-100 border text-left px-2 py-1">maxstocks</th>
+            <th className="bg-blue-100 border text-left px-2 py-1">popSize</th>
             <th className="bg-blue-100 border text-left px-2 py-1">maxEpochs</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td className="border px-2 py-1">{message.data.maxstocks}</td>
+            <td className="border px-2 py-1">{message.data.popSize}</td>
             <td className="border px-2 py-1">{message.data.maxEpochs}</td>
           </tr>
         </tbody>

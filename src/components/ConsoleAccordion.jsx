@@ -2,14 +2,15 @@ import React, { useState, useRef } from "react";
 import GAHyperparameters from "./GAHyperparameters";
 import GAEpoch from "./GAEpoch";
 
-const ConsoleAccordion = ({ message }) => {
-  const [active, setActive] = useState(false);
+const ConsoleAccordion = ({ message, curState }) => {
+  const [active, setActive] = useState(curState);
   const [height, setHeight] = useState("0px");
   const [rotate, setRotate] = useState('transform duration-700 ease')
   const contentSpace = useRef(null);
   const content = message.type == "gahyperparameters" ? <GAHyperparameters message={message} /> : message.type == "gaEpoch" ? <GAEpoch message={message} /> : "default";
 
   function toggleAccordion() {
+    console.log("Toggle Accordions!");
     setActive((prevState) => !prevState);
     setHeight(active ? "0px" : `${contentSpace.current.scrollHeight}px`);
     setRotate(active ? 'transform duration-700 ease' : 'transform duration-700 ease rotate-180')
@@ -20,7 +21,7 @@ const ConsoleAccordion = ({ message }) => {
         <p className="inline-block text-footnote light">
           {
             message.type == "gahyperparameters" ? "GA Hyperparameters (Click here)" : 
-            ((message.type == "gaEpoch") ? "Epoch " + message.epoch + " ======== Best Sharpe: "+ message.population[0].sharpe + " (Click here)": 
+            ((message.type == "gaEpoch") ? "["+ message.runid + "] Epoch " + message.epoch + " ======== Best Sharpe: "+ message.population[0].sharpe + " (Click here)": 
             "default")
           }
         </p>

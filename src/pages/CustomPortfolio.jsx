@@ -2,20 +2,23 @@ import React, { useState, useEffect } from "react";
 import { MultiSelectComponent } from "@syncfusion/ej2-react-dropdowns";
 import { TextBoxComponent } from "@syncfusion/ej2-react-inputs";
 import { ConsoleAccordion } from "../components";
+import { v4 as uuidv4 } from 'uuid';
 const axios = require("axios");
 import io from "socket.io-client";
 const socket = io("http://localhost:5000");
 
 const stocktickers = ["AAPL", "MSFT", "AMZN", "TSLA", "GOOGL", "GOOG", "BRK.B", "UNH", "JNJ", "XOM", "PG", "META", "JPM", "NVDA", "V", "HD", "CVX", "ABBV", "MA", "PFE", "LLY", "PEP"];
 const customga = "http://localhost:5000/customga";
-const stopcustomga = "http://localhost:5000/stopcustomga";
 
 const CustomPortfolio = () => {
   const [messages, setMessages] = useState([]);
   const [post, setPost] = useState("");
   const [runid, setRunId] = useState("");
+  const [reqid, setReqId] = useState(uuidv4());
+  const [accordionStates, setAccordionStates] = useState({});
   
   const initialFormData = Object.freeze({
+    reqId : reqid,
     stocktickers: [],
     popSize: 10,
     numEpoch: 40,
@@ -29,21 +32,23 @@ const CustomPortfolio = () => {
     let isMounted = true;
     if (isMounted)
       socket.on("my_response", (data) => {
-        setMessages([data, ...messages]);
+      	data.accordionId = uuidv4();
+        setMessages(messages => [data, ...messages]);
       });
     return () => {
       isMounted = false;
-      socket.off("my_response");
     };
-  }, [socket, messages]);
-
+  }, [socket]);
+  
   const handleChange = (e) => {
+    console.log("handle change " + e.target.name + " " + e.target.value);
     updateFormData({ ...formData, [e.target.name]: e.target.value});
   };
 
   const handleSubmit = (e) => {
     e.preventDefault(); //prevents url redirects after post submission
-
+    setReqId(formData['reqId']);
+    setMessages([]);
     if (formData['stocktickers'].length==0){
       setPost("Please select stock tickers!");
       return;
@@ -91,7 +96,9 @@ const CustomPortfolio = () => {
               <div className="columns-3 w-full justify-between items-center gap-2">
               <label>Stocktickers:</label>
               <MultiSelectComponent
-                id="stocktickers"
+                id="stocktickers"Portfolio Optimizations Hyperparameters
+
+
                 name="stocktickers"
                 dataSource={stocktickers}
                 placeholder="Select Stocks"
@@ -100,8 +107,8 @@ const CustomPortfolio = () => {
               />
               <br />
               <br />
-              <label htmlFor="popsize">Population Size:</label>
-              <TextBoxComponent id="popsize" name="popsize" value="10" onChange={handleChange}></TextBoxComponent>
+              <label htmlFor="popSize">Population Size:</label>
+              <TextBoxComponent id="popSize" name="popSize" value="10" onChange={handleChange}></TextBoxComponent>
               <br />
               <br />
               <label htmlFor="numEpoch">Number of Epochs:</label>
@@ -127,13 +134,7 @@ const CustomPortfolio = () => {
                 value="Submit"
                 onClick={handleSubmit}
                 className="px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-              ></input> <br /><br />
-              <input
-                type="submit"
-                value="Stop Run"
-                onClick={handleStopRun}
-                className="px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-              ></input>
+              ></input> 
               </div>
             </form>
           </div>
@@ -146,9 +147,14 @@ const CustomPortfolio = () => {
           </div>
           <div className="overflow-y-scroll overflow-x-scroll flex gap-5 border-b-1 border-color p-4 justify-center">
             <div>
-              {messages.map((message) => {
-                if (message.runid == runid){
-                  return <ConsoleAccordion message={message} key={Math.random()} />;
+              {
+              messages.map((message) => {
+                console.log('=== DISPLAY === '+ message.msgid + " vs " + reqid);
+                let accordionCurState = false;
+                if (accordionStates[message.accordionId] != undefined)
+                	accordionCurState = accordionStates[message.accordionId];
+                if (message.msgid == reqid){
+                  return <ConsoleAccordion message={message} activeStateUpdateHandler={setAccordionStates} key={message.accordionId} />;
                 }
               })}
             </div>

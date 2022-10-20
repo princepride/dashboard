@@ -3,6 +3,8 @@ import React from "react";
 const GAEpoch = ({ message }) => {
   return (
     <div>
+      <p> Run ID: {message.runid} </p>
+      <p> Epoch: {message.epoch} </p>
       <table className="shadow-lg bg-white">
         <thead>
           <tr>
@@ -18,9 +20,9 @@ const GAEpoch = ({ message }) => {
             return (
               <tr key={Math.random()}>
                 <td key={Math.random()} className="border px-2 py-1">{popMember.popid}</td>
-                <td key={Math.random()} className="border px-2 py-1">{popMember.sharpe}</td>
+                <td key={Math.random()} className="border px-2 py-1">{popMember.sharpe.toFixed(2)}</td>
                 {popMember.chromosome.map((tickerVal) => {
-                  return <td key={Math.random()} className="border px-2 py-1">{tickerVal}</td>;
+                  return <td key={Math.random()} className="border px-2 py-1">{tickerVal.toFixed(2)}</td>;
                 })}
               </tr>
             );
