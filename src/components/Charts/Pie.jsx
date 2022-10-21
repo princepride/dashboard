@@ -30,7 +30,7 @@ const Doughnut = ({ id, data, legendVisiblity, height }) => {
           explodeIndex={2}
           dataLabel={{
             visible: true,
-            name: 'text',
+            name: 'x',
             position: 'Inside',
             font: {
               fontWeight: '600',

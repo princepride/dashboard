@@ -55,7 +55,7 @@ const StockChart = () => {
         Tooltip,
         Legend
       );
-    
+      //console.log(price)
       const options = {
         responsive: true,
         plugins: {
@@ -76,10 +76,17 @@ const StockChart = () => {
         datasets: [
           {
             label: stockforecast,
-            data: price,
+            data: price.map((v,i) =>{if(i<=10){return v}else{return null}}),
             borderColor: 'rgb(255, 99, 132)',
             backgroundColor: 'rgba(255, 99, 132, 0.5)',
           },
+          {
+            label: stockforecast+" forecast",
+            data: price.map((v,i) =>{if(i<10){return null}else{return v}}),
+            borderColor: 'rgb(3, 190, 252)',
+            backgroundColor: 'rgba(3, 190, 252, 0.5)',
+            borderDash:[5, 10, 15],
+          }
         ],
       };
     //console.log(chartData)

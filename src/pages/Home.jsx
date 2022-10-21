@@ -38,6 +38,7 @@ const Home = () => {
     const { currentColor, currentMode, handleClick, isClicked } = useStateContext();
     //const [todayStockportfolio,setTodayStockportfolio ] = useState(getStockportfolio("2022-08-22"));
     const [todayStockportfolio, setTodayStockportfolio] = useState([]);
+    const [todayStockForecast, setTodayForecast] = useState([]);
     const [todaySharpe, setTodaySharpe] = useState(0);
     const [todayReturn, setTodayReturn] = useState(0);
     const [todayRisk, setTodayRisk] = useState(0);
@@ -46,7 +47,7 @@ const Home = () => {
     useEffect(() => {
         let isMounted = true;
         Axios.put("http://localhost:3001/stockportfolio", { date: "2022-08-22" }).then((respose) => {
-            if(isMounted) {
+            if (isMounted) {
                 const data = respose.data
                 const stocktickers = data.stocktickers.replace('[', '').replace(']', '').replace(/\'/g, "").split(/,\s*/)
                 let chromosome = data.chromosome.replace('[', '').replace(']', '').replace(/\'/g, "").split(/\s+/)
@@ -65,6 +66,32 @@ const Home = () => {
         })
         return () => { isMounted = false }
     }, [])
+
+    useEffect(() => {
+        let isMounted = true;
+        let stocks = []
+        for (let i = 0; i < todayStockportfolio.length; i++) {
+            stocks.push(todayStockportfolio[i].x)
+        }
+        console.log(stocks)
+        Axios.put("http://localhost:3001/groupstockforecast", { stocks: stocks }).then((respose) => {
+            if(isMounted) {
+                const data = respose.data
+                console.log(data)
+                const date = data.date.split(',')
+                const price = data.price.split(',')
+                console.log(date.length)
+                console.log(price.length)
+                const temp = []
+                for (let i = 0; i <date.length; i++) {
+                    temp.push({x:i%20,date:new Date(date[i]),price:Number(price[i]).toFixed(2)})
+                }
+                setTodayForecast(temp)
+                console.log(todayStockForecast)
+            }
+        })
+        return () => { isMounted = false }
+    }, [todayStockportfolio])
 
     const recommendDegree = (num) => {
         //if (num >= 0.2) {
@@ -88,6 +115,9 @@ const Home = () => {
     }
     return (
         <div className="mt-12">
+            <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
+                <p className="text-3xl font-semibold dark:text-gray-200 dark:bg-secondary-dark-bg w-full p-4 rounded-2xl text-center">{`Portfolio Recommendation (${new Date().toDateString().slice(4)})`}</p>
+            </div>
             <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
                 <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl">
                     <div className="flex justify-between items-center gap-2">
@@ -131,7 +161,7 @@ const Home = () => {
             </div>
             <div className="flex flex-wrap lg:flex-nowrap justify-center ">
                 <div className="flex m-3 flex-wrap justify-center gap-2 items-center">
-                    {todayStockportfolio.map((item) => (
+                    {todayStockportfolio.slice(0,Math.ceil(todayStockForecast.length/20)).map((item,i) => (
                         <div key={item.x} className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 rounded-2xl ">
                             <div className='flex'>
                                 <div className="text-md font-semibold">{item.x}</div>
@@ -141,7 +171,7 @@ const Home = () => {
                                 {recommendDegree(item.y)}
                             </div>*/}
                             <div className="pt-4">
-                                <SparkLine currentColor={currentColor} id={`sparkline-${item.x}`} type="Line" height="60px" width="160px" data={SparklineAreaData} color={currentColor} />
+                                <SparkLine currentColor={currentColor} id={`sparkline-${item.x}`} type="Line" height="60px" width="160px" data={todayStockForecast.slice(10+i*20,20+i*20)} color={currentColor} />
                             </div>
                         </div>
 

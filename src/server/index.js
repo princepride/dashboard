@@ -54,6 +54,35 @@ app.put('/stockforecast', (req, res) => {
     });
 });
 
+app.put('/groupstockforecast', (req, res) => {
+    const stocks = req.body.stocks;
+    const db = new sqlite3.Database('./lstm_prediction.db', sqlite3.OPEN_READWRITE, (err) => {
+        if (err) {
+            console.error(err.message);
+        }
+        else {
+            console.log('Connected to the lstm_prediction database.');
+        }
+    });
+    let sql = 'SELECT group_concat(date) as date,group_concat(price) as price FROM predictions WHERE'
+    for (let i = 0; i < stocks.length-1; i++) {
+        sql +=' ticker is ? OR';
+    }
+    sql += ' ticker is ?'
+    db.serialize(() => {
+        //db.each(`SELECT stocktickers,chromosome,max(sharpe) FROM garesults WHERE date='${day}'`, (err, row) => {
+        db.each(sql, 
+        stocks,
+        (err, row) => {
+            if (err) {
+                console.error(err.message);
+            }
+            console.log(row)
+            res.send(row)
+        });
+    });
+});
+
 app.listen(3001, () => {
     console.log('listening on port 3001')
 })
