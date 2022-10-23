@@ -4,19 +4,30 @@ import { SparkLine, StockChart, Pie, MyDayPicker } from '../components';
 import { dropdownData, SparklineAreaData, recommendStock, ecomPieChartData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 import { trackedStockData } from '../data/userData'
+import {logo} from '../data/logo'
+
+const findLogo = (stockName) => {
+    for (let i = 0; i <logo.length; i++) {
+        if (logo[i].stockName === stockName) {
+            return logo[i].logo;
+        }
+    }
+    return 'https://logo.clearbit.com/investor.fb.com';
+}
+
 
 const History = () => {
     const { currentColor, currentMode, handleClick, isClicked, stockportfolio, setStockportfolio } = useStateContext();
     console.log(stockportfolio);
     const recommendDegree = (num) => {
-        if (num >= 1) {
-            return <div className='text-md font-bold text-green-400'>{`Hightly Recommend : ${num}`}</div>;
+        if (num >= 0.2) {
+            return <div className='text-md font-bold text-green-400'>{num.toFixed(3)}</div>;
         }
-        else if (num >= 0.5) {
-            return <div className='text-md font-bold text-yellow-400'>{`Recommend : ${num}`}</div>;
+        else if (num >= 0.1) {
+            return <div className='text-md font-bold text-yellow-400'>{num.toFixed(3)}</div>;
         }
         else {
-            return <div className='text-md font-bold text-red-600'>{`Not Recommend : ${num}`}</div>;
+            return <div className='text-md font-bold text-red-600'>{num.toFixed(3)}</div>;
         }
     }
     return (
@@ -27,7 +38,6 @@ const History = () => {
             <div className="flex gap-5 border-b-1 border-color p-4 hover:bg-light-gray cursor-pointer  dark:hover:bg-[#42464D] justify-center">
                 <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-2 rounded-2xl">
                     <div className="flex justify-between items-center gap-2">
-                        <p className="text-xl font-semibold">History Stock Portfolio</p>
                         {/*<DropDown currentMode={currentMode} />*/}
                         <MyDayPicker currentMode={currentMode} currentColor={currentColor} handleClick={handleClick} isClicked={isClicked} />
                     </div>
@@ -40,7 +50,7 @@ const History = () => {
                                         className="text-2xl rounded-lg p-1 hover:drop-shadow-xl"
                                     >
                                         <div className="flex w-10">
-                                            <img src={'https://logo.clearbit.com/investor.fb.com'} />
+                                            <img src={findLogo(item.x)} />
                                         </div>
                                     </button>
                                     <div>
@@ -49,7 +59,7 @@ const History = () => {
                                     </div>
                                 </div>
                                 {/*<p className={`text-${item.pcColor}`}>{item.amount}</p>*/}
-                                <p className={`text-red-600`}>12</p>
+                                <p className={`text-red-600`}>{recommendDegree(item.y)}</p>
                             </div>
                         ))}
                     </div>

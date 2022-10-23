@@ -6,6 +6,16 @@ import { useStateContext } from '../contexts/ContextProvider';
 import { trackedStockData } from '../data/userData';
 import MyListGroup from '../components/MyListGroup';
 import Axios from 'axios';
+import {logo} from '../data/logo'
+
+const findLogo = (stockName) => {
+    for (let i = 0; i <logo.length; i++) {
+        if (logo[i].stockName === stockName) {
+            return logo[i].logo;
+        }
+    }
+    return 'https://logo.clearbit.com/investor.fb.com';
+}
 
 const PickDayButton = ({ currentMode, currentColor, handleClick, isClicked }) => (
     <div className="w-28 border-1 border-color px-2 py-1 rounded-md">
@@ -134,7 +144,7 @@ const Home = () => {
                                         className="text-2xl rounded-lg p-1 hover:drop-shadow-xl"
                                     >
                                         <div className="flex w-10">
-                                            <img src={'https://logo.clearbit.com/investor.fb.com'} />
+                                            <img src={findLogo(item.x)} />
                                         </div>
                                     </button>
                                     <div>
