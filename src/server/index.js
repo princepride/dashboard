@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.put('/stockportfolio', (req, res) => {
     const date = req.body.date;
-    const db = new sqlite3.Database('./stocks.db', sqlite3.OPEN_READWRITE, (err) => {
+    const db = new sqlite3.Database('../database/stocks.db', sqlite3.OPEN_READWRITE, (err) => {
         if (err) {
             console.error(err.message);
         }
@@ -32,7 +32,7 @@ app.put('/stockportfolio', (req, res) => {
 
 app.put('/stockforecast', (req, res) => {
     const stock = req.body.stock;
-    const db = new sqlite3.Database('./lstm_prediction.db', sqlite3.OPEN_READWRITE, (err) => {
+    const db = new sqlite3.Database('../database/lstm_prediction.db', sqlite3.OPEN_READWRITE, (err) => {
         if (err) {
             console.error(err.message);
         }
@@ -56,7 +56,7 @@ app.put('/stockforecast', (req, res) => {
 
 app.put('/groupstockforecast', (req, res) => {
     const stocks = req.body.stocks;
-    const db = new sqlite3.Database('./lstm_prediction.db', sqlite3.OPEN_READWRITE, (err) => {
+    const db = new sqlite3.Database('../database/lstm_prediction.db', sqlite3.OPEN_READWRITE, (err) => {
         if (err) {
             console.error(err.message);
         }
