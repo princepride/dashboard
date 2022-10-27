@@ -50,7 +50,7 @@ export const ContextProvider = ({ children }) => {
 
   useEffect(() => {
     let isMounted = true;
-    Axios.put("http://localhost:3001/stockportfolio", { date: formatDate(day) }).then((respose) => {
+    Axios.post("http://localhost:3001/stockportfolio", { date: formatDate(day) }).then((respose) => {
         if(isMounted) {
             const data = respose.data
             //console.log(data);

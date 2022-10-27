@@ -24,7 +24,7 @@ const PickDayButton = ({ currentMode, currentColor, handleClick, isClicked }) =>
 );
 
 const getStockportfolio = (date) => {
-    Axios.put("http://localhost:3001/stockportfolio", { date: date }).then((respose) => {
+    Axios.post("http://localhost:3001/stockportfolio", { date: date }).then((respose) => {
         const data = respose.data
         //console.log(data);
         const stocktickers = data.stocktickers.replace('[', '').replace(']', '').replace(/\'/g, "").split(/,\s*/)
@@ -56,7 +56,7 @@ const Home = () => {
 
     useEffect(() => {
         let isMounted = true;
-        Axios.put("http://localhost:3001/stockportfolio", { date: "2022-08-22" }).then((respose) => {
+        Axios.post("http://localhost:3001/stockportfolio", { date: "2022-08-22" }).then((respose) => {
             if (isMounted) {
                 const data = respose.data
                 const stocktickers = data.stocktickers.replace('[', '').replace(']', '').replace(/\'/g, "").split(/,\s*/)
@@ -84,7 +84,7 @@ const Home = () => {
             stocks.push(todayStockportfolio[i].x)
         }
         console.log(stocks)
-        Axios.put("http://localhost:3001/groupstockforecast", { stocks: stocks }).then((respose) => {
+        Axios.post("http://localhost:3001/groupstockforecast", { stocks: stocks }).then((respose) => {
             if(isMounted) {
                 const data = respose.data
                 console.log(data)

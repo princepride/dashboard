@@ -35,7 +35,7 @@ const StockChart = () => {
           }
         }
         console.log("symbol "+symbol)
-        Axios.put("http://localhost:3001/stockforecast", { stock: symbol }).then((respose) => {
+        Axios.post("http://localhost:3001/stockforecast", { stock: symbol }).then((respose) => {
             if(isMounted) {
                 const data = respose.data
                 console.log(data)
