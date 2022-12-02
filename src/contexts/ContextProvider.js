@@ -1,5 +1,4 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import Axios from 'axios';
 import { auth } from '../firebase';
 import { getStockportfolio } from '../data/dummy';
@@ -34,16 +33,12 @@ export const ContextProvider = ({ children }) => {
   const [activeMenu, setActiveMenu] = useState(true);
   const [isClicked, setIsClicked] = useState(initialState);
   const [stockData, setStockData] = useState(undefined);
-  const [loading, setLoading] = useState(true);
+  const [login, setLogin] = useState(false);
   const [user, setUser] = useState(null);
   const [day, setDay] = useState(new Date('2022-08-22'));
   const [selectedStock, setSelectedStock] = useState([]);
-  // const [stockportfolio, setStockportfolio] = useState(getStockportfolio(new Date().toLocaleDateString()));
   const [stockportfolio, setStockportfolio] = useState([]);
   const [stockforecast, setStockforecast] = useState([]);
-  const navigate = useNavigate();
-
-  // useEffect(() => {setStockportfolio(getStockportfolio(formatDate(day)))},[day])
 
   useEffect(() => {
     let isMounted = true;
@@ -58,7 +53,7 @@ export const ContextProvider = ({ children }) => {
         chromosome = chromosome.map((item) => Number(item));
         const res = [];
         for (let i = 0; i < stocktickers.length; i++) {
-          if (chromosome[i] != 0.0) {
+          if (chromosome[i] !== 0.0) {
             res.push({ x: stocktickers[i], y: chromosome[i], text: `${(chromosome[i] * 100).toFixed(2)}%` });
           }
         }
@@ -67,14 +62,6 @@ export const ContextProvider = ({ children }) => {
     });
     return () => { isMounted = false; };
   }, [day]);
-
-  useEffect(() => {
-    auth.onAuthStateChanged((user) => {
-      setUser(user);
-      setLoading(false);
-      if (user) navigate('/Home');
-    });
-  }, [user]);
 
   const setMode = (e) => {
     setCurrentMode(e.target.value);
@@ -116,9 +103,12 @@ export const ContextProvider = ({ children }) => {
       selectedStock,
       setSelectedStock,
       stockforecast,
-      setStockforecast }}
+      setStockforecast,
+      login,
+      setLogin }}
     >
-      {!loading && children}
+      {/* {!loading && children} */}
+      {children}
     </StateContext.Provider>
   );
 };
