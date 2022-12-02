@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react'
-const axios = require("axios");
+import React, { useEffect, useState } from 'react';
 import { useStateContext } from '../contexts/ContextProvider';
 import { userProfileData } from '../data/userData';
 import { companyInfo } from '../data/dummy';
 import { New } from '../components';
-import newsImage from '../data/news.jpg'
+import newsImage from '../data/news.jpg';
+
+const axios = require('axios');
 
 const News = () => {
   const { currentColor, currentMode } = useStateContext();
@@ -17,22 +18,22 @@ const News = () => {
       headers: {
         'X-BingApis-SDK': 'true',
         'X-RapidAPI-Key': '6be3939a73msh413d424fc2d04c4p15ba7bjsnd28f29cebde3',
-        'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
-      }
+        'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com',
+      },
     };
 
-    axios.request(options).then(function (response) {
+    axios.request(options).then((response) => {
       const values = response.data.value;
       for (let i = 0; i < values.length; i++) {
         console.log(values[i]);
       }
       setNews(response.data.value);
-    }).catch(function (error) {
+    }).catch((error) => {
       console.error(error);
     });
   }, []);
   return (
-    <div className='m-2 md:m-4 mt-12 p-2 md:p-4'>
+    <div className="m-2 md:m-4 mt-12 p-2 md:p-4">
       <div className="flex items-center leading-8 gap-3 border-b-1 border-color p-3">
         <img className="rounded-full h-10 w-10" src={companyInfo[0].logo} alt={companyInfo[0].name} />
         <div>
@@ -41,7 +42,7 @@ const News = () => {
         </div>
       </div>
 
-      <div className={`flex justify-center text-7xl italic gap-3`}>
+      <div className="flex justify-center text-7xl italic gap-3">
         <div className={currentMode === 'Dark' ? 'text-white' : 'text-black'}>
           Financial News
         </div>
@@ -51,26 +52,24 @@ const News = () => {
           {news.map((item) => (
             <div key={item.name}>
               <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg p-4 rounded-2xl flex w-full">
-                {/*{item.name}*/}
+                {/* {item.name} */}
                 <New
                   datePublished={item.datePublished}
                   description={item.description}
                   image={item.image !== undefined ? item.image.thumbnail.contentUrl : newsImage}
                   name={item.name}
                   url={item.url}
-                >
-
-                </New>
+                />
               </div>
               <div className="relative flex py-5 items-center">
-                <div className="flex-grow border-t border-gray-400"></div>
+                <div className="flex-grow border-t border-gray-400" />
               </div>
             </div>
           ))}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default News
+export default News;

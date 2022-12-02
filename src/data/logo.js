@@ -1004,1203 +1004,1203 @@ export const logo = [
     logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQecy8f49SNutIsmUyIy_eYRqnX9GCa7dzhjKDRRr2NJ3pdWgLm-JxK',
   },
   {
-    stockName:'AAPL',
-    logo:'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI&psig=AOvVaw22bWveoGa48BQhzfn9KWqR&ust=1666349647491000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCKilxKfS7voCFQAAAAAdAAAAABAE',
-},
-{
-    stockName:' MSFT',
-    logo:'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft3.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcS6km-cD_vSytVSWHMXb5BsNyvx-Ee58bq9Ak5VyKaYZtKokr7C&psig=AOvVaw3CPY0zy0AzWbPuVGzcnWBA&ust=1666360777187000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCLidhuP77voCFQAAAAAdAAAAABAE',
-},
-{
-    stockName:'AMZN',
-    logo:'https://press.aboutamazon.com/system/files-encrypted/nasdaq_kms/inline-images/Amazon-logo.jpg',
-},
-{
-    stockName:'TSLA',
-    logo:'https://www.carlogos.org/car-logos/tesla-logo-2200x2800.png',
-},
-{
-  stockName:'JNJ',
-  logo:"https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/478933/jnj-logo.png&w=2000&op=resize"
-},
-{
-    stockName:'GOOGL',
-    logo:'https://img.sj33.cn/uploads/202009/7-20092H14615G5.jpg',
-},
-{
-  stockName:'MSFT',
-  logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcRMx1eAeeev5nlhXteviXHk7-hco51jw3qFdI201RLpw-PRC8CsU4-B'
-},
-{
-    stockName:'GOOG',
-    logo:'https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=595&height=400&name=image8-2.jpg',
-},
-{
-    stockName:'BRK.B',
-    logo:'https://1000logos.net/wp-content/uploads/2018/08/Berkshire-Hathaway-Logo.png',
-},
-{
-    stockName:'UNH',
-    logo:'https://logo.stocklight.com/NYSE/UNH.png',
-},
-{
-    stockName:'JNG',
-    logo:'https://logos-world.net/wp-content/uploads/2020/09/Johnson-Johnson-Logo.png',
-},
-{
-    stockName:'XOM',
-    logo:'https://1000logos.net/wp-content/uploads/2017/08/ExxonMobil-Logo.png',
-},
-{
-    stockName:'JPM',
-    logo:'https://media-exp1.licdn.com/dms/image/C4E0BAQFN7ZGRjNcgeA/company-logo_200_200/0/1656681489088?e=1674691200&v=beta&t=X-cjvksJQnQC-7WW_-XioaakKvGXjsRul6nKQPy7CMg',
-},
-{
-    stockName:'PG',
-    logo:'https://upload.wikimedia.org/wikipedia/commons/f/f9/P%26G_logo.png',
-},
-{
-    stockName:'META',
-    logo:'https://blog.logomyway.com/wp-content/uploads/2021/11/meta-logo.png',
-},
-{
-    stockName:'NVDA',
-    logo:'https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-vert-500x200-2c50-d.png',
-},
-{
-    stockName:'V',
-    logo:'https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg',
-},
-{
-    stockName:'CVX',
-    logo:'https://logos-world.net/wp-content/uploads/2021/08/Chevron-Logo.png',
-},
-{
-    stockName:'HD',
-    logo:'https://builtworlds.com/wp-content/uploads/2021/12/HomeDepot-784x441.png',
-},
-{
-    stockName:'MA',
-    logo:'https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg',
-},
-{
-    stockName:'ABBV',
-    logo:'https://upload.wikimedia.org/wikipedia/commons/c/cc/AbbVie_logo.svg',
-},
-{
-    stockName:'PFE',
-    logo:'https://upload.wikimedia.org/wikipedia/commons/0/0b/Pfizer_logo.svg',
-},
-{
-    stockName:'LLY',
-    logo:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaN9VJr3FSNQa_KkKN4o2wuiWYT-DFPZJ7JFrFSK8&usqp=CAE&s',
-},
-{
-    stockName:'PEP',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcQuIAEAP1LWAw7GnzfTVOY0KZ7l1yiO3eU2KvsjCVKF4MJ5i96UPe0Q',
-},
-{
-    stockName:'KO',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcRXQC3om-f8tjzZTwrziW0_vaiuNyYqjFo_ynQQFN-tM6R_KxU7PDTn',
-},
-{
-    stockName:'BAC',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQ3Srvj93_lfrKNhQRByAttOB5dsRUh0YvinsyMrWf1gryfrlCZ4cis',
-},
-{
-    stockName:'MRK',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcRsfQeFuPzcg71U9xNlccYssHo1ozXcuTHW3Kf-bjpCrJPg4CeoaUjT',
-},
-{
-    stockName:'COST',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcSVjJoFdnW5Qi1XqARczqfdSdumfQ5js4PMI3CPcghufSPGsPdzJHCy',
-},
-{
-    stockName:'TMO',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcQcQ1rcCPDRNYV61gd_pDQ1Lp4FstGMMTTmWbMNt4QQgd6iFCvOoAOZ',
-},
-{
-    stockName:'AVGO',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcThPFZw7fbYAZW1se4mMg1QtBVg74_a2nZxGqd71D61QbYvDIMokHw',
-},
-{
-    stockName:'WMT',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcT1UIvGIRT7Cvfw87_jK_D0cje4C9VRXXr_GOhHAnqwcWFFlw3Obvee',
-},
-{
-    stockName:'DIS',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcQcF8QSLExB1ss8mKY3_66O0O6VtEVPk0mgRlh5gpbNA9SJ8kbeLQmO',
-},
-{
-    stockName:'MCD',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcRuc7bzEu1k0PCkfj4E8zSM4TLy3Sb3M6V5209tJTwUxr9xSDwHy-M',
-},
-{
-    stockName:'ABT',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcQKadCR0NwRAH56YPm3maoJLHVQkOfvkjeWdg6zZ1AFsBckM9OhHfw',
-},
-{
-    stockName:'DHR',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcRsGuJDhapLkd_HKe0YY5yNtpw9I7gSVgJwt2DAH-MMr0zJb0V5jUi_',
-},
-{
-    stockName:'CSCO',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcTk2c_z7Di9T49kgy2vmPgTWFsxqU-a4MIJu4W_jpZVPY-FcjVLv4E',
-},
-{
-    stockName:'VZ',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcTLKFTfkB-QR5lwM-zpQPMSftAyHOtl6BZYML4VXKfN8L5gLFOHn-Is',
-},
-{
-    stockName:'ACN',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcR53P7576KMxmXrIwdVEAMoJL1Lg3isb42rCLh2mFcGmr4rcfMEiE3e',
-},
-{
-    stockName:'NEE',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcTLSvZWiRs3p-KslSp-I6GCwhStcoMDC9OJCadv_9uMtX9bo75RavfH',
-},
-{
-    stockName:'WFC',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcTPgC-vr06sPVVFyxVpyez8KYXTVAqIGhSBqpoLFtMqNxa0SqSLr4A',
-},
-{
-    stockName:'BMY',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcSyi947gKggZBfHtmxnMzX6kkFa0cEDnZAEMGUN3jysmhd8RjNHMtOl',
-},
-{
-    stockName:'CRM',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcSHJiM9Qp9floxTCFTydt_SYdo4LqiiuZxqZ2EL2QCHmDRwW8oJo3eb',
-},
-{
-    stockName:'TXN',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcSL4tr7Tx6JzuWw3s9PO8wDZw-ZANHtDFBiNPpdbkHPKiASj7BophBl',
-},
-{
-    stockName:'PM',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcRBgt6zFKXpp67h-hlgUOdtJ6X3_GIGnaU_DaLx9Ba_GVJLHFZXq4zq',
-},
-{
-    stockName:'CMCSA',
-    logo:'https://g.foolcdn.com/art/companylogos/square/cmcsa.png',
-},
-{
-    stockName:'COP',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcRtgvWsflAwzImKVZhwe-i-Iz_2AB9ZSllHlkDHhB3VgvNkUUmzNtqa',
-},
-{
-    stockName:'QCOM',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcTqW6WDSmWvX7Tm9cHtyfHG_r-HkDVxIDvEWOiCwOUGl8CJZeTT0EPj',
-},
-{
-    stockName:'LIN',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcRfv70cXUNt3OgAPcNVAV8X2qNLStKixSxiGfUCUCyfP--kho4hXriC',
-},
-{
-    stockName:'ADBE',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcQTvrSYbwa0y8estqrmp0KKmcZHZXywBpehkDVFT4VaoJgTXZqr01k',
-},
-{
-    stockName:'CVS',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcRaoiRKMyHbmbRMH_G1_XnTN8abDo5kEf7lNCCjzY3A-qPHMmZPTr4V',
-},
-{
-    stockName:'UNP',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcTc1PUdwrBynIsZyJRUvAXHXuocTOmgOfRSH94nx5Ywtbuw35DGeIk',
-},
-{
-    stockName:'NKE',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcTQtXJKNfWZEpidzkbAh8DEmisRgzPxqr3SIlHyBSoLKU8OMMnkYBw',
-},
-{
-    stockName:'RTX',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcRg7rOgek0rVIr5Ary1bMlC74peyQ3kDO-Vu8jiUDOBofLXlk5_khmP',
-},
-{
-    stockName:'UPS',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcSxBuhM_oQloZ-j67of8uLPQ5H8QjP7nBlE9wlya0-el9Mw7-nUXkw',
-},
-{
-    stockName:'AMGN',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcTAN_nD2s01oyBQB9gpxdFhCOiBuqxCdb-rIzfkcfItKyrcXlD-dvc9',
-},
-{
-    stockName:'LOW',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcQCPd3T7Jmy0MLw4-YaSdSO6etzTT3wnsybEO4I0b6R-LeElwfP1rE',
-},
-{
-    stockName:'HON',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcRVyFUHxWtCvai33MfDEY_gr6Fx-9jqR5pKsX6s3Vcg_GbRvx3GxLP2',
-},
-{
-    stockName:'T',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcRPukPy9nICGlyZhFPMPmFREBWch5jLT0OTgDbrJiokjQszdwDb2XE',
-},
-{
-    stockName:'INTC',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcTZZOgFOEpu1syt8MCpZtdVytcVdprph2RdR4JC4AjfJIz4yKwrugg',
-},
-{
-    stockName:'MS',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQ26QYpY9FcZ6DpHAUHEhIlNzAHj4-UKDdul92g7QWP1PyJlC7xTXjH',
-},
-{
-    stockName:'IBM',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcTeam33x4EW03osEct0PuuXxx4GmLB52sw5pdC5uGlTi7xN9EgX2KQ',
-},
-{
-    stockName:'AMD',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcRVfmvxv3qaK5C4lvT-2MCt0hs3FJicQGXdJ_P-KR5a8XPu3YVCCrk-',
-},
-{
-    stockName:'INTU',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcRTuFs0fp0TXZw2w9SupwCaxw8hQjsSNRJP-xsNs8ChgzFIdHEYmbiH',
-},
-{
-    stockName:'ELV',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcTJ9pk6n7hS45pDjxst2fhwaLzgUDZkkrzYuO5gj2XtHZxTfFsDLCWg',
-},
-{
-    stockName:'MDT',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcSQBOQwDZcehgPyBxApdAa54JfPEXa_0wQo7v8NNFsuJyTcgaWRvT-3',
-},
-{
-    stockName:'SCHW',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcRbbtpeaMGm9ekBJcdLvtyQqBz4fX7cMhqCxZPkAp0bbi92cNSCpiU',
-},
-{
-    stockName:'SPGI',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcRHBOh6Z1um4EthbWKpXuVm1j3RKzRE3DgRyzVE_Goral60XbzJkRR8',
-},
-{
-    stockName:'AMT',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcSziSaI8vwTPK7FrMbyzX6QDaY9O9htMtOCanp4iIsNbOXRRhP7tWd5',
-},
-{
-    stockName:'GS',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcTPz02ESXeDmEn2_jaQVdzc6rjpeA3ngoXD9ThFwTiuGxQ5zofpp5IJ',
-},
-{
-    stockName:'NFLX',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcSd0APHPShnOL34yVvMKoxLQ4jmyCsZQzB7iRtKaKZmjOPLXnVwsGY',
-},
-{
-    stockName:'PYPL',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcSGd78CNJYuNKRk81uksUQ6KvRaE6wnmCe8_SGxtPpnT18klvC4zsM',
-},
-{
-    stockName:'ORCL',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcT1BV6cOrVe1GxRnn_sZx9VS1w9WNIKSY00p-GRK_o5cvfswlP9BxU9',
-},
-{
-    stockName:'LMT',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcSTkn_IqBXNLst_49GFY47CbMV1ejAsQqvKw1x64vESfB3pTknxmND6',
-},
-{
-    stockName:'SBUX',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcQ_opzCOWc2VFgvEWbsz4cfoVZngJX6ro1YGeMZX7DP8O1rv0mvzKs',
-},
-{
-    stockName:'DE',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQNFC1lleSi57ObjTbFYfaTU9hhGg1uBFqAfuVtGj0D_6YEHeKa76W5',
-},
-{
-    stockName:'ADP',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcTGGdwCC9wZzUgmzSPorCHjp6oUqP3jFtrVBMTfzwf8j_cpJzu77gBr',
-},
-{
-    stockName:'BLK',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQy9CvrsUOGqXYnKzzJ1YYAPFwJ-8IR7PnvUYM9ZOSmJWz7_9i3Fkpu',
-},
-{
-    stockName:'CAT',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcSaSyE83Bfn9OgimyBeQQ3eSKW7k4THgU3TOCf5gpjOjk8tJRa6FEV8',
-},
-{
-    stockName:'C',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcTeHmYGYLlDpn93QW-XdcjEpajsSS6UHr8Uk3b-2D5chFf0KUPAQmAH',
-},
-{
-    stockName:'CI',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcTxix2y1ky-CufNf-dyHNRpbcXZk4q_C-hGw4kD9OqEhMxFPgmRSvA',
-},
-{
-    stockName:'AXP',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcQ9oCCQm-RQEHFB2g4iq3Scz8cKU9HKzAawSfGsXQlTgzVSUw3Rx5g',
-},
-{
-    stockName:'MDLZ',
-    logo:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcE3MhIZ1Yum6RABrxJrYyrg5HQ4yPndDe03XlbO_0&s',
-},
-{
-    stockName:'TMUS',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcSiRydiKQjjrdxx8F1jFRkRxyLJjQ54olrCjrqFjUhYNuEXNQKXN33b',
-},
-{
-    stockName:'SO',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcShg2vEOJmObMplEQQ-lWelFJvdvNSKMu4JvpJ2CHEhvB8p33ZPv3k',
-},
-{
-    stockName:'PLD',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcSROleG-zxiEeQ6PB_OHgSn1-3AyCaTtX2qDZch8dadN0TvV-jXqn8X',
-},
-{
-    stockName:'DUK',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcRspiMTSUglPk7GfgEJeadEB-l896kUy_3rUkmHnygP7dF9YAjyBc0',
-},
-{
-    stockName:'GILD',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcSc70jMxgilbjpycBAseny2HRlLNmnNWFxFoC6AZP2aMNZJTAqBWW8',
-},
-{
-    stockName:'NOW',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcQSrWUW1RJAWauPt3D1Ym8SiKxzLSMo7eABXzHoI1gAmg5d2Rf5Fa6S',
-},
-{
-    stockName:'MO',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcREsDuWJUMNY62oj9lXBlqEAusje8rhrmGH0kEbHVzKHbGpVUp3fs7E',
-},
-{
-    stockName:'BA',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcRjntzJh6sxPv6tfuwq8vFTx-3vPL_4ss1Iuebd-RgdQJ9_deN1kvWi',
-},
-{
-    stockName:'ADI',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcQ8XcHeWzX34NxLLg42McJnVOP3dIkyEkE3QOqY0jtkhW-neFFRTAtw',
-},
-{
-    stockName:'CB',
-    logo:'https://www.chubb.com/content/dam/chubb-sites/chubb/us-en/home_page/CHUBB_Logo_Black_RBG.png',
-},
-{
-    stockName:'MMC',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcRS_yx4YEz2b3Xm0riXPzHChbhgya_8G287JkdidAVZHLtpEGq_Lmae',
-},
-{
-    stockName:'RGEN',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcSVP6WM9xt7Gz2VGAJT5NAM0DCzmxQgzMPGnf_rYqVp5NaSWitS1Zy1',
-},
-{
-    stockName:'AMAT',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcQXIGw1oZwL6D2sWnb84naLn6gSd_9ckqGf-mgphjOFrDsPhTKWVT2S',
-},
-{
-    stockName:'VRTX',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcSO0E5JlxrHbQ1S__TCBCC9-c-wg9JjqN105V7vjNILWoHSdW2w_Iwa',
-},
-{
-    stockName:'TJX',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcSmVyyfVyWz-YZ_SCwl4_uuHAEmdO_tg6eO_RFxZJl7sScG355JmeVV',
-},
-{
-    stockName:'NOC',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcRI76qzdJeVKX7BZhrCHAfaUsxMOLS5Z064HCMihWwc0JDhUlP-RuQ',
-},
-{
-    stockName:'GE',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcSVGgz-7c2cWFzdLWOke4Pak-wdqivfmy8UJc-ZSWVumTPSdY_waT4',
-},
-{
-    stockName:'PGR',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcSZxm9WhNOFl__wELwtjywuqFANZNcJm4RcKGVh4sPdrT5sYcnefxAJ',
-},
-{
-    stockName:'TGT',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcS_ekU0BCjiLObk98gihLTovnX_dy71oyBJiSXWtWCcaFrZ-IGJqus',
-},
-{
-    stockName:'SYK',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcS354OF-GKlXJRmkzoicBnPM45NOGpG9pk2DFG0P-BW5iLgBxcbLvr-',
-},
-{
-    stockName:'ZTS',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcSZgQoMr3P2ZVTKi-YfEPM4lDhdrDRZeyrwqzGZ85pNEl4F1KHfFWPw',
-},
-{
-    stockName:'EOG',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcSQm0CL2kHsqkjiNtgkr95i5zt4TlbO8pXYSoIDy6D4oxuH2D6aRPEq',
-},
-{
-    stockName:'ISRG',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcQAsqfVstUyPl6CpyYIHZwPB6SMSxqGAsn9zgCdONv3ujEbREj9Ccs',
-},
-{
-    stockName:'BKNG',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcROWjV0L90MYZKZ2nMl7eD6CmmpQvChg-_csj1OY2JDXzrIWHdF6Xlt',
-},
-{
-    stockName:'CCI',
-    logo:'https://pbs.twimg.com/profile_images/1573272674985705472/K1kaIFBL_400x400.jpg',
-},
-{
-    stockName:'BDX',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcTpOuEbN8sOkd-V6-770AYcNPtBK20B4HXI7ugwkC1qTE9CQ5TB-iLw',
-},
-{
-    stockName:'CME',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcSmggSEHe9Hf-XdWtIt-3TBIQO3dv9Sd9wP-jGje9oqzRDm2LXt5PfY',
-},
-{
-    stockName:'D',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcSRHAeHI51DVPcuQegrGYaooKv5uC_s71xeXKGJvWFu1c0xqH8XF3AZ',
-},
-{
-    stockName:'PNC',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcSk9U3mKbB5cskbAiTjKAj-3Y71AhyFhCtCCB-c3DwhkDCSjGDHMts',
-},
-{
-    stockName:'FISV',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQ6uDALf0aaeuG6xDTr1aQRPEYw4s2wujfR48UjZY6fDn3C58QhbY87',
-},
-{
-    stockName:'MMM',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcRwAgzS_nsG47cqICGGJKa_gBIFnVy36l03s8TXoXCby-Ou6xayq1ot',
-},
-{
-    stockName:'CL',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcQF1fV6E-hVoU_6ykbuwhxOvHc5zjelS39zxBZC-TIaPLX5aZZk0nRI',
-},
-{
-    stockName:'WM',
-    logo:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wm.com%2F&psig=AOvVaw18rEumbo-MzgItWrmUYjq3&ust=1666599000979000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKCN8Zvz9foCFQAAAAAdAAAAABAE',
-},
-{
-    stockName:'HUM',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcRH5GsSvTgVC82TaA0eVfRR-BsbFF-XqpvkZAFO74MJ90euKQp3aMGl',
-},
-{
-    stockName:'CSX',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcTHZsOD6ei25yfa320SDVMjZNU9Uklv5P8UtzG5S3JjP8EcTbIr3e9v',
-},
-{
-    stockName:'TFC',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcSqO86x31UkjdxWoiyTGIjQ6Yh74Pn-RdPQBAilv8Mkd1N8YhqBdL6d',
-},
-{
-    stockName:'USB',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcSCVgZWcfYF2j4L0kLwEP8bUPfyFS2rJIu6lBmbox3kUg8D8Ngo5_oh',
-},
-{
-    stockName:'AON',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcS80fGyuXXRS4SjSCCE31phSLUZamX2WgjRdEX4FEKNmD6H7qIHrGju',
-},
-{
-    stockName:'BSX',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQ5v49I6xrWDSBx-igPUVlRRz7BXE7NFUp4cItTZMvqekNDPIfQE4oG',
-},
-{
-    stockName:'EQIX',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcSwnDmlusIFRRXUWcLQSYASryMk-UUUnjBvxfqVEi55k6BSBVV3A80p',
-},
-{
-    stockName:'MU',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcSIjk2jyrAETFM_fWOEUk33FsgSSSfwnFeV58U5CtC0cjetwcUbuJf5',
-},
-{
-    stockName:'ATVI',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcRx1nhsdFkrjVM2aY95g6DDBkjYXgAVwvH5rbxVlmjmV03oDwObVtpJ',
-},
-{
-    stockName:'DG',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcTq1rmh2N2a7KQCYBElBoJWySEQ8E5nHjyoKMFMdRuK4QzXn_T6-DwR',
-},
-{
-    stockName:'GM',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcTchy8DrEZj2axmHbeCEaE2-9kyvNokjfAFZWqEeFkbx6uI3Nz7AqA',
-},
-{
-    stockName:'EL',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcS8U7vcxAys-Fl6NYRwIo0IrM6JMkApyqeTVuCZYh44juwTwIw-2IX5',
-},
-{
-    stockName:'PXD',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcQgwfx3lJVETC-Ogept4skTz-UqRntchQDXKRPXGNZu4Gn1Btd4Dj2e',
-},
-{
-    stockName:'SLB',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcTdfdpqNHn6BOYrzXG7khf4d1fZOV7kdDEEfxT4SrI3_VhrGToBC1XQ',
-},
-{
-    stockName:'ETN',
-    logo:'https://www.eaton.com/content/dam/eaton/global/logos/eaton-logo-small.png',
-},
-{
-    stockName:'ITW',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcQasx3oIrjycdHOwCMaN5EsCZDTtPscBA5a8NRgnTC3wM7rsoyPmmOE',
-},
-{
-    stockName:'LRCX',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcR96o0ghMNfNOPoYxkmzmSv8a0YIyGLH50giS4LSwIO2nYEn7m22Xgt',
-},
-{
-    stockName:'NSC',
-    logo:'https://www.marketbeat.com/logos/norfolk-southern-corp-logo.png'
-},
-{
-    stockName:'APD',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcTgwrNuI9ltCN80-kfKU-yq1YqYEGBAdfsr3uXmtS_4KcUQ0oYnbJtQ',
-},
-{
-    stockName:'ICE',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcSST2qCDxoHQT2z5cLhLoPnpKWuiijbZRsAr5UJCSX1W3xiKXZuGLs',
-},
-{
-    stockName:'EW',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcTK2IbdfRDcnw8G_4FNAyVrOJg3--BAb99Jc2eOQf1Lp35GvkPBlc0',
-},
-{
-    stockName:'SRE',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcTe_oH7ayhoQhc-IFF498UMnuEkr-tPpEO1w6-bgUn9UAH-SzsfRxsm',
-},
-{
-    stockName:'GD',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcR_hYLY5aB0bwfi-55zPBrtnUay6BP_qMG41e7XkqbHAgPHN2npg_Rp',
-},
-{
-    stockName:'AEP',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcT0lCR8e6Bl5bQSkeZNsqLVxNYsv3sSIgeCUOSJpTY5v3Sy5fUTrZwW',
-},
-{
-    stockName:'F',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcRxlQ8A0tiAjxgFfkyG7KUWjnN0ZGWvJE3YNqyCvSOSQO27BnGR',
-},
-{
-    stockName:'MCK',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcSrhvNzsCvG3_Fwn79jFyZYYbd9eHRKP6J2N2fbnXSsuT27oBXEz-ME',
-},
-{
-    stockName:'SHW',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQavezpMpvjmZ1uIuPyRfD1CEDDnBkUI1TI1UVnjIgBkjmTVqxW0pxW',
-},
-{
-    stockName:'FIS',
-    logo:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/FIS_logo.svg/220px-FIS_logo.svg.png',
-},
-{
-    stockName:'ADM',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcSpNlIJZdRxMchR3j3Rm1M69nt_goqgfqtHygbHbbvOoPtXPwNQIGBV',
-},
-{
-    stockName:'MPC',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcRuagH2NQbEHDrJTn4lqBaY-C47Aqu0_EVR_rt25CYKl6YxWQyWMwGK',
-},
-{
-    stockName:'PSA',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQCqKQpy6VJPSRprS23N-iQ6qkWemzoPmL33zho_eoOHc_vkXtrJDSr',
-},
-{
-    stockName:'SNPS',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcQT32oc5KO_pTevP2nBS-hgY9iHuml2sOUJDbuHwfEBPf6pb_wKZ61J',
-},
-{
-    stockName:'OXY',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcSaLv9FPOehEDHYyCm5NtAsMUj_PXohCsybyUZeR9MXA-HJUeI5vhY',
-},
-{
-    stockName:'CNC',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcTY6jOddqYiTDErTwrjFSx5LVhLl1rW9ks7nE8Zr2kGD_FKA-feEVh2',
-},
-{
-    stockName:'EMR',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcTkgXuffREZGtmEZ5y6aNQSvcePJsHm1XRbV0okU3ZEWSe_syU_ItR7',
-},
-{
-    stockName:'CDNS',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcS9zb64rpRzsYmc4RgDwXdMxxLSuzhx9Dg9YqvtMY5l5dpusajBu3hq',
-},
-{
-    stockName:'KLAC',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcRhfsbrtihqN-ThdpCbaypSCUnT91BEIrt9Mt1--VTHCTJpq6YO0gnR',
-},
-{
-    stockName:'ORLY',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcSV9M23Pu2Dc1wUDVpZjdd-X8GIyTPIDa2GInQJR0F2XQ2fIdJVy4cl',
-},
-{
-    stockName:'CMG',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcTH-DF43iYosopBff6vMg81m187M-yLHiJr_wqmE8D_soj9dvD2TRk',
-},
-{
-    stockName:'LHX',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcRjuHak1YA4cdAvOrPATyAsmmgiXZmVlbqtRq9kzHJW7cPZw8EpqYeJ',
-},
-{
-    stockName:'CTVA',
-    logo:'https://cdn.dividendmax.com/companies/corteva-inc.png',
-},
-{
-    stockName:'MET',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcRg6pOkSL-Y0IwEP7_vMhNt3svFreWXl3OX7MAv2KU4_ZKNaTxzCEm3',
-},
-{
-    stockName:'VLO',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcRf5swfZ4aRnBzdsNv_QP97Iz1Nr1ljzuiszKX3Dv7azD-qdvaggfeZ',
-},
-{
-    stockName:'MRNA',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcSGQ595xPww4-ukL9Lby4-Eoai5gRFnsn93YXq_xwk9iMrhRHtJ1-Wl',
-},
-{
-    stockName:'HCA',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQFwFFpBN-MvlBlU0lfb1bZQkFqMfEmoPboM9v78kdjwhQZLigIIuaX',
-},
-{
-    stockName:'EXC',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcRgsf96zIElgxZzjISMvHLUI0U8ZSyhTXsQZ_mROwg8ebbC5unFuUJI',
-},
-{
-    stockName:'DVN',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcQVtUYbi0g-8Z-RTQvyW7HVtN97pDh9LPMqvqcfJhAfU8qPtMuEDJUB',
-},
-{
-    stockName:'APH',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcQfYdXUk-wDL4H1g9bH51IXMeAmBv7yOremEbrf6o3BtUDsRKmktG-H',
-},
-{
-    stockName:'NXPI',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcSyp8bF2EkULDw7ydHVRZC3p7uTQFHfGxRt2iHmnV2g5k-beVAsM-0H',
-},
-{
-    stockName:'ADSK',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcT_kz6-GzlivpZBb9u5bM99bLxB6VK3rCgNiOhH5MypB7VvMNs7lQtE',
-},
-{
-    stockName:'KMB',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcTxcihRtbzUo3CfVRDUWwedgO2nCoHfIHHqfDqfM2Cpaxszm1Ew36q1',
-},
-{
-    stockName:'AZO',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcQDFyJgOozFihCvdHqrV8EpZ9fkLPuXfy8KVxGZxgz8NPrDh3iU0xBW',
-},
-{
-    stockName:'FCX',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcRXkSmolua8c2KobRBrYlfYZ-bPIdSaqCA70kMfZa4yuD-a4a119fCM',
-},
-{
-    stockName:'MCO',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcTdEvzrM2z8ZuptYwEuIMwP7o453UCUzSEyednal3DFUFMiFe_3AfUX',
-},
-{
-    stockName:'ROP',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcT7bIh-XO_FdSvqjacXP8YOaKGr8Yn-YXoGW9yhsogxkcKpv7OspodH',
-},
-{
-    stockName:'PSX',
-    logo:'https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Pakistan_Stock_Exchange_logo.png/150px-Pakistan_Stock_Exchange_logo.png',
-},
-{
-    stockName:'SYY',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcStCFmaJGxPlDtBAYkmU3-AdLbNBpu8IeoMbtSl6azbhdME14pIfSxe',
-},
-{
-    stockName:'XEL',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcSY5SfOm23SM-dLHVMCowYO1iGnR5a1ncHHamkEZvYmwb314nLBmFOe',
-},
-{
-    stockName:'AIG',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcScItIPcaAIzpWM00K3OdlSi27Zcgj-TfruUnSpDd97M_BHG_XyYyY',
-},
-{
-    stockName:'MSI',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcT4mNAholPUDGW-7ZsLxUvDnW4yK9yNiExFRd6OdMRZeadQkT0Umd8z',
-},
-{
-    stockName:'O',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcRmOnLuetxzPr2lun3oJGh51JgEOff50wi75etoi61rXO5iRlZUv0A',
-},
-{
-    stockName:'ENPH',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQXOWlwl_71VJEek6Q8HbqD1iq3pTvD8KWMsOkViGllRFZgdQS8e9Mf',
-},
-{
-    stockName:'MAR',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQFzp4ClvqdBbndZnZJy-XXzEaEpKm86XJtoGxMi5B2resvZYMfq6U',
-},
-{
-    stockName:'WMB',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcR0Gf5wKMNBJ5RAD6GoOVbdyv7PkAwVbuSUZ7cqEGAPTToTve5UAtkX',
-},
-{
-    stockName:'STZ',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcSCRaTQXVMgKJ3Uyy328W25EPFpMLu3vMTriT_wZ2AmD8H61S5H5p8',
-},
-{
-    stockName:'TRV',
-    logo:'http://t2.gstatic.com/images?q=tbn:ANd9GcRZOIE9nP6_9a9ijG7JVDdqTILOzyw_YP1ZLObmMMe-YyxbYiaky96u',
-},
-{
-    stockName:'PAYX',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQ4EOW6m0hNGy02U1AKIdt0crnfEHPqFT4Lvy4pZNJPS0JjoohO-vwK',
-},
-{
-    stockName:'A',
-    logo:'https://acsanalytical.org/wp-content/uploads/2019/04/agilent-technologies-logo.png',
-},
-{
-    stockName:'TEL',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcTEMy3qeuAiGnWJ3FATkBmWEHxmoHLeBgUf1Y4UokxuvpVUqzDSYPPb',
-},
-{
-    stockName:'CHTR',
-    logo:'http://t3.gstatic.com/images?q=tbn:ANd9GcQzxNDkv3n_pSPAbE6cANgFH2f-gWn1U9J8sUV6kkoCkBf6ArNmMQgv',
-},
-{
-    stockName:'ECL',
-    logo:'http://t1.gstatic.com/images?q=tbn:ANd9GcRdo6I2StUB8G3dgBnG2A5gYo0thRj-faVPjMKUU5Wy8JeZNUXRnVAp',
-},
-{
-    stockName:'FDX',
-    logo:'http://t0.gstatic.com/images?q=tbn:ANd9GcT1LQXc4GLV4rxEFnA6t7LtzSG0Xp8TNDLwK0sHLhtAu0XzBOeaX4dA',
-},
-{
-  stockName: 'APPL',
-  logo: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI&psig=AOvVaw22bWveoGa48BQhzfn9KWqR&ust=1666349647491000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCKilxKfS7voCFQAAAAAdAAAAABAE',
-},
-{
-  stockName: 'HRL',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQecy8f49SNutIsmUyIy_eYRqnX9GCa7dzhjKDRRr2NJ3pdWgLm-JxK',
-},
-{
-  stockName: 'FMC',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRFJw44E_Pswr1vz2kK_v1Ht3boSvD0Wbu5qCHWwQXcSQqna3zvWzDX',
-},
-{
-  stockName: 'WRB',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTP-V0BWIuqznxx0asLXRDyNhrQx-IFiiu1SF-DvOnq_3bydd5xvbg7',
-},
-{
-  stockName: 'COO',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSxpmeTLw82HkuPlDWb5Y1NmEL6tGH5Zt1D30Wt8E8-IjX44rxGjYmG',
-},
-{
-  stockName: 'AKAM',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSOzyg5Yz3dk6eHCvE5R4pBhYEKFCYLuMbfunVRZzx64OQQskRXSEzH',
-},
-{
-  stockName: 'PEAK',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcS-QLHX8ZPc9yCo3xdmAD-qgX5aQ_M2p3FIrKrAX7Oiiz5OQeBrSj4',
-},
-{
-  stockName: 'CPT',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRnD-l47ltM26kXAV-KOu7rq-bpUHMuZow_-rg8Blj2NdY9rTs63PTi',
-},
-{
-  stockName: 'TXT',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTi7QcGTKGKz0S92tc7Zy0i873kQQrOChxkvY4KRKP9qJOY6vQKvVss',
-},
-{
-  stockName: 'TER',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRIcRxVPCez07qukM7CfFWyvX2k4q32011jmpl5sfqaPXWfAdMP-jSh',
-},
-{
-  stockName: 'KMX',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSH5NPcOUsT27y9MvwIJtLBhlu2RdIBxzLKi9x07zXFxiOC_1MceII',
-},
-{
-  stockName: 'GRMN',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQycsk_iVp_yLRL6dVEIVXfdSf85TFBtQUjhqgyV3Vqc8SfEPJbHmM',
-},
-{
-  stockName: 'CTXS',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS72prp5erlOrFt6FXPrhMi5N7qAMZBnu0lRBcorbLLhmRnsilstiZX&usqp=CAE&s',
-},
-{
-  stockName: 'BF.B',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ3IMuu84bEL_3N3U6iyezBdUsc6PvBq2gyss6Kr6_8ZlWWLww8XI9s',
-},
-{
-  stockName: 'LDOS',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRPNSrvCXC-l4wNa4vWzHbeb6c1bvlVB-1499uNRcLsgZG9OX4PE26J',
-},
-{
-  stockName: 'INCY',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQbeWWAEWK03-QO2LjHTLjZ05GXyAXhEpuLTvQb9RSuEtD6PVWfW_yu',
-},
-{
-  stockName: 'POOL',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRJyJpdEdA9gJam05N-ZzR1FRg7RbNJq0OyJRjZIli14etazeATDnY',
-},
-{
-  stockName: 'IP',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSwXqFtY4-WRMjRzD472YEpeufT_Mtrn-O2gMkteIXZdNRwM7eS6qR7',
-},
-{
-  stockName: 'UDR',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTbFNamkF3nVPhTnr4AeefkKyy1YDu52V0YD9udE5GyraRrTTyX6Ru8',
-},
-{
-  stockName: 'CHRW',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSPijywKZllYGq2tP4zt-6mkRvxzq7kdISdjO3cEw-UR6ZAxo9xhLtd',
-},
-{
-  stockName: 'CBOE',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQ-igZOCMBWh7fm_7NVJpJuAj_d4nxoaKjqCTJIlQW6fKJrNvkmIVCl',
-},
-{
-  stockName: 'HWM',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQIWW7oHzlUmztrrMF8884GtT1ZshcAGOJuMqpV_o7Oey4iLxiJn_M5',
-},
-{
-  stockName: 'LKQ',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTsLtu3qZDSQDBoqIuKJOazVc1c2IXADW-4blUF_hor2RehbRiOc_wF',
-},
-{
-  stockName: 'NVR',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSp26GFoDOcEQVJGVv2z3IbNEM9O94wITZI6K93kQjvPF4V2QgfaAo-',
-},
-{
-  stockName: 'ETSY',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQ9Fhtpvzf5j_fc8IqSCE2vXGy6hFXFxwsVkgi_-8imrqLXGJ-KyQqF',
-},
-{
-  stockName: 'NLOK',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSWciXxc1czI80-bbqKWVp5zS7OKDXXvrSS7NDeD5Zaw6ADywaBuiPl',
-},
-{
-  stockName: 'SWK',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRJGtlbAdL5UPzbo6_H8V5WJwZlfWv3Ln1SPGOV7miOG8Ia_Hm-EKNe',
-},
-{
-  stockName: 'APA',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSZPMZgXedaAbTv7o0P6h2-QpV1jpq5tGwuU4TtbIEhXK2Ra1p0SGl7',
-},
-{
-  stockName: 'KIM',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSqbNV0lXaE8KNP_wQLdhsgjqUBmdtgFUyzvJH3R1rVBXGBv_Ys3HEl',
-},
-{
-  stockName: 'STX',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcS_eIlhcTifuIoSTiv8mq3JxqsEaveyze2QE6aki0NRSkwSQMs8s3wf',
-},
-{
-  stockName: 'DPZ',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSGUjyluj437U3LLly83BheinXfjJ5V3Rfcg7ZDH3rsgHxnBHs9RxM',
-},
-{
-  stockName: 'VFC',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQzyxhrlzfR0HD_gcI956RumQGFVZyvsaD8m7l8Omd1fWi_rUfyWGk',
-},
-{
-  stockName: 'NDSN',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRu5FF8zIzzJTcVFaFsqPf5-5IykYWhtkhDsfwvPqdUn3WGEgNXPrYB',
-},
-{
-  stockName: 'LVS',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTDZ_uUP0SGO4lpyKVJxW-LhLGVvdo8lce6GFI1tvPV29h3GeIHfxMM',
-},
-{
-  stockName: 'NI',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRowgGARSfAaPa7zz00O1AzDH8rKvhlGQ5U_1j5DHad0dB5oMPVAt8',
-},
-{
-  stockName: 'PTC',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRtjwfDseSWWfukb9d2U8dIX5OCzoARaJhyV7NH31Vjugolmbudv_v-',
-},
-{
-  stockName: 'HST',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkTiG7eGaqs2sXgciLt-LQ98-lbeHuL9O3MBCR2qM5BA&s',
-},
-{
-  stockName: 'SNA',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT52yB-bwrwx6TI7LybMqEBGQ_QQjsFYw_ib0TC9IOorK9BGviqPnHg',
-},
-{
-  stockName: 'LW',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT6N1xZDerAMQBeyrZoqXqx9WaBSdIIQVncpya89CaEpouDGOdlczYP',
-},
-{
-  stockName: 'TECH',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcR31IzROzgJUWvcQZH0SQmS0Ak3lNJfu4G19Sgp-xKPLBJosKX5xYbG',
-},
-{
-  stockName: 'ABMD',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcR31IzROzgJUWvcQZH0SQmS0Ak3lNJfu4G19Sgp-xKPLBJosKX5xYbG',
-},
-{
-  stockName: 'LYV',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQkGxLyFcRSPU6KMiYGIsANu4HrTK5owbtSFWPz20GHrQhBAJkLDH8',
-},
-{
-  stockName: 'UAL',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQ3eg1upH6WRWU2hv_Y4l8-onEEbIE8M4kUtniDwKSKIJeoF5Y_l-4',
-},
-{
-  stockName: 'BXP',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRJjTYZJEtHYA_c-TVO8RqudQrhrTfc4Vw0VN6o09XVl4sTbicvQdlQ',
-},
-{
-  stockName: 'PKG',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSGbK56o-Vsy9_2JWB6WxS3v2LTJKYfOsebNUvwU8XqaykbC-QvKQEo',
-},
-{
-  stockName: 'VTRS',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7kjN7L85kYqpCG8d02sgcoOfu0mp-Ax9qoWcHwupdyw0nHCRPowv1',
-},
-{
-  stockName: 'GNRC',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTkXyI84LQLIJ_ihfyL6SK2DbV-oHmuVHsCGRf-m3WVVUQmBplD0d9v',
-},
-{
-  stockName: 'PARA',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRSYnWCVDg6X0BSjaTPz-JYwK8Sei8W5j2rCH_W8ry1oQbYUlR3YCow',
-},
-{
-  stockName: 'WDC',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQgJlx6PNjSn4nKq88OyvifGrxJPek-nN7vdDy0l_PPZvduY7Il4rE',
-},
-{
-  stockName: 'MAS',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSBC2cY8z61tVrkLa4Mdk22Dx4oqDj4k9ZBkFDRsdxtJa6V1EvQjtt0',
-},
-{
-  stockName: 'RCL',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRaSWpesWAirPRcdXCDEXHaJZW6uFBPGRGCYjt5jm31Lk_zvmZWWPi0',
-},
-{
-  stockName: 'IPG',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRUGm6R07cA_7IfZvDpZx55UAZ05Iy9dMq2GfyNDgTUbcZEJx4ZlB0',
-},
-{
-  stockName: 'FOXA',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRPptjnHm1kRJd2NbiKIj1hBV4pwANf_vUVDxOPPSHDL7VSVFlNirmt',
-},
-{
-  stockName: 'AAP',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcT20NLBpAh8-_kxd-J4wyoKs4t6fUu4PKa2MDF_X2fA4NauZUbPJM1P',
-},
-{
-  stockName: 'RE',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSXn6kLUDgCb4TQcfHARICKzoley2dm4pucEiV5UCIU6xB9--rStPE',
-},
-{
-  stockName: 'NRG',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQoyHYIfZhGBXZVPFAwDR-ePw80i7RZNzo5UkauRpZcHcQw4vM9mZs',
-},
-{
-  stockName: 'L',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcS5iXqQ7lsLxhK4e1MbOtvz7lH4Tb03qG9r8sjmG5WUdJ0DMwdc02I',
-},
-{
-  stockName: 'CMA',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQxYSDTVunKT6FxjKG078dUW8yPrMU26Ny6w4a_Pv_6wmLz75WKNtOn',
-},
-{
-  stockName: 'MGM',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTItwtLPdBcbM2Kbf5_g5BskqoPE8zKvbf0AlZRnS6TLRhY4AHWcnrk',
-},
-{
-  stockName: 'SBNY',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTB-Vu0GN02eIgCOwrO98H-AQGDQzAzYPKLtJvoQiDCN-AlnxP_817R',
-},
-{
-  stockName: 'CPB',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRGNiU-Gfki6oNrNz7YiJc5BQLIjKz92Vpodh3cvKQI-KfR11pJkcTk',
-},
-{
-  stockName: 'NLSN',
-  logo: 'https://www.valueresearchonline.com/content-assets/images/company-logos/nlsn.png',
-},
-{
-  stockName: 'TFX',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQBupI1MJ9KhgueNRkSSQPjwNZeFJssZ0ORssFmaF0DnibXmJRhD0Qn',
-},
-{
-  stockName: 'HSIC',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcR9GCvTz8DLCwNGGHgj66jvfETYTyrloOKNkUOUfGjx-O-GxaUmdDA',
-},
-{
-  stockName: 'CCL',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQd306gPu6EdiMmRWPyyNAvNX83ML16v6naABtElxdHbY_BaylLcGB2',
-},
-{
-  stockName: 'CE',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSnIiKjaPvFYwJtlJnWCMEty6qVWZaUZdjwMrxxkBeQ5RGdXj5Pevse',
-},
-{
-  stockName: 'HII',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQ5RHlvJA7UwJn4g-eXk7Wnm4IxexSiUGRnYwdfLVKFLU9jX_wttM0X',
-},
-{
-  stockName: 'HAS',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTiE-JJRyY7b5bd6KrsPSsY3KiBELIkfonaulVmaEYC7WGOa0idUuQ',
-},
-{
-  stockName: 'TAP',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTeqjpj8PBCoknWR9Qm0-ZxkFzWq8pl_KzpzIV40UUQXpuY14mVfRmh',
-},
-{
-  stockName: 'CRL',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTb1ryzsd6odgT40wyELLL3alp1rGlB8GkoWEFT8FhHtplcBYKtwSk',
-},
-{
-  stockName: 'EMN',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSvsCZ3hNGUy7-xgN8RcPimxRuSAy1jbOFwKrm-TNce6XsnsoUtShq4',
-},
-{
-  stockName: 'BIO',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRoCiOMwo7o7CQzL7LTbIeuAzNZUGzjwCG9yAP8iM0DZW16q6ktAvG1',
-},
-{
-  stockName: 'BBWI',
-  logo: 'https://s.yimg.com/ny/api/res/1.2/7LTEafQJuVjX1.ojPBYyew--/YXBwaWQ9aGlnaGxhbmRlcjt3PTQyMDtoPTcwO2NmPXdlYnA-/https://s.yimg.com/uu/api/res/1.2/b5jUs7mK8aXYyLYj5PXgug--~B/aD01MDt3PTMwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/globenewswire.com/b7954907fb37beadc4ba6a4e14a4966d',
-},
-{
-  stockName: 'WRK',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSBH0WHR1z8SuNR5-e-X8-mPm8emtwWjOk4yrD4JFwcl_aM41ajRHEN',
-},
-{
-  stockName: 'MKTX',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRJOt5taRfZbodalkwb8TEeU70KWGDOTyQj1KcvCRBPilLpTLtvi1Jz',
-},
-{
-  stockName: 'CDAY',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRA4oC57kh8sWWOp6tfxxXsqSgP7RlaWoB-w7lIqiu1fDR_FsUM7qI-',
-},
-{
-  stockName: 'JNPR',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTpjQ13pZv0DEFQjm7wndTmPA1yphVOxsh1UCE11zbezFQlftfMLdg',
-},
-{
-  stockName: 'ZION',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSgKuQXIQa-AV2dPVXwhVFd7uXhEw7LLJfwXSoiR1Gy5OozHZgSGVTA',
-},
-{
-  stockName: 'BWA',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ0AobjyIaXz5sJ-DbMAE8KP3tusRl7vNnLsU_-PumuVmJikmxftJR0',
-},
-{
-  stockName: 'REG',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTRmEv0skTgo_llPnHzhwqGhPcueu3agBHr_IDwjYrp_cxnnU0NKqbt',
-},
-{
-  stockName: 'PNW',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQdzmJyQVGdqtwPTwadI3fcAwIMhBzy_66UOngoO8ISkzvj1l1m7fw',
-},
-{
-  stockName: 'AAL',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTFUDU7u7FJRuQFxwLIwZG5wEqwrzaOWrZswrqq0o3PiF5vQPQCYiyL',
-},
-{
-  stockName: 'RHI',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTS2fQbVslCwA9RLVF8oFUpqorYkEusoIMOhTn1aRogTYM1UcH73nea',
-},
-{
-  stockName: 'ALLE',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcS9Xx7QGf6YrAvNWKf5n5HPwB6K4mCSLG-U2iLKzAOF2ycrw-ks5Tmp',
-},
-{
-  stockName: 'CZR',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQ0ni22MnPkUFefwoifZQYoLOxKCqLyw4Nu-JZ05H7WADCdpq8b253X',
-},
-{
-  stockName: 'AIZ',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSqrZn4zfUC8GX4Wr_NBFXDPJhhPu1Mzd_-jD6GM854hJfw-VnBN37f',
-},
-{
-  stockName: 'WHR',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQAPTLglhwE0xBIbx61njsX14rL5gxw-F9k1-rBPZuQShG93fq-Bccy',
-},
-{
-  stockName: 'ROL',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSgnh2ePKNW0c7RBTJEc4hvt0e6s4xHjukUyg8i9MPvSrMKCebkPa8L',
-},
-{
-  stockName: 'LUMN',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQII88DU14V6VzKtk8VhIKeuHao1e9Z2znUDnOKOwYgv8PGfCZnC0vr',
-},
-{
-  stockName: 'LNC',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTRVnZclZPyWBoUCuQ9ImWdVLMGccP33oHJGl1QGCLniR_Wo809GrFy',
-},
-{
-  stockName: 'FBHS',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ753HMAFtkxQMPIM2Z6OHVPo8phZZd5cT4obpRxxHNo2HuPUDwO47i',
-},
-{
-  stockName: 'IVZ',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQIVf6KFVABmeq3V9khEVxiC-quIaUAQjUloMnnDsz-Q7W0LswLwkyr',
-},
-{
-  stockName: 'SEE',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQvS8itEFybJs0L3qsDHdGD_Q0b6tkZLupVXhLdfRrCL1h6ePa0Z-Pw',
-},
-{
-  stockName: 'PNR',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTJq45WIy-KLekQQkjurlydtRiqOWjvPxIvmsBTBNm3WwB2s8YkerYh',
-},
-{
-  stockName: 'AOS',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRk3NUlL-waKz1W0FD5GSu1zvgJawTwV_UMHo0BvjE6T4DRzrUNpZji',
-},
-{
-  stockName: 'OGN',
-  logo: 'https://static.stocktitan.net/company-logo/ogn.png',
-},
-{
-  stockName: 'BEN',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTmZZ_CglpqcW2ecK7V-SQkO24etayouggBjMJO8Mr71tVNFOwvz14o',
-},
-{
-  stockName: 'XRAY',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQr9RFw2F7lnlPfmgYvH3K7shNHLmAswFtrLJEnf2D8ZghLlRBRrWnI',
-},
-{
-  stockName: 'WYNN',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTODPwAP49rZs8xFY4sFHKlG3Iuaf-oJLpEcLFTlthXOgYp4dt2qWoM',
-},
-{
-  stockName: 'FRT',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcT9F03NwV9xkzQ5vyvu0LUF5lzB0RlOUdGw39HuZZEbP0NdlBsUlDBt',
-},
-{
-  stockName: 'UHS',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTVpABw7Mgbnzbv51fjUKsqSKfnCOrDSSbqWWlQQ4TzATJdBMXeq6_y',
-},
-{
-  stockName: 'NWSA',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTAKhrmTOm2Tig44940d2dkzPzN70ihtEiJMtv6hiQnMdLy5DzFw2oE',
-},
-{
-  stockName: 'DXC',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRjRAQH6gWIpogs-k_IYK_ohNS35W5WDXMyrlcKaqNf2iJkB1Q4grOi',
-},
-{
-  stockName: 'NCLH',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTfIxSQXQqMfeuqUJEf5XwseNZT3J-mc8P6SVi-NkIYixZXY0mN_GnE',
-},
-{
-  stockName: 'NWL',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSvCrz1WUcWq83kRikuDUh56xsY_DpSwUY1nsbkeOdphlaESzYk9jk7',
-},
-{
-  stockName: 'ALK',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcR5_mnfA2Nvk6ew1ojDjgejhNsPXKyz4ZynINnTniFk9k3peNtNjWru',
-},
-{
-  stockName: 'DVA',
-  logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQg0pWzcTZDhOLKVhmH3RYZJVzmpQgrkYj6kVuAVc7hf7YipJuZm3Yd',
-},
-{
-  stockName: 'MHK',
-  logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTMsGbMDRNjCm2S6AIeEipXP54plUjXsBD4Aqt13WtHH1XPnQTySubk',
-},
-{
-  stockName: 'FOX',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRPptjnHm1kRJd2NbiKIj1hBV4pwANf_vUVDxOPPSHDL7VSVFlNirmt',
-},
-{
-  stockName: 'RL',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQIRaKXinRAitx6zIBCNcKnd7NHRhbr7_GrfmXxixwMJwRA9LrJ-DH9',
-},
-{
-  stockName: 'VNO',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSDfMrJ1rg66B1aj13Fas2GLkMSC3Gc-XOU7qTNEh8FlrLv6dAPQzg',
-},
-{
-  stockName: 'DISH',
-  logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTdAg1SR4CYJ99YAGmoWy2P1lcu5gmaRdmYqAEfe-DmH_3Zz0ThHlIB',
-},
-{
-  stockName: 'NWS',
-  logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTAKhrmTOm2Tig44940d2dkzPzN70ihtEiJMtv6hiQnMdLy5DzFw2oE',
-},
-]
+    stockName: 'AAPL',
+    logo: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI&psig=AOvVaw22bWveoGa48BQhzfn9KWqR&ust=1666349647491000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCKilxKfS7voCFQAAAAAdAAAAABAE',
+  },
+  {
+    stockName: ' MSFT',
+    logo: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft3.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcS6km-cD_vSytVSWHMXb5BsNyvx-Ee58bq9Ak5VyKaYZtKokr7C&psig=AOvVaw3CPY0zy0AzWbPuVGzcnWBA&ust=1666360777187000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCLidhuP77voCFQAAAAAdAAAAABAE',
+  },
+  {
+    stockName: 'AMZN',
+    logo: 'https://press.aboutamazon.com/system/files-encrypted/nasdaq_kms/inline-images/Amazon-logo.jpg',
+  },
+  {
+    stockName: 'TSLA',
+    logo: 'https://www.carlogos.org/car-logos/tesla-logo-2200x2800.png',
+  },
+  {
+    stockName: 'JNJ',
+    logo: 'https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/478933/jnj-logo.png&w=2000&op=resize',
+  },
+  {
+    stockName: 'GOOGL',
+    logo: 'https://img.sj33.cn/uploads/202009/7-20092H14615G5.jpg',
+  },
+  {
+    stockName: 'MSFT',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRMx1eAeeev5nlhXteviXHk7-hco51jw3qFdI201RLpw-PRC8CsU4-B',
+  },
+  {
+    stockName: 'GOOG',
+    logo: 'https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=595&height=400&name=image8-2.jpg',
+  },
+  {
+    stockName: 'BRK.B',
+    logo: 'https://1000logos.net/wp-content/uploads/2018/08/Berkshire-Hathaway-Logo.png',
+  },
+  {
+    stockName: 'UNH',
+    logo: 'https://logo.stocklight.com/NYSE/UNH.png',
+  },
+  {
+    stockName: 'JNG',
+    logo: 'https://logos-world.net/wp-content/uploads/2020/09/Johnson-Johnson-Logo.png',
+  },
+  {
+    stockName: 'XOM',
+    logo: 'https://1000logos.net/wp-content/uploads/2017/08/ExxonMobil-Logo.png',
+  },
+  {
+    stockName: 'JPM',
+    logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQFN7ZGRjNcgeA/company-logo_200_200/0/1656681489088?e=1674691200&v=beta&t=X-cjvksJQnQC-7WW_-XioaakKvGXjsRul6nKQPy7CMg',
+  },
+  {
+    stockName: 'PG',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/P%26G_logo.png',
+  },
+  {
+    stockName: 'META',
+    logo: 'https://blog.logomyway.com/wp-content/uploads/2021/11/meta-logo.png',
+  },
+  {
+    stockName: 'NVDA',
+    logo: 'https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-vert-500x200-2c50-d.png',
+  },
+  {
+    stockName: 'V',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg',
+  },
+  {
+    stockName: 'CVX',
+    logo: 'https://logos-world.net/wp-content/uploads/2021/08/Chevron-Logo.png',
+  },
+  {
+    stockName: 'HD',
+    logo: 'https://builtworlds.com/wp-content/uploads/2021/12/HomeDepot-784x441.png',
+  },
+  {
+    stockName: 'MA',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg',
+  },
+  {
+    stockName: 'ABBV',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/AbbVie_logo.svg',
+  },
+  {
+    stockName: 'PFE',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/Pfizer_logo.svg',
+  },
+  {
+    stockName: 'LLY',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaN9VJr3FSNQa_KkKN4o2wuiWYT-DFPZJ7JFrFSK8&usqp=CAE&s',
+  },
+  {
+    stockName: 'PEP',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQuIAEAP1LWAw7GnzfTVOY0KZ7l1yiO3eU2KvsjCVKF4MJ5i96UPe0Q',
+  },
+  {
+    stockName: 'KO',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRXQC3om-f8tjzZTwrziW0_vaiuNyYqjFo_ynQQFN-tM6R_KxU7PDTn',
+  },
+  {
+    stockName: 'BAC',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQ3Srvj93_lfrKNhQRByAttOB5dsRUh0YvinsyMrWf1gryfrlCZ4cis',
+  },
+  {
+    stockName: 'MRK',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRsfQeFuPzcg71U9xNlccYssHo1ozXcuTHW3Kf-bjpCrJPg4CeoaUjT',
+  },
+  {
+    stockName: 'COST',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSVjJoFdnW5Qi1XqARczqfdSdumfQ5js4PMI3CPcghufSPGsPdzJHCy',
+  },
+  {
+    stockName: 'TMO',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQcQ1rcCPDRNYV61gd_pDQ1Lp4FstGMMTTmWbMNt4QQgd6iFCvOoAOZ',
+  },
+  {
+    stockName: 'AVGO',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcThPFZw7fbYAZW1se4mMg1QtBVg74_a2nZxGqd71D61QbYvDIMokHw',
+  },
+  {
+    stockName: 'WMT',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT1UIvGIRT7Cvfw87_jK_D0cje4C9VRXXr_GOhHAnqwcWFFlw3Obvee',
+  },
+  {
+    stockName: 'DIS',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQcF8QSLExB1ss8mKY3_66O0O6VtEVPk0mgRlh5gpbNA9SJ8kbeLQmO',
+  },
+  {
+    stockName: 'MCD',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRuc7bzEu1k0PCkfj4E8zSM4TLy3Sb3M6V5209tJTwUxr9xSDwHy-M',
+  },
+  {
+    stockName: 'ABT',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQKadCR0NwRAH56YPm3maoJLHVQkOfvkjeWdg6zZ1AFsBckM9OhHfw',
+  },
+  {
+    stockName: 'DHR',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRsGuJDhapLkd_HKe0YY5yNtpw9I7gSVgJwt2DAH-MMr0zJb0V5jUi_',
+  },
+  {
+    stockName: 'CSCO',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTk2c_z7Di9T49kgy2vmPgTWFsxqU-a4MIJu4W_jpZVPY-FcjVLv4E',
+  },
+  {
+    stockName: 'VZ',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTLKFTfkB-QR5lwM-zpQPMSftAyHOtl6BZYML4VXKfN8L5gLFOHn-Is',
+  },
+  {
+    stockName: 'ACN',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR53P7576KMxmXrIwdVEAMoJL1Lg3isb42rCLh2mFcGmr4rcfMEiE3e',
+  },
+  {
+    stockName: 'NEE',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTLSvZWiRs3p-KslSp-I6GCwhStcoMDC9OJCadv_9uMtX9bo75RavfH',
+  },
+  {
+    stockName: 'WFC',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTPgC-vr06sPVVFyxVpyez8KYXTVAqIGhSBqpoLFtMqNxa0SqSLr4A',
+  },
+  {
+    stockName: 'BMY',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSyi947gKggZBfHtmxnMzX6kkFa0cEDnZAEMGUN3jysmhd8RjNHMtOl',
+  },
+  {
+    stockName: 'CRM',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSHJiM9Qp9floxTCFTydt_SYdo4LqiiuZxqZ2EL2QCHmDRwW8oJo3eb',
+  },
+  {
+    stockName: 'TXN',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSL4tr7Tx6JzuWw3s9PO8wDZw-ZANHtDFBiNPpdbkHPKiASj7BophBl',
+  },
+  {
+    stockName: 'PM',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRBgt6zFKXpp67h-hlgUOdtJ6X3_GIGnaU_DaLx9Ba_GVJLHFZXq4zq',
+  },
+  {
+    stockName: 'CMCSA',
+    logo: 'https://g.foolcdn.com/art/companylogos/square/cmcsa.png',
+  },
+  {
+    stockName: 'COP',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRtgvWsflAwzImKVZhwe-i-Iz_2AB9ZSllHlkDHhB3VgvNkUUmzNtqa',
+  },
+  {
+    stockName: 'QCOM',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTqW6WDSmWvX7Tm9cHtyfHG_r-HkDVxIDvEWOiCwOUGl8CJZeTT0EPj',
+  },
+  {
+    stockName: 'LIN',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRfv70cXUNt3OgAPcNVAV8X2qNLStKixSxiGfUCUCyfP--kho4hXriC',
+  },
+  {
+    stockName: 'ADBE',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQTvrSYbwa0y8estqrmp0KKmcZHZXywBpehkDVFT4VaoJgTXZqr01k',
+  },
+  {
+    stockName: 'CVS',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRaoiRKMyHbmbRMH_G1_XnTN8abDo5kEf7lNCCjzY3A-qPHMmZPTr4V',
+  },
+  {
+    stockName: 'UNP',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTc1PUdwrBynIsZyJRUvAXHXuocTOmgOfRSH94nx5Ywtbuw35DGeIk',
+  },
+  {
+    stockName: 'NKE',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTQtXJKNfWZEpidzkbAh8DEmisRgzPxqr3SIlHyBSoLKU8OMMnkYBw',
+  },
+  {
+    stockName: 'RTX',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRg7rOgek0rVIr5Ary1bMlC74peyQ3kDO-Vu8jiUDOBofLXlk5_khmP',
+  },
+  {
+    stockName: 'UPS',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSxBuhM_oQloZ-j67of8uLPQ5H8QjP7nBlE9wlya0-el9Mw7-nUXkw',
+  },
+  {
+    stockName: 'AMGN',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTAN_nD2s01oyBQB9gpxdFhCOiBuqxCdb-rIzfkcfItKyrcXlD-dvc9',
+  },
+  {
+    stockName: 'LOW',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQCPd3T7Jmy0MLw4-YaSdSO6etzTT3wnsybEO4I0b6R-LeElwfP1rE',
+  },
+  {
+    stockName: 'HON',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRVyFUHxWtCvai33MfDEY_gr6Fx-9jqR5pKsX6s3Vcg_GbRvx3GxLP2',
+  },
+  {
+    stockName: 'T',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRPukPy9nICGlyZhFPMPmFREBWch5jLT0OTgDbrJiokjQszdwDb2XE',
+  },
+  {
+    stockName: 'INTC',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTZZOgFOEpu1syt8MCpZtdVytcVdprph2RdR4JC4AjfJIz4yKwrugg',
+  },
+  {
+    stockName: 'MS',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQ26QYpY9FcZ6DpHAUHEhIlNzAHj4-UKDdul92g7QWP1PyJlC7xTXjH',
+  },
+  {
+    stockName: 'IBM',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTeam33x4EW03osEct0PuuXxx4GmLB52sw5pdC5uGlTi7xN9EgX2KQ',
+  },
+  {
+    stockName: 'AMD',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRVfmvxv3qaK5C4lvT-2MCt0hs3FJicQGXdJ_P-KR5a8XPu3YVCCrk-',
+  },
+  {
+    stockName: 'INTU',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRTuFs0fp0TXZw2w9SupwCaxw8hQjsSNRJP-xsNs8ChgzFIdHEYmbiH',
+  },
+  {
+    stockName: 'ELV',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTJ9pk6n7hS45pDjxst2fhwaLzgUDZkkrzYuO5gj2XtHZxTfFsDLCWg',
+  },
+  {
+    stockName: 'MDT',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSQBOQwDZcehgPyBxApdAa54JfPEXa_0wQo7v8NNFsuJyTcgaWRvT-3',
+  },
+  {
+    stockName: 'SCHW',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRbbtpeaMGm9ekBJcdLvtyQqBz4fX7cMhqCxZPkAp0bbi92cNSCpiU',
+  },
+  {
+    stockName: 'SPGI',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRHBOh6Z1um4EthbWKpXuVm1j3RKzRE3DgRyzVE_Goral60XbzJkRR8',
+  },
+  {
+    stockName: 'AMT',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSziSaI8vwTPK7FrMbyzX6QDaY9O9htMtOCanp4iIsNbOXRRhP7tWd5',
+  },
+  {
+    stockName: 'GS',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTPz02ESXeDmEn2_jaQVdzc6rjpeA3ngoXD9ThFwTiuGxQ5zofpp5IJ',
+  },
+  {
+    stockName: 'NFLX',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSd0APHPShnOL34yVvMKoxLQ4jmyCsZQzB7iRtKaKZmjOPLXnVwsGY',
+  },
+  {
+    stockName: 'PYPL',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSGd78CNJYuNKRk81uksUQ6KvRaE6wnmCe8_SGxtPpnT18klvC4zsM',
+  },
+  {
+    stockName: 'ORCL',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT1BV6cOrVe1GxRnn_sZx9VS1w9WNIKSY00p-GRK_o5cvfswlP9BxU9',
+  },
+  {
+    stockName: 'LMT',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSTkn_IqBXNLst_49GFY47CbMV1ejAsQqvKw1x64vESfB3pTknxmND6',
+  },
+  {
+    stockName: 'SBUX',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQ_opzCOWc2VFgvEWbsz4cfoVZngJX6ro1YGeMZX7DP8O1rv0mvzKs',
+  },
+  {
+    stockName: 'DE',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQNFC1lleSi57ObjTbFYfaTU9hhGg1uBFqAfuVtGj0D_6YEHeKa76W5',
+  },
+  {
+    stockName: 'ADP',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTGGdwCC9wZzUgmzSPorCHjp6oUqP3jFtrVBMTfzwf8j_cpJzu77gBr',
+  },
+  {
+    stockName: 'BLK',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQy9CvrsUOGqXYnKzzJ1YYAPFwJ-8IR7PnvUYM9ZOSmJWz7_9i3Fkpu',
+  },
+  {
+    stockName: 'CAT',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSaSyE83Bfn9OgimyBeQQ3eSKW7k4THgU3TOCf5gpjOjk8tJRa6FEV8',
+  },
+  {
+    stockName: 'C',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTeHmYGYLlDpn93QW-XdcjEpajsSS6UHr8Uk3b-2D5chFf0KUPAQmAH',
+  },
+  {
+    stockName: 'CI',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTxix2y1ky-CufNf-dyHNRpbcXZk4q_C-hGw4kD9OqEhMxFPgmRSvA',
+  },
+  {
+    stockName: 'AXP',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQ9oCCQm-RQEHFB2g4iq3Scz8cKU9HKzAawSfGsXQlTgzVSUw3Rx5g',
+  },
+  {
+    stockName: 'MDLZ',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcE3MhIZ1Yum6RABrxJrYyrg5HQ4yPndDe03XlbO_0&s',
+  },
+  {
+    stockName: 'TMUS',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSiRydiKQjjrdxx8F1jFRkRxyLJjQ54olrCjrqFjUhYNuEXNQKXN33b',
+  },
+  {
+    stockName: 'SO',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcShg2vEOJmObMplEQQ-lWelFJvdvNSKMu4JvpJ2CHEhvB8p33ZPv3k',
+  },
+  {
+    stockName: 'PLD',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSROleG-zxiEeQ6PB_OHgSn1-3AyCaTtX2qDZch8dadN0TvV-jXqn8X',
+  },
+  {
+    stockName: 'DUK',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRspiMTSUglPk7GfgEJeadEB-l896kUy_3rUkmHnygP7dF9YAjyBc0',
+  },
+  {
+    stockName: 'GILD',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSc70jMxgilbjpycBAseny2HRlLNmnNWFxFoC6AZP2aMNZJTAqBWW8',
+  },
+  {
+    stockName: 'NOW',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQSrWUW1RJAWauPt3D1Ym8SiKxzLSMo7eABXzHoI1gAmg5d2Rf5Fa6S',
+  },
+  {
+    stockName: 'MO',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcREsDuWJUMNY62oj9lXBlqEAusje8rhrmGH0kEbHVzKHbGpVUp3fs7E',
+  },
+  {
+    stockName: 'BA',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRjntzJh6sxPv6tfuwq8vFTx-3vPL_4ss1Iuebd-RgdQJ9_deN1kvWi',
+  },
+  {
+    stockName: 'ADI',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQ8XcHeWzX34NxLLg42McJnVOP3dIkyEkE3QOqY0jtkhW-neFFRTAtw',
+  },
+  {
+    stockName: 'CB',
+    logo: 'https://www.chubb.com/content/dam/chubb-sites/chubb/us-en/home_page/CHUBB_Logo_Black_RBG.png',
+  },
+  {
+    stockName: 'MMC',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRS_yx4YEz2b3Xm0riXPzHChbhgya_8G287JkdidAVZHLtpEGq_Lmae',
+  },
+  {
+    stockName: 'RGEN',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSVP6WM9xt7Gz2VGAJT5NAM0DCzmxQgzMPGnf_rYqVp5NaSWitS1Zy1',
+  },
+  {
+    stockName: 'AMAT',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQXIGw1oZwL6D2sWnb84naLn6gSd_9ckqGf-mgphjOFrDsPhTKWVT2S',
+  },
+  {
+    stockName: 'VRTX',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSO0E5JlxrHbQ1S__TCBCC9-c-wg9JjqN105V7vjNILWoHSdW2w_Iwa',
+  },
+  {
+    stockName: 'TJX',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSmVyyfVyWz-YZ_SCwl4_uuHAEmdO_tg6eO_RFxZJl7sScG355JmeVV',
+  },
+  {
+    stockName: 'NOC',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRI76qzdJeVKX7BZhrCHAfaUsxMOLS5Z064HCMihWwc0JDhUlP-RuQ',
+  },
+  {
+    stockName: 'GE',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSVGgz-7c2cWFzdLWOke4Pak-wdqivfmy8UJc-ZSWVumTPSdY_waT4',
+  },
+  {
+    stockName: 'PGR',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSZxm9WhNOFl__wELwtjywuqFANZNcJm4RcKGVh4sPdrT5sYcnefxAJ',
+  },
+  {
+    stockName: 'TGT',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcS_ekU0BCjiLObk98gihLTovnX_dy71oyBJiSXWtWCcaFrZ-IGJqus',
+  },
+  {
+    stockName: 'SYK',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcS354OF-GKlXJRmkzoicBnPM45NOGpG9pk2DFG0P-BW5iLgBxcbLvr-',
+  },
+  {
+    stockName: 'ZTS',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSZgQoMr3P2ZVTKi-YfEPM4lDhdrDRZeyrwqzGZ85pNEl4F1KHfFWPw',
+  },
+  {
+    stockName: 'EOG',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSQm0CL2kHsqkjiNtgkr95i5zt4TlbO8pXYSoIDy6D4oxuH2D6aRPEq',
+  },
+  {
+    stockName: 'ISRG',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQAsqfVstUyPl6CpyYIHZwPB6SMSxqGAsn9zgCdONv3ujEbREj9Ccs',
+  },
+  {
+    stockName: 'BKNG',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcROWjV0L90MYZKZ2nMl7eD6CmmpQvChg-_csj1OY2JDXzrIWHdF6Xlt',
+  },
+  {
+    stockName: 'CCI',
+    logo: 'https://pbs.twimg.com/profile_images/1573272674985705472/K1kaIFBL_400x400.jpg',
+  },
+  {
+    stockName: 'BDX',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTpOuEbN8sOkd-V6-770AYcNPtBK20B4HXI7ugwkC1qTE9CQ5TB-iLw',
+  },
+  {
+    stockName: 'CME',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSmggSEHe9Hf-XdWtIt-3TBIQO3dv9Sd9wP-jGje9oqzRDm2LXt5PfY',
+  },
+  {
+    stockName: 'D',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSRHAeHI51DVPcuQegrGYaooKv5uC_s71xeXKGJvWFu1c0xqH8XF3AZ',
+  },
+  {
+    stockName: 'PNC',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSk9U3mKbB5cskbAiTjKAj-3Y71AhyFhCtCCB-c3DwhkDCSjGDHMts',
+  },
+  {
+    stockName: 'FISV',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQ6uDALf0aaeuG6xDTr1aQRPEYw4s2wujfR48UjZY6fDn3C58QhbY87',
+  },
+  {
+    stockName: 'MMM',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRwAgzS_nsG47cqICGGJKa_gBIFnVy36l03s8TXoXCby-Ou6xayq1ot',
+  },
+  {
+    stockName: 'CL',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQF1fV6E-hVoU_6ykbuwhxOvHc5zjelS39zxBZC-TIaPLX5aZZk0nRI',
+  },
+  {
+    stockName: 'WM',
+    logo: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wm.com%2F&psig=AOvVaw18rEumbo-MzgItWrmUYjq3&ust=1666599000979000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKCN8Zvz9foCFQAAAAAdAAAAABAE',
+  },
+  {
+    stockName: 'HUM',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRH5GsSvTgVC82TaA0eVfRR-BsbFF-XqpvkZAFO74MJ90euKQp3aMGl',
+  },
+  {
+    stockName: 'CSX',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTHZsOD6ei25yfa320SDVMjZNU9Uklv5P8UtzG5S3JjP8EcTbIr3e9v',
+  },
+  {
+    stockName: 'TFC',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSqO86x31UkjdxWoiyTGIjQ6Yh74Pn-RdPQBAilv8Mkd1N8YhqBdL6d',
+  },
+  {
+    stockName: 'USB',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSCVgZWcfYF2j4L0kLwEP8bUPfyFS2rJIu6lBmbox3kUg8D8Ngo5_oh',
+  },
+  {
+    stockName: 'AON',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcS80fGyuXXRS4SjSCCE31phSLUZamX2WgjRdEX4FEKNmD6H7qIHrGju',
+  },
+  {
+    stockName: 'BSX',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQ5v49I6xrWDSBx-igPUVlRRz7BXE7NFUp4cItTZMvqekNDPIfQE4oG',
+  },
+  {
+    stockName: 'EQIX',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSwnDmlusIFRRXUWcLQSYASryMk-UUUnjBvxfqVEi55k6BSBVV3A80p',
+  },
+  {
+    stockName: 'MU',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSIjk2jyrAETFM_fWOEUk33FsgSSSfwnFeV58U5CtC0cjetwcUbuJf5',
+  },
+  {
+    stockName: 'ATVI',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRx1nhsdFkrjVM2aY95g6DDBkjYXgAVwvH5rbxVlmjmV03oDwObVtpJ',
+  },
+  {
+    stockName: 'DG',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTq1rmh2N2a7KQCYBElBoJWySEQ8E5nHjyoKMFMdRuK4QzXn_T6-DwR',
+  },
+  {
+    stockName: 'GM',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTchy8DrEZj2axmHbeCEaE2-9kyvNokjfAFZWqEeFkbx6uI3Nz7AqA',
+  },
+  {
+    stockName: 'EL',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcS8U7vcxAys-Fl6NYRwIo0IrM6JMkApyqeTVuCZYh44juwTwIw-2IX5',
+  },
+  {
+    stockName: 'PXD',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQgwfx3lJVETC-Ogept4skTz-UqRntchQDXKRPXGNZu4Gn1Btd4Dj2e',
+  },
+  {
+    stockName: 'SLB',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTdfdpqNHn6BOYrzXG7khf4d1fZOV7kdDEEfxT4SrI3_VhrGToBC1XQ',
+  },
+  {
+    stockName: 'ETN',
+    logo: 'https://www.eaton.com/content/dam/eaton/global/logos/eaton-logo-small.png',
+  },
+  {
+    stockName: 'ITW',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQasx3oIrjycdHOwCMaN5EsCZDTtPscBA5a8NRgnTC3wM7rsoyPmmOE',
+  },
+  {
+    stockName: 'LRCX',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR96o0ghMNfNOPoYxkmzmSv8a0YIyGLH50giS4LSwIO2nYEn7m22Xgt',
+  },
+  {
+    stockName: 'NSC',
+    logo: 'https://www.marketbeat.com/logos/norfolk-southern-corp-logo.png',
+  },
+  {
+    stockName: 'APD',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTgwrNuI9ltCN80-kfKU-yq1YqYEGBAdfsr3uXmtS_4KcUQ0oYnbJtQ',
+  },
+  {
+    stockName: 'ICE',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSST2qCDxoHQT2z5cLhLoPnpKWuiijbZRsAr5UJCSX1W3xiKXZuGLs',
+  },
+  {
+    stockName: 'EW',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTK2IbdfRDcnw8G_4FNAyVrOJg3--BAb99Jc2eOQf1Lp35GvkPBlc0',
+  },
+  {
+    stockName: 'SRE',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTe_oH7ayhoQhc-IFF498UMnuEkr-tPpEO1w6-bgUn9UAH-SzsfRxsm',
+  },
+  {
+    stockName: 'GD',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcR_hYLY5aB0bwfi-55zPBrtnUay6BP_qMG41e7XkqbHAgPHN2npg_Rp',
+  },
+  {
+    stockName: 'AEP',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT0lCR8e6Bl5bQSkeZNsqLVxNYsv3sSIgeCUOSJpTY5v3Sy5fUTrZwW',
+  },
+  {
+    stockName: 'F',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRxlQ8A0tiAjxgFfkyG7KUWjnN0ZGWvJE3YNqyCvSOSQO27BnGR',
+  },
+  {
+    stockName: 'MCK',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSrhvNzsCvG3_Fwn79jFyZYYbd9eHRKP6J2N2fbnXSsuT27oBXEz-ME',
+  },
+  {
+    stockName: 'SHW',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQavezpMpvjmZ1uIuPyRfD1CEDDnBkUI1TI1UVnjIgBkjmTVqxW0pxW',
+  },
+  {
+    stockName: 'FIS',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/FIS_logo.svg/220px-FIS_logo.svg.png',
+  },
+  {
+    stockName: 'ADM',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSpNlIJZdRxMchR3j3Rm1M69nt_goqgfqtHygbHbbvOoPtXPwNQIGBV',
+  },
+  {
+    stockName: 'MPC',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRuagH2NQbEHDrJTn4lqBaY-C47Aqu0_EVR_rt25CYKl6YxWQyWMwGK',
+  },
+  {
+    stockName: 'PSA',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCqKQpy6VJPSRprS23N-iQ6qkWemzoPmL33zho_eoOHc_vkXtrJDSr',
+  },
+  {
+    stockName: 'SNPS',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQT32oc5KO_pTevP2nBS-hgY9iHuml2sOUJDbuHwfEBPf6pb_wKZ61J',
+  },
+  {
+    stockName: 'OXY',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSaLv9FPOehEDHYyCm5NtAsMUj_PXohCsybyUZeR9MXA-HJUeI5vhY',
+  },
+  {
+    stockName: 'CNC',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTY6jOddqYiTDErTwrjFSx5LVhLl1rW9ks7nE8Zr2kGD_FKA-feEVh2',
+  },
+  {
+    stockName: 'EMR',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTkgXuffREZGtmEZ5y6aNQSvcePJsHm1XRbV0okU3ZEWSe_syU_ItR7',
+  },
+  {
+    stockName: 'CDNS',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcS9zb64rpRzsYmc4RgDwXdMxxLSuzhx9Dg9YqvtMY5l5dpusajBu3hq',
+  },
+  {
+    stockName: 'KLAC',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRhfsbrtihqN-ThdpCbaypSCUnT91BEIrt9Mt1--VTHCTJpq6YO0gnR',
+  },
+  {
+    stockName: 'ORLY',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSV9M23Pu2Dc1wUDVpZjdd-X8GIyTPIDa2GInQJR0F2XQ2fIdJVy4cl',
+  },
+  {
+    stockName: 'CMG',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTH-DF43iYosopBff6vMg81m187M-yLHiJr_wqmE8D_soj9dvD2TRk',
+  },
+  {
+    stockName: 'LHX',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRjuHak1YA4cdAvOrPATyAsmmgiXZmVlbqtRq9kzHJW7cPZw8EpqYeJ',
+  },
+  {
+    stockName: 'CTVA',
+    logo: 'https://cdn.dividendmax.com/companies/corteva-inc.png',
+  },
+  {
+    stockName: 'MET',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRg6pOkSL-Y0IwEP7_vMhNt3svFreWXl3OX7MAv2KU4_ZKNaTxzCEm3',
+  },
+  {
+    stockName: 'VLO',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRf5swfZ4aRnBzdsNv_QP97Iz1Nr1ljzuiszKX3Dv7azD-qdvaggfeZ',
+  },
+  {
+    stockName: 'MRNA',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSGQ595xPww4-ukL9Lby4-Eoai5gRFnsn93YXq_xwk9iMrhRHtJ1-Wl',
+  },
+  {
+    stockName: 'HCA',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQFwFFpBN-MvlBlU0lfb1bZQkFqMfEmoPboM9v78kdjwhQZLigIIuaX',
+  },
+  {
+    stockName: 'EXC',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRgsf96zIElgxZzjISMvHLUI0U8ZSyhTXsQZ_mROwg8ebbC5unFuUJI',
+  },
+  {
+    stockName: 'DVN',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQVtUYbi0g-8Z-RTQvyW7HVtN97pDh9LPMqvqcfJhAfU8qPtMuEDJUB',
+  },
+  {
+    stockName: 'APH',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQfYdXUk-wDL4H1g9bH51IXMeAmBv7yOremEbrf6o3BtUDsRKmktG-H',
+  },
+  {
+    stockName: 'NXPI',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSyp8bF2EkULDw7ydHVRZC3p7uTQFHfGxRt2iHmnV2g5k-beVAsM-0H',
+  },
+  {
+    stockName: 'ADSK',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT_kz6-GzlivpZBb9u5bM99bLxB6VK3rCgNiOhH5MypB7VvMNs7lQtE',
+  },
+  {
+    stockName: 'KMB',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTxcihRtbzUo3CfVRDUWwedgO2nCoHfIHHqfDqfM2Cpaxszm1Ew36q1',
+  },
+  {
+    stockName: 'AZO',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQDFyJgOozFihCvdHqrV8EpZ9fkLPuXfy8KVxGZxgz8NPrDh3iU0xBW',
+  },
+  {
+    stockName: 'FCX',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRXkSmolua8c2KobRBrYlfYZ-bPIdSaqCA70kMfZa4yuD-a4a119fCM',
+  },
+  {
+    stockName: 'MCO',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTdEvzrM2z8ZuptYwEuIMwP7o453UCUzSEyednal3DFUFMiFe_3AfUX',
+  },
+  {
+    stockName: 'ROP',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcT7bIh-XO_FdSvqjacXP8YOaKGr8Yn-YXoGW9yhsogxkcKpv7OspodH',
+  },
+  {
+    stockName: 'PSX',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Pakistan_Stock_Exchange_logo.png/150px-Pakistan_Stock_Exchange_logo.png',
+  },
+  {
+    stockName: 'SYY',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcStCFmaJGxPlDtBAYkmU3-AdLbNBpu8IeoMbtSl6azbhdME14pIfSxe',
+  },
+  {
+    stockName: 'XEL',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSY5SfOm23SM-dLHVMCowYO1iGnR5a1ncHHamkEZvYmwb314nLBmFOe',
+  },
+  {
+    stockName: 'AIG',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcScItIPcaAIzpWM00K3OdlSi27Zcgj-TfruUnSpDd97M_BHG_XyYyY',
+  },
+  {
+    stockName: 'MSI',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcT4mNAholPUDGW-7ZsLxUvDnW4yK9yNiExFRd6OdMRZeadQkT0Umd8z',
+  },
+  {
+    stockName: 'O',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRmOnLuetxzPr2lun3oJGh51JgEOff50wi75etoi61rXO5iRlZUv0A',
+  },
+  {
+    stockName: 'ENPH',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQXOWlwl_71VJEek6Q8HbqD1iq3pTvD8KWMsOkViGllRFZgdQS8e9Mf',
+  },
+  {
+    stockName: 'MAR',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQFzp4ClvqdBbndZnZJy-XXzEaEpKm86XJtoGxMi5B2resvZYMfq6U',
+  },
+  {
+    stockName: 'WMB',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcR0Gf5wKMNBJ5RAD6GoOVbdyv7PkAwVbuSUZ7cqEGAPTToTve5UAtkX',
+  },
+  {
+    stockName: 'STZ',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSCRaTQXVMgKJ3Uyy328W25EPFpMLu3vMTriT_wZ2AmD8H61S5H5p8',
+  },
+  {
+    stockName: 'TRV',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRZOIE9nP6_9a9ijG7JVDdqTILOzyw_YP1ZLObmMMe-YyxbYiaky96u',
+  },
+  {
+    stockName: 'PAYX',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQ4EOW6m0hNGy02U1AKIdt0crnfEHPqFT4Lvy4pZNJPS0JjoohO-vwK',
+  },
+  {
+    stockName: 'A',
+    logo: 'https://acsanalytical.org/wp-content/uploads/2019/04/agilent-technologies-logo.png',
+  },
+  {
+    stockName: 'TEL',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTEMy3qeuAiGnWJ3FATkBmWEHxmoHLeBgUf1Y4UokxuvpVUqzDSYPPb',
+  },
+  {
+    stockName: 'CHTR',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQzxNDkv3n_pSPAbE6cANgFH2f-gWn1U9J8sUV6kkoCkBf6ArNmMQgv',
+  },
+  {
+    stockName: 'ECL',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRdo6I2StUB8G3dgBnG2A5gYo0thRj-faVPjMKUU5Wy8JeZNUXRnVAp',
+  },
+  {
+    stockName: 'FDX',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcT1LQXc4GLV4rxEFnA6t7LtzSG0Xp8TNDLwK0sHLhtAu0XzBOeaX4dA',
+  },
+  {
+    stockName: 'APPL',
+    logo: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSjoU2lZ2eJX3aCMfiFDt39uRNcDu9W7pTKcyZymE2iKa7IOVaI&psig=AOvVaw22bWveoGa48BQhzfn9KWqR&ust=1666349647491000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCKilxKfS7voCFQAAAAAdAAAAABAE',
+  },
+  {
+    stockName: 'HRL',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQecy8f49SNutIsmUyIy_eYRqnX9GCa7dzhjKDRRr2NJ3pdWgLm-JxK',
+  },
+  {
+    stockName: 'FMC',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRFJw44E_Pswr1vz2kK_v1Ht3boSvD0Wbu5qCHWwQXcSQqna3zvWzDX',
+  },
+  {
+    stockName: 'WRB',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTP-V0BWIuqznxx0asLXRDyNhrQx-IFiiu1SF-DvOnq_3bydd5xvbg7',
+  },
+  {
+    stockName: 'COO',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSxpmeTLw82HkuPlDWb5Y1NmEL6tGH5Zt1D30Wt8E8-IjX44rxGjYmG',
+  },
+  {
+    stockName: 'AKAM',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSOzyg5Yz3dk6eHCvE5R4pBhYEKFCYLuMbfunVRZzx64OQQskRXSEzH',
+  },
+  {
+    stockName: 'PEAK',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcS-QLHX8ZPc9yCo3xdmAD-qgX5aQ_M2p3FIrKrAX7Oiiz5OQeBrSj4',
+  },
+  {
+    stockName: 'CPT',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRnD-l47ltM26kXAV-KOu7rq-bpUHMuZow_-rg8Blj2NdY9rTs63PTi',
+  },
+  {
+    stockName: 'TXT',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTi7QcGTKGKz0S92tc7Zy0i873kQQrOChxkvY4KRKP9qJOY6vQKvVss',
+  },
+  {
+    stockName: 'TER',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRIcRxVPCez07qukM7CfFWyvX2k4q32011jmpl5sfqaPXWfAdMP-jSh',
+  },
+  {
+    stockName: 'KMX',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSH5NPcOUsT27y9MvwIJtLBhlu2RdIBxzLKi9x07zXFxiOC_1MceII',
+  },
+  {
+    stockName: 'GRMN',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQycsk_iVp_yLRL6dVEIVXfdSf85TFBtQUjhqgyV3Vqc8SfEPJbHmM',
+  },
+  {
+    stockName: 'CTXS',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS72prp5erlOrFt6FXPrhMi5N7qAMZBnu0lRBcorbLLhmRnsilstiZX&usqp=CAE&s',
+  },
+  {
+    stockName: 'BF.B',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ3IMuu84bEL_3N3U6iyezBdUsc6PvBq2gyss6Kr6_8ZlWWLww8XI9s',
+  },
+  {
+    stockName: 'LDOS',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRPNSrvCXC-l4wNa4vWzHbeb6c1bvlVB-1499uNRcLsgZG9OX4PE26J',
+  },
+  {
+    stockName: 'INCY',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQbeWWAEWK03-QO2LjHTLjZ05GXyAXhEpuLTvQb9RSuEtD6PVWfW_yu',
+  },
+  {
+    stockName: 'POOL',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRJyJpdEdA9gJam05N-ZzR1FRg7RbNJq0OyJRjZIli14etazeATDnY',
+  },
+  {
+    stockName: 'IP',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSwXqFtY4-WRMjRzD472YEpeufT_Mtrn-O2gMkteIXZdNRwM7eS6qR7',
+  },
+  {
+    stockName: 'UDR',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTbFNamkF3nVPhTnr4AeefkKyy1YDu52V0YD9udE5GyraRrTTyX6Ru8',
+  },
+  {
+    stockName: 'CHRW',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSPijywKZllYGq2tP4zt-6mkRvxzq7kdISdjO3cEw-UR6ZAxo9xhLtd',
+  },
+  {
+    stockName: 'CBOE',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQ-igZOCMBWh7fm_7NVJpJuAj_d4nxoaKjqCTJIlQW6fKJrNvkmIVCl',
+  },
+  {
+    stockName: 'HWM',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQIWW7oHzlUmztrrMF8884GtT1ZshcAGOJuMqpV_o7Oey4iLxiJn_M5',
+  },
+  {
+    stockName: 'LKQ',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTsLtu3qZDSQDBoqIuKJOazVc1c2IXADW-4blUF_hor2RehbRiOc_wF',
+  },
+  {
+    stockName: 'NVR',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSp26GFoDOcEQVJGVv2z3IbNEM9O94wITZI6K93kQjvPF4V2QgfaAo-',
+  },
+  {
+    stockName: 'ETSY',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQ9Fhtpvzf5j_fc8IqSCE2vXGy6hFXFxwsVkgi_-8imrqLXGJ-KyQqF',
+  },
+  {
+    stockName: 'NLOK',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSWciXxc1czI80-bbqKWVp5zS7OKDXXvrSS7NDeD5Zaw6ADywaBuiPl',
+  },
+  {
+    stockName: 'SWK',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRJGtlbAdL5UPzbo6_H8V5WJwZlfWv3Ln1SPGOV7miOG8Ia_Hm-EKNe',
+  },
+  {
+    stockName: 'APA',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSZPMZgXedaAbTv7o0P6h2-QpV1jpq5tGwuU4TtbIEhXK2Ra1p0SGl7',
+  },
+  {
+    stockName: 'KIM',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSqbNV0lXaE8KNP_wQLdhsgjqUBmdtgFUyzvJH3R1rVBXGBv_Ys3HEl',
+  },
+  {
+    stockName: 'STX',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcS_eIlhcTifuIoSTiv8mq3JxqsEaveyze2QE6aki0NRSkwSQMs8s3wf',
+  },
+  {
+    stockName: 'DPZ',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSGUjyluj437U3LLly83BheinXfjJ5V3Rfcg7ZDH3rsgHxnBHs9RxM',
+  },
+  {
+    stockName: 'VFC',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQzyxhrlzfR0HD_gcI956RumQGFVZyvsaD8m7l8Omd1fWi_rUfyWGk',
+  },
+  {
+    stockName: 'NDSN',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRu5FF8zIzzJTcVFaFsqPf5-5IykYWhtkhDsfwvPqdUn3WGEgNXPrYB',
+  },
+  {
+    stockName: 'LVS',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTDZ_uUP0SGO4lpyKVJxW-LhLGVvdo8lce6GFI1tvPV29h3GeIHfxMM',
+  },
+  {
+    stockName: 'NI',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRowgGARSfAaPa7zz00O1AzDH8rKvhlGQ5U_1j5DHad0dB5oMPVAt8',
+  },
+  {
+    stockName: 'PTC',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRtjwfDseSWWfukb9d2U8dIX5OCzoARaJhyV7NH31Vjugolmbudv_v-',
+  },
+  {
+    stockName: 'HST',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkTiG7eGaqs2sXgciLt-LQ98-lbeHuL9O3MBCR2qM5BA&s',
+  },
+  {
+    stockName: 'SNA',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT52yB-bwrwx6TI7LybMqEBGQ_QQjsFYw_ib0TC9IOorK9BGviqPnHg',
+  },
+  {
+    stockName: 'LW',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT6N1xZDerAMQBeyrZoqXqx9WaBSdIIQVncpya89CaEpouDGOdlczYP',
+  },
+  {
+    stockName: 'TECH',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcR31IzROzgJUWvcQZH0SQmS0Ak3lNJfu4G19Sgp-xKPLBJosKX5xYbG',
+  },
+  {
+    stockName: 'ABMD',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcR31IzROzgJUWvcQZH0SQmS0Ak3lNJfu4G19Sgp-xKPLBJosKX5xYbG',
+  },
+  {
+    stockName: 'LYV',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQkGxLyFcRSPU6KMiYGIsANu4HrTK5owbtSFWPz20GHrQhBAJkLDH8',
+  },
+  {
+    stockName: 'UAL',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQ3eg1upH6WRWU2hv_Y4l8-onEEbIE8M4kUtniDwKSKIJeoF5Y_l-4',
+  },
+  {
+    stockName: 'BXP',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRJjTYZJEtHYA_c-TVO8RqudQrhrTfc4Vw0VN6o09XVl4sTbicvQdlQ',
+  },
+  {
+    stockName: 'PKG',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSGbK56o-Vsy9_2JWB6WxS3v2LTJKYfOsebNUvwU8XqaykbC-QvKQEo',
+  },
+  {
+    stockName: 'VTRS',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7kjN7L85kYqpCG8d02sgcoOfu0mp-Ax9qoWcHwupdyw0nHCRPowv1',
+  },
+  {
+    stockName: 'GNRC',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTkXyI84LQLIJ_ihfyL6SK2DbV-oHmuVHsCGRf-m3WVVUQmBplD0d9v',
+  },
+  {
+    stockName: 'PARA',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRSYnWCVDg6X0BSjaTPz-JYwK8Sei8W5j2rCH_W8ry1oQbYUlR3YCow',
+  },
+  {
+    stockName: 'WDC',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQgJlx6PNjSn4nKq88OyvifGrxJPek-nN7vdDy0l_PPZvduY7Il4rE',
+  },
+  {
+    stockName: 'MAS',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSBC2cY8z61tVrkLa4Mdk22Dx4oqDj4k9ZBkFDRsdxtJa6V1EvQjtt0',
+  },
+  {
+    stockName: 'RCL',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRaSWpesWAirPRcdXCDEXHaJZW6uFBPGRGCYjt5jm31Lk_zvmZWWPi0',
+  },
+  {
+    stockName: 'IPG',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRUGm6R07cA_7IfZvDpZx55UAZ05Iy9dMq2GfyNDgTUbcZEJx4ZlB0',
+  },
+  {
+    stockName: 'FOXA',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRPptjnHm1kRJd2NbiKIj1hBV4pwANf_vUVDxOPPSHDL7VSVFlNirmt',
+  },
+  {
+    stockName: 'AAP',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcT20NLBpAh8-_kxd-J4wyoKs4t6fUu4PKa2MDF_X2fA4NauZUbPJM1P',
+  },
+  {
+    stockName: 'RE',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSXn6kLUDgCb4TQcfHARICKzoley2dm4pucEiV5UCIU6xB9--rStPE',
+  },
+  {
+    stockName: 'NRG',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQoyHYIfZhGBXZVPFAwDR-ePw80i7RZNzo5UkauRpZcHcQw4vM9mZs',
+  },
+  {
+    stockName: 'L',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcS5iXqQ7lsLxhK4e1MbOtvz7lH4Tb03qG9r8sjmG5WUdJ0DMwdc02I',
+  },
+  {
+    stockName: 'CMA',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQxYSDTVunKT6FxjKG078dUW8yPrMU26Ny6w4a_Pv_6wmLz75WKNtOn',
+  },
+  {
+    stockName: 'MGM',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTItwtLPdBcbM2Kbf5_g5BskqoPE8zKvbf0AlZRnS6TLRhY4AHWcnrk',
+  },
+  {
+    stockName: 'SBNY',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTB-Vu0GN02eIgCOwrO98H-AQGDQzAzYPKLtJvoQiDCN-AlnxP_817R',
+  },
+  {
+    stockName: 'CPB',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRGNiU-Gfki6oNrNz7YiJc5BQLIjKz92Vpodh3cvKQI-KfR11pJkcTk',
+  },
+  {
+    stockName: 'NLSN',
+    logo: 'https://www.valueresearchonline.com/content-assets/images/company-logos/nlsn.png',
+  },
+  {
+    stockName: 'TFX',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQBupI1MJ9KhgueNRkSSQPjwNZeFJssZ0ORssFmaF0DnibXmJRhD0Qn',
+  },
+  {
+    stockName: 'HSIC',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcR9GCvTz8DLCwNGGHgj66jvfETYTyrloOKNkUOUfGjx-O-GxaUmdDA',
+  },
+  {
+    stockName: 'CCL',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQd306gPu6EdiMmRWPyyNAvNX83ML16v6naABtElxdHbY_BaylLcGB2',
+  },
+  {
+    stockName: 'CE',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSnIiKjaPvFYwJtlJnWCMEty6qVWZaUZdjwMrxxkBeQ5RGdXj5Pevse',
+  },
+  {
+    stockName: 'HII',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQ5RHlvJA7UwJn4g-eXk7Wnm4IxexSiUGRnYwdfLVKFLU9jX_wttM0X',
+  },
+  {
+    stockName: 'HAS',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTiE-JJRyY7b5bd6KrsPSsY3KiBELIkfonaulVmaEYC7WGOa0idUuQ',
+  },
+  {
+    stockName: 'TAP',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTeqjpj8PBCoknWR9Qm0-ZxkFzWq8pl_KzpzIV40UUQXpuY14mVfRmh',
+  },
+  {
+    stockName: 'CRL',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTb1ryzsd6odgT40wyELLL3alp1rGlB8GkoWEFT8FhHtplcBYKtwSk',
+  },
+  {
+    stockName: 'EMN',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSvsCZ3hNGUy7-xgN8RcPimxRuSAy1jbOFwKrm-TNce6XsnsoUtShq4',
+  },
+  {
+    stockName: 'BIO',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRoCiOMwo7o7CQzL7LTbIeuAzNZUGzjwCG9yAP8iM0DZW16q6ktAvG1',
+  },
+  {
+    stockName: 'BBWI',
+    logo: 'https://s.yimg.com/ny/api/res/1.2/7LTEafQJuVjX1.ojPBYyew--/YXBwaWQ9aGlnaGxhbmRlcjt3PTQyMDtoPTcwO2NmPXdlYnA-/https://s.yimg.com/uu/api/res/1.2/b5jUs7mK8aXYyLYj5PXgug--~B/aD01MDt3PTMwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/globenewswire.com/b7954907fb37beadc4ba6a4e14a4966d',
+  },
+  {
+    stockName: 'WRK',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSBH0WHR1z8SuNR5-e-X8-mPm8emtwWjOk4yrD4JFwcl_aM41ajRHEN',
+  },
+  {
+    stockName: 'MKTX',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRJOt5taRfZbodalkwb8TEeU70KWGDOTyQj1KcvCRBPilLpTLtvi1Jz',
+  },
+  {
+    stockName: 'CDAY',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRA4oC57kh8sWWOp6tfxxXsqSgP7RlaWoB-w7lIqiu1fDR_FsUM7qI-',
+  },
+  {
+    stockName: 'JNPR',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTpjQ13pZv0DEFQjm7wndTmPA1yphVOxsh1UCE11zbezFQlftfMLdg',
+  },
+  {
+    stockName: 'ZION',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSgKuQXIQa-AV2dPVXwhVFd7uXhEw7LLJfwXSoiR1Gy5OozHZgSGVTA',
+  },
+  {
+    stockName: 'BWA',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ0AobjyIaXz5sJ-DbMAE8KP3tusRl7vNnLsU_-PumuVmJikmxftJR0',
+  },
+  {
+    stockName: 'REG',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTRmEv0skTgo_llPnHzhwqGhPcueu3agBHr_IDwjYrp_cxnnU0NKqbt',
+  },
+  {
+    stockName: 'PNW',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQdzmJyQVGdqtwPTwadI3fcAwIMhBzy_66UOngoO8ISkzvj1l1m7fw',
+  },
+  {
+    stockName: 'AAL',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTFUDU7u7FJRuQFxwLIwZG5wEqwrzaOWrZswrqq0o3PiF5vQPQCYiyL',
+  },
+  {
+    stockName: 'RHI',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTS2fQbVslCwA9RLVF8oFUpqorYkEusoIMOhTn1aRogTYM1UcH73nea',
+  },
+  {
+    stockName: 'ALLE',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcS9Xx7QGf6YrAvNWKf5n5HPwB6K4mCSLG-U2iLKzAOF2ycrw-ks5Tmp',
+  },
+  {
+    stockName: 'CZR',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQ0ni22MnPkUFefwoifZQYoLOxKCqLyw4Nu-JZ05H7WADCdpq8b253X',
+  },
+  {
+    stockName: 'AIZ',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSqrZn4zfUC8GX4Wr_NBFXDPJhhPu1Mzd_-jD6GM854hJfw-VnBN37f',
+  },
+  {
+    stockName: 'WHR',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQAPTLglhwE0xBIbx61njsX14rL5gxw-F9k1-rBPZuQShG93fq-Bccy',
+  },
+  {
+    stockName: 'ROL',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSgnh2ePKNW0c7RBTJEc4hvt0e6s4xHjukUyg8i9MPvSrMKCebkPa8L',
+  },
+  {
+    stockName: 'LUMN',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQII88DU14V6VzKtk8VhIKeuHao1e9Z2znUDnOKOwYgv8PGfCZnC0vr',
+  },
+  {
+    stockName: 'LNC',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTRVnZclZPyWBoUCuQ9ImWdVLMGccP33oHJGl1QGCLniR_Wo809GrFy',
+  },
+  {
+    stockName: 'FBHS',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ753HMAFtkxQMPIM2Z6OHVPo8phZZd5cT4obpRxxHNo2HuPUDwO47i',
+  },
+  {
+    stockName: 'IVZ',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQIVf6KFVABmeq3V9khEVxiC-quIaUAQjUloMnnDsz-Q7W0LswLwkyr',
+  },
+  {
+    stockName: 'SEE',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQvS8itEFybJs0L3qsDHdGD_Q0b6tkZLupVXhLdfRrCL1h6ePa0Z-Pw',
+  },
+  {
+    stockName: 'PNR',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTJq45WIy-KLekQQkjurlydtRiqOWjvPxIvmsBTBNm3WwB2s8YkerYh',
+  },
+  {
+    stockName: 'AOS',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRk3NUlL-waKz1W0FD5GSu1zvgJawTwV_UMHo0BvjE6T4DRzrUNpZji',
+  },
+  {
+    stockName: 'OGN',
+    logo: 'https://static.stocktitan.net/company-logo/ogn.png',
+  },
+  {
+    stockName: 'BEN',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTmZZ_CglpqcW2ecK7V-SQkO24etayouggBjMJO8Mr71tVNFOwvz14o',
+  },
+  {
+    stockName: 'XRAY',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQr9RFw2F7lnlPfmgYvH3K7shNHLmAswFtrLJEnf2D8ZghLlRBRrWnI',
+  },
+  {
+    stockName: 'WYNN',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTODPwAP49rZs8xFY4sFHKlG3Iuaf-oJLpEcLFTlthXOgYp4dt2qWoM',
+  },
+  {
+    stockName: 'FRT',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcT9F03NwV9xkzQ5vyvu0LUF5lzB0RlOUdGw39HuZZEbP0NdlBsUlDBt',
+  },
+  {
+    stockName: 'UHS',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTVpABw7Mgbnzbv51fjUKsqSKfnCOrDSSbqWWlQQ4TzATJdBMXeq6_y',
+  },
+  {
+    stockName: 'NWSA',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTAKhrmTOm2Tig44940d2dkzPzN70ihtEiJMtv6hiQnMdLy5DzFw2oE',
+  },
+  {
+    stockName: 'DXC',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRjRAQH6gWIpogs-k_IYK_ohNS35W5WDXMyrlcKaqNf2iJkB1Q4grOi',
+  },
+  {
+    stockName: 'NCLH',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTfIxSQXQqMfeuqUJEf5XwseNZT3J-mc8P6SVi-NkIYixZXY0mN_GnE',
+  },
+  {
+    stockName: 'NWL',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSvCrz1WUcWq83kRikuDUh56xsY_DpSwUY1nsbkeOdphlaESzYk9jk7',
+  },
+  {
+    stockName: 'ALK',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcR5_mnfA2Nvk6ew1ojDjgejhNsPXKyz4ZynINnTniFk9k3peNtNjWru',
+  },
+  {
+    stockName: 'DVA',
+    logo: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQg0pWzcTZDhOLKVhmH3RYZJVzmpQgrkYj6kVuAVc7hf7YipJuZm3Yd',
+  },
+  {
+    stockName: 'MHK',
+    logo: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTMsGbMDRNjCm2S6AIeEipXP54plUjXsBD4Aqt13WtHH1XPnQTySubk',
+  },
+  {
+    stockName: 'FOX',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRPptjnHm1kRJd2NbiKIj1hBV4pwANf_vUVDxOPPSHDL7VSVFlNirmt',
+  },
+  {
+    stockName: 'RL',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQIRaKXinRAitx6zIBCNcKnd7NHRhbr7_GrfmXxixwMJwRA9LrJ-DH9',
+  },
+  {
+    stockName: 'VNO',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSDfMrJ1rg66B1aj13Fas2GLkMSC3Gc-XOU7qTNEh8FlrLv6dAPQzg',
+  },
+  {
+    stockName: 'DISH',
+    logo: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTdAg1SR4CYJ99YAGmoWy2P1lcu5gmaRdmYqAEfe-DmH_3Zz0ThHlIB',
+  },
+  {
+    stockName: 'NWS',
+    logo: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTAKhrmTOm2Tig44940d2dkzPzN70ihtEiJMtv6hiQnMdLy5DzFw2oE',
+  },
+];

@@ -18,6 +18,32 @@ module.exports = {
     'react',
   ],
   rules: {
+    'array-callback-return': 0,
+    'consistent-return': 0,
+    'no-mixed-spaces-and-tabs': 0,
+    'no-tabs': 0,
+    'no-undef': 0,
+    'no-param-reassign': 0,
+    'no-shadow': 0,
+    'no-plusplus': 0,
+    'no-useless-escape': 0,
+    'no-nested-ternary': 0,
+    allowForLoopAfterthoughts: 0,
+    'no-unused-vars': 0,
+    'jsx-a11y/label-has-associated-control': ['error', {
+      required: {
+        some: ['nesting', 'id'],
+      },
+    }],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: false,
+        optionalDependencies: false,
+        peerDependencies: false,
+      },
+    ],
+    indent: ['off', 2],
     'react/function-component-definition': 0,
     'import/extensions': 0,
     'react/prop-types': 0,

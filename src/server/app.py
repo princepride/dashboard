@@ -36,7 +36,8 @@ def stockforecast():
     print('Connected to the database lstm_prediction.db')
     cursor = conn.cursor()
     res = cursor.execute(
-        "SELECT group_concat(date) as date,group_concat(price) as price FROM predictions WHERE ticker is ?",
+        #"SELECT group_concat(date) as date,group_concat(price) as price FROM predictions WHERE ticker is ?",
+        "SELECT group_concat(date) as date, group_concat(predict) as predict, group_concat(actual) as actual From (SELECT * FROM ( SELECT * FROM predictions WHERE ticker is ? ORDER by date DESC LIMIT 34 ) ORDER by date ASC)",
         (stock,)
     )
     data = res.fetchall()
@@ -44,9 +45,9 @@ def stockforecast():
     conn.close()
     print(data)
     if len(data) > 0:
-        return jsonify({"date":data[0][0],"price":data[0][1]})
+        return jsonify({"date":data[0][0],"predict":data[0][1],"actual":data[0][2]})
     else:
-        return jsonify({"date":None,"price":None})
+        return jsonify({"date":None,"predict":None,"actual":None})
 
 @app.route("/groupstockforecast",methods = ["POST"])
 def groupstockforecast():
@@ -55,7 +56,7 @@ def groupstockforecast():
     conn = sqlite3.connect(r'../database/lstm_prediction.db')
     print('Connected to the database lstm_prediction.db')
     cursor = conn.cursor()
-    sql = "SELECT group_concat(date) as date,group_concat(price) as price FROM predictions WHERE"
+    sql = "SELECT group_concat(date) as date,group_concat(predict) as price FROM predictions WHERE"
     for stock in range(len(stocks)-1):
         sql += " ticker is ? OR"
     sql += ' ticker is ?'

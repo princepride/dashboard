@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
-import { useStateContext } from '../contexts/ContextProvider';
-import { Button, Search } from '.';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import $ from 'jquery';
+import { useStateContext } from '../contexts/ContextProvider';
+import { Button, Search } from '.';
+
 const SelectingStock = () => {
   const { currentColor, currentMode, isClicked } = useStateContext();
   const handleClick = () => {
-    const value = $("#autocomplete").ejAutoComplete("getValue");
+    const value = $('#autocomplete').ejAutoComplete('getValue');
     console.log(value);
-  }
+  };
   return (
     <div className="nav-item absolute left-20 md:left-96 top-16 bg-white dark:bg-[#42464D] p-8 rounded-lg w-96">
       <div className="flex justify-between items-center">
@@ -27,7 +28,7 @@ const SelectingStock = () => {
             style={{ color: (currentMode === 'Dark') && 'white', backgroundColor: currentColor }}
             className="relative text-xl rounded-full p-3 hover:bg-light-gray dark:hover:bg-[#42464D]"
           >
-            <div className='flex'>
+            <div className="flex">
               <span
                 className="absolute inline-flex rounded-full h-2 w-2 right-2 top-2"
               />
@@ -39,7 +40,7 @@ const SelectingStock = () => {
         </TooltipComponent>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SelectingStock
+export default SelectingStock;

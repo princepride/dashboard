@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
 import { Button } from '.';
-import {notificationData} from '../data/userData';
+import { notificationData } from '../data/userData';
 import { useStateContext } from '../contexts/ContextProvider';
 
 const Notification = () => {

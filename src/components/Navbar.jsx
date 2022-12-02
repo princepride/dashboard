@@ -7,7 +7,7 @@ import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import avatar from '../data/avatar.png';
 import { Chat, Notification, UserProfile, Search } from '.';
 import { useStateContext } from '../contexts/ContextProvider';
-import {userProfileData } from '../data/userData';
+import { userProfileData } from '../data/userData';
 
 const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
   <TooltipComponent content={title} position="BottomCenter">
@@ -54,10 +54,10 @@ const Navbar = () => {
 
       <NavButton title="Menu" customFunc={handleActiveMenu} color={currentColor} icon={<AiOutlineMenu />} />
       <div className="flex">
-        {/*<Search />*/}
+        {/* <Search /> */}
         <NavButton title="Chat" dotColor="#03C9D7" customFunc={() => handleClick('chat')} color={currentColor} icon={<BsChatLeft />} />
         <NavButton title="Notification" dotColor="rgb(254, 201, 15)" customFunc={() => handleClick('notification')} color={currentColor} icon={<AiOutlineNotification />} />
-        {/*<TooltipComponent content="Profile" position="BottomCenter">
+        {/* <TooltipComponent content="Profile" position="BottomCenter">
           <div
             className="flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg"
             onClick={() => handleClick('userProfile')}
@@ -75,7 +75,7 @@ const Navbar = () => {
             </p>
             <MdKeyboardArrowDown className="text-gray-400 text-14" />
           </div>
-        </TooltipComponent>*/}
+        </TooltipComponent> */}
 
         {isClicked.chat && (<Chat />)}
         {isClicked.notification && (<Notification />)}
