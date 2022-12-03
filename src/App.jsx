@@ -10,7 +10,7 @@ function App() {
     <div style={{ fontFamily: 'Avenir' }}>
       <BrowserRouter>
         <Routes>
-          {login && <Route path="/Login" element={(<Login />)} />}
+          <Route path="/Login" element={(<Login />)} />
           <Route path="/*" element={(<Dashboard />)} />
         </Routes>
       </BrowserRouter>
