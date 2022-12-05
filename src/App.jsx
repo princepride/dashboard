@@ -5,7 +5,6 @@ import Dashboard from './Dashboard';
 import { Login, Calendar, Todo, Home, News, Community, Recommendations } from './pages';
 
 function App() {
-  const { login, setLogin } = useStateContext();
   return (
     <div style={{ fontFamily: 'Avenir' }}>
       <BrowserRouter>
