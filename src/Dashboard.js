@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
@@ -10,7 +10,14 @@ import './Dashboard.css';
 import { useStateContext } from './contexts/ContextProvider';
 
 const Dashboard = () => {
-  const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings, setStock } = useStateContext();
+  const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings, setStock, login } = useStateContext();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!login) {
+      navigate('/Login');
+    }
+  }, [login]);
 
   useEffect(() => {
     const currentThemeColor = localStorage.getItem('colorMode');
