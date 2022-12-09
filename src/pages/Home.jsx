@@ -34,7 +34,7 @@ const getStockportfolio = (date) => {
     chromosome = chromosome.map((item) => Number(item));
     const res = [];
     for (let i = 0; i < stocktickers.length; i++) {
-      if (chromosome[i] != 0.0) {
+      if (chromosome[i] !== 0.0) {
         res.push({ x: stocktickers[i], y: chromosome[i], text: `${(chromosome[i] * 100).toFixed(2)}%` });
       }
     }
@@ -66,7 +66,7 @@ const Home = () => {
         setTodaySharpe(Number(data.sharpe).toFixed(3));
         setTodayReturn(Number(data.return).toFixed(3));
         for (let i = 0; i < stocktickers.length; i++) {
-          if (chromosome[i] != 0.0) {
+          if (chromosome[i] !== 0.0) {
             res.push({ x: stocktickers[i], y: chromosome[i], text: `${(chromosome[i] * 100).toFixed(2)}%` });
           }
         }
@@ -82,7 +82,6 @@ const Home = () => {
     for (let i = 0; i < todayStockportfolio.length; i++) {
       stocks.push(todayStockportfolio[i].x);
     }
-    console.log(stocks);
     Axios.post('http://localhost:3001/groupstockforecast', { stocks }).then((respose) => {
       if (isMounted) {
         const { data } = respose;

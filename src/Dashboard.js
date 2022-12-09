@@ -71,13 +71,13 @@ const Dashboard = () => {
 
             <Routes>
               <Route path="/" element={(<Home />)} />
-              <Route path="/forecast" element={(<Forecast />)} />
+              <Route path="/Forecast" element={(<Forecast />)} />
               <Route path="/History" element={(<History />)} />
-              <Route path="/news" element={(<News />)} />
-              <Route path="/customportfolio" element={(<CustomPortfolio />)} />
-              <Route path="/todo" element={<Todo />} />
-              <Route path="/calendar" element={<Calendar />} />
-              <Route path="/community" element={<Community />} />
+              <Route path="/News" element={(<News />)} />
+              <Route path="/Customportfolio" element={(<CustomPortfolio />)} />
+              <Route path="/Todo" element={<Todo />} />
+              <Route path="/Calendar" element={<Calendar />} />
+              <Route path="/Community" element={<Community />} />
             </Routes>
           </div>
           <Footer />

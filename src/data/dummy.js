@@ -955,7 +955,7 @@ export const getStockportfolio = (date) => {
   }
   const res = [];
   for (let i = 0; i < stocktickers.length; i++) {
-    if (chromosome[i] != 0.0) {
+    if (chromosome[i] !== 0.0) {
       // let stockInfo = {}
       // const encodedParams = new URLSearchParams();
       // encodedParams.append("symbol", stocktickers[i]);
@@ -2576,7 +2576,7 @@ export const userProfileData = [
     desc: 'Account Settings',
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB',
-    link: 'Account',
+    link: 'Customportfolio',
   },
   {
     icon: <BsShield />,
