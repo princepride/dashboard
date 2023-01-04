@@ -15,6 +15,7 @@ import {
 import { Line } from 'react-chartjs-2';
 import { lineCustomSeries, searchData } from '../../data/dummy';
 import { useStateContext } from '../../contexts/ContextProvider';
+import backendHost from '../../config.js';
 
 const StockChart = () => {
   const { stockforecast, setStockforecast } = useStateContext();
@@ -33,7 +34,7 @@ const StockChart = () => {
       }
     }
     console.log(`symbol ${symbol}`);
-    Axios.post('http://localhost:3001/stockforecast', { stock: symbol }).then((respose) => {
+    Axios.post(`${backendHost}/stockforecast`, { stock: symbol }).then((respose) => {
       if (isMounted) {
         const { data } = respose;
         console.log(data);

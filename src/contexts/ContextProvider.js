@@ -2,9 +2,8 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import Axios from 'axios';
 import { auth } from '../firebase';
 import { getStockportfolio } from '../data/dummy';
-
+import backendHost from '../config.js'
 const StateContext = createContext();
-
 const initialState = {
   chat: false,
   userProfile: false,
@@ -42,7 +41,7 @@ export const ContextProvider = ({ children }) => {
 
   useEffect(() => {
     let isMounted = true;
-    Axios.post('http://localhost:3001/stockportfolio', { date: formatDate(day) }).then((respose) => {
+    Axios.post(`${backendHost}/stockportfolio`, { date: formatDate(day) }).then((respose) => {
       if (isMounted) {
         const { data } = respose;
         // console.log(data);
