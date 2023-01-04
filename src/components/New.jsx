@@ -54,7 +54,7 @@ const New = (props) => {
   const { datePublished, description, image, name, url } = props;
   const date = new Date(datePublished);
   return (
-    <button onClick={() => { window.location = url; }}>
+    <button type="button" onClick={() => { window.location = url; }}>
       <div className="flex justify-between gap-40">
         <div>
           <div className="flex justify-start text-2xl italic gap-3 font-semibold">

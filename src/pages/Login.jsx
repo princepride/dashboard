@@ -46,7 +46,7 @@ function Login() {
       const signupPassword = document.querySelector('#signup-password').value;
       setLogin(true);
       navigate('/');
-    }
+    };
 
   return (
     <section className="user">
@@ -109,7 +109,7 @@ function Login() {
                 </div>
               </fieldset>
               <div className="forms_buttons">
-                <input type="submit" value="Sign up" className="forms_buttons-action" id="submit-signup-form" onClick={sumbitSignupForm}/>
+                <input type="submit" value="Sign up" className="forms_buttons-action" id="submit-signup-form" onClick={sumbitSignupForm} />
               </div>
             </form>
           </div>
