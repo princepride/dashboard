@@ -10,21 +10,9 @@
 
 In this project, we demonstrate the use of Sharpe Ratio as a measure of portfolio fitness to evolve a portfolio of stocks using Genetic Algorithm. We also apply LSTM modeling to forecast future stock prices.
 
-
 ---
 
-## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
-
-| Official Full Name  | Student ID | Work Items | Email |
-| :------------ |:---------------:| :-----| :-----|
-| Namrata Thakur | A0261619B | 1. Integration 2. Installation and User Guide writing 3. Video creation 4. Bug Fixing | e0983013@u.nus.edu |
-| Ouyang Hui | A0261875U | 1. LSTM model 2. Project report writing 3. Bug fixing 4. Video creation| e0983269@u.nus.edu |
-| See Jia Fong Grace | A0261797M | 1.GA Algo 2. Project report writing 3. Bug fixing 4. Integration & deployment 5. Video Creation | e0983191@u.nus.edu |
-| Wang Zhipeng | A0261980Y | 1. Frontend Lead 2.Backend 3. Project report writing 4. Bug fixing | e0983374@u.nus.edu  |
-
----
-
-## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
+## SECTION 3 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
 ###Link to video<br />
 Marketing Video: https://youtu.be/ImGwigIEQMo <br />
@@ -32,7 +20,7 @@ Technical Video: https://youtu.be/YzPpZMfF-SI <br />
 
 ---
 
-## SECTION 5 : USER GUIDE
+## SECTION 4 : USER GUIDE
 
 `Refer to User Guide at Github Folder: User Guide`
 
@@ -48,7 +36,7 @@ For backend: application requiremetns to be installed using pip for dependencies
 
 
 ---
-## SECTION 6 : PROJECT REPORT / PAPER
+## SECTION 5 : PROJECT REPORT / PAPER
 
 `Refer to project report at Github Folder: ProjectReport`
 
@@ -103,7 +91,7 @@ For backend: application requiremetns to be installed using pip for dependencies
 - References
 
 ---
-## SECTION 7 : Miscellaneous
+## SECTION 6 : Miscellaneous
 
 `Refer to Github Folder: Miscellaneous`
 
