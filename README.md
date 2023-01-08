@@ -1,8 +1,8 @@
 ## SECTION 1 : PROJECT TITLE
+
 ## SmartPortfolioAdvisor
 
-<img src="./img/SmartPortfolioAdvisor.png"
-     style="float: left; margin-right: 0px;" />
+![1673190033323](image/README/1673190033323.png)
 
 ---
 
@@ -10,13 +10,25 @@
 
 In this project, we demonstrate the use of Sharpe Ratio as a measure of portfolio fitness to evolve a portfolio of stocks using Genetic Algorithm. We also apply LSTM modeling to forecast future stock prices.
 
+### The Log In and Sign Up
+
+![1673190119346](image/README/1673190119346.png)
+
+### The Stock Forecast
+
+![1673190184758](image/README/1673190184758.png)
+
+### The Financial News
+
+![1673190164322](image/README/1673190164322.png)
+
 ---
 
 ## SECTION 3 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-###Link to video<br />
-Marketing Video: https://youtu.be/ImGwigIEQMo <br />
-Technical Video: https://youtu.be/YzPpZMfF-SI <br />
+###Link to video`<br />`
+Marketing Video: https://youtu.be/ImGwigIEQMo `<br />`
+Technical Video: https://youtu.be/YzPpZMfF-SI `<br />`
 
 ---
 
@@ -25,22 +37,25 @@ Technical Video: https://youtu.be/YzPpZMfF-SI <br />
 `Refer to User Guide at Github Folder: User Guide`
 
 ### To run the system in local machine:
+
 #### System Requirements
-Ubuntu 20.04  <br />
+
+Ubuntu 20.04  `<br />`
 At least 2 Gb of hard disk space
 
 #### Application Requirements
-For frontend: application requirements to be installed using npm for dependencies listed in package.json <br />
+
+For frontend: application requirements to be installed using npm for dependencies listed in package.json `<br />`
 For backend: application requiremetns to be installed using pip for dependencies listed in requirements.txt
 
-
-
 ---
+
 ## SECTION 5 : PROJECT REPORT / PAPER
 
 `Refer to project report at Github Folder: ProjectReport`
 
 **Sections for Project Report**
+
 - Introduction
   - Business Value
   - Project Aim
@@ -55,9 +70,9 @@ For backend: application requiremetns to be installed using pip for dependencies
   - Financial News
 - GA Algorithm for Portfolio Recommendation
 - Knowledge Identification
-    - Fitness Function Definition
-    - Data specification
-    - Hyperparameter specification
+  - Fitness Function Definition
+  - Data specification
+  - Hyperparameter specification
   - Knowledge specification
   - Chromosome
   - Fitness Value (Sharpe) Computation
@@ -91,6 +106,7 @@ For backend: application requiremetns to be installed using pip for dependencies
 - References
 
 ---
+
 ## SECTION 6 : Miscellaneous
 
 `Refer to Github Folder: Miscellaneous`
